@@ -50,14 +50,14 @@ class Resume extends Component {
             <Education
               startYear={2017}
               endYear={2018}
-              schoolName="Animally Kindergarten"
+              schoolName="Animal Kindergarten"
               schoolDescription="Nulla quis lorem ut libero malesuada feugiat."
             />
 
             <Education
               startYear={2018}
               endYear={2019}
-              schoolName="Animally School"
+              schoolName="Animal School"
               schoolDescription="Nulla quis lorem ut libero malesuada feugiat. "
             />
 

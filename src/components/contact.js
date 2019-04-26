@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import shark from "../img/shark.png";
 
 class Contact extends Component {
   render() {
@@ -8,11 +9,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>👑 King Gabu (CEO)</h2>
-            <img
-              src="https://cdn4.iconfinder.com/data/icons/animal-6/100/5-512.png"
-              alt="avatar"
-              style={{ height: "250px" }}
-            />
+            <img src={shark} alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               子民們，歡迎光臨！
               <br />
@@ -20,7 +17,7 @@ class Contact extends Component {
               <br />
               本行的最好優點就是國王來親自保護顧客的財產。
               <br />
-              您的安心就是本王的光榮。期待您的光臨！
+              您的信任就是本王的光榮。期待您的光臨！
               <br />
               <br />
               P.S 現在有Promotion！！
