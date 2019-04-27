@@ -1,93 +1,93 @@
 import React, { Component } from "react";
-import {
-  Card,
-  CardTitle,
-  CardText,
-  CardActions,
-  Button,
-  CardMenu,
-  IconButton
-} from "react-mdl";
+import { Card, CardTitle, CardText, CardActions, Button } from "react-mdl";
 
 class VueProjects extends Component {
   render() {
     return (
       <div className="projects-grid">
         {/* Project 1 */}
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+        <Card shadow={5} style={{ minWidth: "340px", margin: "auto" }}>
           <CardTitle
             style={{
-              color: "#fff",
+              color: "black",
               height: "176px",
               background:
-                "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover "
+                "url(https://github.com/roy1210/Vue_VS_Monster/raw/master/vsmonster.jpg) center / cover "
             }}
           >
-            React project #1
+            VS Monster
           </CardTitle>
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
+            <br />
+            Game for beat the monster.
+            <br />
+            <br />
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodeSandBox</Button>
-            <Button colored>Webpage</Button>
+            <Button colored>
+              <a
+                href="https://github.com/roy1210/JS_Vue_VS_Monster"
+                target="_blank"
+                rel="noopener noreferrer"
+                text-decoration="none"
+              >
+                Github
+              </a>
+            </Button>
+            <Button colored>
+              <a
+                href="https://roy1210.github.io/JS_Vue_VS_Monster/"
+                target="_blank"
+                rel="noopener noreferrer"
+                text-decoration="none"
+              >
+                Go
+              </a>
+            </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
         </Card>
 
         {/* Project 2 */}
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+        <Card shadow={5} style={{ minWidth: "340px", margin: "auto" }}>
           <CardTitle
             style={{
-              color: "#fff",
+              color: "black",
               height: "176px",
               background:
-                "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover "
+                "url(https://github.com/roy1210/JS_Vue_My_Markdown_Memo/raw/master/mymarkdown.jpg) center / cover "
             }}
           >
-            React project #2
+            Markdown Memo
           </CardTitle>
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
+            Markdown memo which can preview and edit on same time. (Evernote
+            taste)
+            <br />
+            Login with Google account and DB in firebase realtime DB.
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodeSandBox</Button>
-            <Button colored>Webpage</Button>
+            <Button colored>
+              <a
+                href="https://github.com/roy1210/JS_Vue_My_Markdown_Memo"
+                target="_blank"
+                rel="noopener noreferrer"
+                text-decoration="none"
+              >
+                Github
+              </a>
+            </Button>
+            <Button colored>
+              {" "}
+              <a
+                href="https://my-markdown-memo.firebaseapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                text-decoration="none"
+              >
+                Go
+              </a>{" "}
+            </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-        {/* Project  */}
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-          <CardTitle
-            style={{
-              color: "#fff",
-              height: "176px",
-              background:
-                "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover "
-            }}
-          >
-            React project #3
-          </CardTitle>
-          <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
-          </CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodeSandBox</Button>
-            <Button colored>Sample</Button>
-          </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
         </Card>
       </div>
     );

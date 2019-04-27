@@ -8,12 +8,12 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>👑 King Gabu (CEO)</h2>
+            <h2>King Gabu (CEO)</h2>
             <img src={shark} alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               子民們，歡迎光臨！
               <br />
-              本行提供高利息和豪華禮物給我們的客戶。🎁
+              本行提供高利息和豪華禮物給我們的客戶。
               <br />
               本行的最好優點就是國王來親自保護顧客的財產。
               <br />

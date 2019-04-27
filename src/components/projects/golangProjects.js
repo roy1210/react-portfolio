@@ -1,13 +1,5 @@
 import React, { Component } from "react";
-import {
-  Card,
-  CardTitle,
-  CardText,
-  CardActions,
-  Button,
-  CardMenu,
-  IconButton
-} from "react-mdl";
+import { Card, CardTitle, CardText, CardActions, Button } from "react-mdl";
 
 class GolangProjects extends Component {
   render() {
@@ -20,74 +12,87 @@ class GolangProjects extends Component {
               color: "#fff",
               height: "176px",
               background:
-                "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover "
+                "url(https://github.com/roy1210/Golang_Blockchain/raw/master/GoBlockchain.jpg) center / cover "
             }}
           >
-            React project #1
+            Blockchain
           </CardTitle>
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
+            <br />
+            Make Blockchain with POW system.
+            <br />
+            <br />
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodeSandBox</Button>
-            <Button colored>Webpage</Button>
+            <Button colored>
+              <a
+                href="https://github.com/roy1210/Golang_Blockchain"
+                target="_blank"
+                rel="noopener noreferrer"
+              />{" "}
+              Github
+            </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
         </Card>
 
         {/* Project 2 */}
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+        <Card shadow={5} style={{ minWidth: "340px", margin: "auto" }}>
           <CardTitle
             style={{
               color: "#fff",
               height: "176px",
               background:
-                "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover "
+                "url(https://github.com/roy1210/Golang_Digital_Clock/raw/master/clock.gif) center / cover "
             }}
           >
-            React project #2
+            Digital clock
           </CardTitle>
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
+            <br />
+            Digital clock which run in the terminal.
+            <br />
+            <br />
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodeSandBox</Button>
-            <Button colored>Webpage</Button>
+            <Button colored>
+              <a
+                href="https://github.com/roy1210/Golang_Digital_Clock"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
         </Card>
-        {/* Project  */}
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+        {/* Project3  */}
+        <Card shadow={5} style={{ minWidth: "340px", margin: "auto" }}>
           <CardTitle
             style={{
               color: "#fff",
               height: "176px",
               background:
-                "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover "
+                "url(https://github.com/roy1210/Golang_Http_Status_checker/raw/master/checker.jpg) center / cover "
             }}
           >
-            React project #3
+            HTTP status checker
           </CardTitle>
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
+            Check the current status of website. Able to detect if website is
+            downed due to http request returns 404.
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodeSandBox</Button>
-            <Button colored>Sample</Button>
+            <Button colored>
+              {" "}
+              <a
+                href="https://github.com/roy1210/Golang_Http_Status_checker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
         </Card>
       </div>
     );
