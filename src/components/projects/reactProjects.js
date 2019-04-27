@@ -23,14 +23,24 @@ class ReactProjects extends Component {
                 "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover "
             }}
           >
-            React project #1
+            Portfolio
           </CardTitle>
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
+            This SAP portfolio website.
+            <br />
+            Made by React Router and React-MDL
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
+            <Button colored>
+              {" "}
+              <a
+                href="https://github.com/roy1210/JS_React_Portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>{" "}
+            </Button>
             <Button colored>CodeSandBox</Button>
             <Button colored>Webpage</Button>
           </CardActions>
@@ -49,11 +59,11 @@ class ReactProjects extends Component {
                 "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover "
             }}
           >
-            React project #2
+            Youtube player
           </CardTitle>
           <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
+            SAP which simply search and play videos in Youtube by using Google
+            API.
           </CardText>
           <CardActions border>
             <Button colored>Github</Button>
@@ -71,18 +81,24 @@ class ReactProjects extends Component {
               color: "#fff",
               height: "176px",
               background:
-                "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover "
+                "url(https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/shark.png?raw=true) center / cover "
             }}
           >
-            React project #3
+            GIF Search
           </CardTitle>
-          <CardText>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's
-          </CardText>
+          <CardText>SAP which simply search GIF by using GIPHY API.</CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodeSandBox</Button>
+            <Button colored> Github</Button>
+            <Button colored>
+              {" "}
+              <a
+                href="https://codesandbox.io/s/vj982kvj1l"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CodeSandBox
+              </a>
+            </Button>
             <Button colored>Sample</Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
