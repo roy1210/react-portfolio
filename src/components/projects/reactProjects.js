@@ -79,9 +79,9 @@ class ReactProjects extends Component {
           <CardTitle
             style={{
               color: "#fff",
-              height: "176px",
+              height: "150px",
               background:
-                "url(https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/shark.png?raw=true) center / cover "
+                "url(https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/Findgifmessi.gif?raw=true) center / cover "
             }}
           >
             GIF Search
@@ -99,7 +99,17 @@ class ReactProjects extends Component {
                 CodeSandBox
               </a>
             </Button>
-            <Button colored>Sample</Button>
+            <Button colored>
+              {" "}
+              <a
+                href="https://csb-vj982kvj1l.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                // style="none"
+              >
+                Sample
+              </a>
+            </Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
             <IconButton name="share" />
