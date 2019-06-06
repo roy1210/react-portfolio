@@ -10,7 +10,9 @@ class Landing extends Component {
           <Cell col={12}>
             <img src={profile} alt="avatar" className="avatar-img" />
             <div className="banner-text">
-              <h2>Hi, this is Roy. Nice to meet you.</h2>
+              <h2 style={{ paddingTop: "0.5em" }}>
+                Hi, this is Roy. Nice to meet you.
+              </h2>
               <h3>Front / Back-end Developer</h3>
 
               <hr />

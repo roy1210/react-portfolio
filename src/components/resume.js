@@ -3,45 +3,60 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./education.js";
 import Experience from "./experience.js";
 import Skills from "./skills.js";
+import Barcerona5 from "../img/Barcerona5.jpg";
 
 class Resume extends Component {
   render() {
     return (
-      <div>
+      <div className="resume">
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="https://cdn4.iconfinder.com/data/icons/animal-6/100/5-512.png"
+                src={Barcerona5}
                 alt="avatar"
-                style={{ height: "200px" }}
+                className="avatar-img"
+                style={{ height: "500px" }}
               />
             </div>
 
-            <h2 style={{ paddingTop: "2em" }}>King Gabu (CEO)</h2>
-            <h4 style={{ color: "grey" }}>Singer song writer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <h3 style={{ paddingTop: "1em", color: "black" }}>
+              Shoe Kure (Roy)
+            </h3>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
 
+            <h4>Hello, world!</h4>
             <p>
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut
-              libero malesuada feugiat. Mauris blandit aliquet elit, eget
-              tincidunt nibh pulvinar a. Curabitur non nulla sit amet nisl
-              tempus convallis quis ac lectus. Proin eget tortor risus.
+              My name is Roy.
+              <br />
+              I'm a happy learner as I love to touch the new technology every
+              day.
+              <br />
+              I'd like to dive into the tech industry because this is the place
+              to use the cutting edge technology to make the world a better
+              place!
+              <br />
+              <br />
+              Other than programing language, I can speak Japanese, Chinese and
+              English as I have lived in Japan, China and Singapore.
+              <br />
+              Now, I'm ready to contribute as a software developer in the global
+              environment.
             </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
 
             <h5>Location</h5>
             <p>Singapore</p>
             <h5>Phone</h5>
             <p>(+65)97722205</p>
-            <h5>email</h5>
-            <p>rswkure@gmail.com</p>
+            <h5>Email</h5>
+            <a href="mailto:rswkure@gmail.com">rswkure@gmail.com</a>
             <h5>Web</h5>
-            <p>google.com</p>
+            <a href="https://roy1210.netlify.com/">
+              https://roy1210.netlify.com/
+            </a>
 
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
