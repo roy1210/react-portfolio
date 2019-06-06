@@ -10,18 +10,15 @@ class Landing extends Component {
           <Cell col={12}>
             <img src={profile} alt="avatar" className="avatar-img" />
             <div className="banner-text">
-              <h1> Blockchain / Web Developer</h1>
+              <h2>Hi, this is Roy. Nice to meet you.</h2>
+              <h3>Front / Back-end Developer</h3>
 
               <hr />
-
-              <p>
-                Golang | Python | Solidity | JavaScript | React | Vue | HTML/CSS
-                | Bootstrap
-              </p>
+              <p> Python | Golang | JavaScript | React | Vue | Solidity</p>
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="https://google.com"
+                  href="https://www.linkedin.com/in/shoe-kure-2271ab90/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -29,7 +26,7 @@ class Landing extends Component {
                 </a>
                 {/* Github */}
                 <a
-                  href="https://google.com"
+                  href="https://github.com/roy1210"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
