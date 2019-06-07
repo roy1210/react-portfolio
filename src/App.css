@@ -47,15 +47,32 @@ a {
   padding: 2em;
 }
 
+.resume-right-col h2 {
+  paddingTop: 1em;
+  color: sienna;
+  font-family: monospace;
+}
+
 .skills p {
   color: white;
   font-size: 1em;
   padding-left: 20px;
 }
 
-.skills h3 {
+.skills h4 {
   paddingTop: 1em;
   color: white;
+}
+
+.skills a {
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+.skills span {
+  color: white;
+  font-size: 1em;
+  padding-left: 20px;
 }
 
 /* end resume page css */

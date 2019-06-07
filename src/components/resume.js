@@ -71,7 +71,7 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
             <div className="skills">
               <h2>Skills</h2>
-              <h3>Coding</h3>
+              <h4>Coding</h4>
               <SkillsBuffer skill="Python" progress={70} />
               <p>
                 Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, Csv,
@@ -88,15 +88,21 @@ class Resume extends Component {
               <SkillsBuffer skill="Algorism" progress={50} />
               <p>Paiza skill check rank: C (S~E) </p>
               <hr style={{ borderTop: "3px dashed #e22947" }} />
-              <h3>Languages / Knowledge</h3>
+              <h4>Languages / Knowledge</h4>
+              <SkillsBuffer skill="Blockchain" progress={75} />
               <Skills skill="Japanese" progress={100} />
               <Skills skill="Chinese" progress={80} />
               <Skills skill="English" progress={70} />
-              <SkillsBuffer skill="Blockchain" progress={75} />
+              <span>TOEIC score: 875</span>
+              <a
+                href="https://drive.google.com/file/d/0B1XxMJPZzd2sWWZlbkNlRjluQ3M/view?usp=sharing"
+                target="_blank"
+              >
+                Certification
+              </a>
               <hr style={{ borderTop: "3px solid #e22947" }} />
             </div>
             <h2>Education</h2>
-            {/* {2012}: "2012"でもOK、ただ 2012 のようにintでは渡せられない。" " or { } じゃないと。 */}
             <Education
               startYear="2018"
               endYear="2018"
@@ -120,7 +126,7 @@ class Resume extends Component {
               schoolDescription="Bachelor of Management"
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Experience</h2>
+            <h2>Job Experience</h2>
             <Experience
               startYear="2014"
               endYear="Present"
