@@ -6,13 +6,15 @@ import {
   CardActions,
   Button,
   CardMenu,
-  IconButton
+  IconButton,
+  Spinner
 } from "react-mdl";
 
 class PythonProjects extends Component {
   render() {
     return (
       <div>
+        <Spinner />
         <h1>Coming soon</h1>
       </div>
       // <div className="projects-grid">

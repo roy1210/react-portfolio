@@ -30,13 +30,35 @@
 
 /* resume page css */
 
-/* end resume page css */
+.resume p,
+a {
+  font-size: 1.5em;
+}
+
+.resume h3 {
+  paddingTop: 1em;
+  color: black;
+}
+
+
 .resume-right-col {
   background: #27221F;
   color: white;
   padding: 2em;
 }
 
+.skills p {
+  color: white;
+  font-size: 1em;
+  padding-left: 20px;
+}
+
+.skills h3 {
+  paddingTop: 1em;
+  color: white;
+}
+
+/* end resume page css */
 /* contact page css */
 
 .contact-body {
@@ -70,7 +92,7 @@
   font-weight: bold;
 }
 
-/* margi: auto will put the  ... in center */
+/* margin: auto will put the  ... in center */
 .contact-grid hr {
   border-top: 5px dotted black;
   width: 50%;
@@ -84,8 +106,8 @@
 
 /* end - contact page css */
 
-.avatar-img {
-  height: 250px;
+.profile {
+  height: 300px;
   padding-top: 5em;
 }
 
@@ -136,7 +158,6 @@ h3 {
 
 }
 
-.resume p,
-a {
-  font-size: 1.5em;
+.projects {
+  background-color: white;
 }

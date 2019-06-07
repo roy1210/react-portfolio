@@ -15,24 +15,26 @@ class Projects extends Component {
   // Each Tab got unique tab key (index) by default by react-mdl
   render() {
     return (
-      <div className="category-tabs">
-        <Tabs
-          activeTab={this.state.activeTab}
-          onChange={tabId => this.setState({ activeTab: tabId })}
-          ripple
-        >
-          <Tab>React</Tab>
-          <Tab>Vue</Tab>
-          <Tab>Golang</Tab>
-          <Tab>Python</Tab>
-          <Tab>Solidity</Tab>
-        </Tabs>
+      <div className="projects">
+        <div className="category-tabs">
+          <Tabs
+            activeTab={this.state.activeTab}
+            onChange={tabId => this.setState({ activeTab: tabId })}
+            ripple
+          >
+            <Tab>React</Tab>
+            <Tab>Vue</Tab>
+            <Tab>Golang</Tab>
+            <Tab>Django</Tab>
+            {/* <Tab>Solidity</Tab> */}
+          </Tabs>
 
-        <Grid>
-          <Cell col={12}>
-            <div className="content">{this.toggleCategories()}</div>
-          </Cell>
-        </Grid>
+          <Grid>
+            <Cell col={12}>
+              <div className="content">{this.toggleCategories()}</div>
+            </Cell>
+          </Grid>
+        </div>
       </div>
     );
   }
