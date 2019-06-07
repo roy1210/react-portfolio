@@ -29,8 +29,9 @@ class GolangProjects extends Component {
                 href="https://github.com/roy1210/Golang_Blockchain"
                 target="_blank"
                 rel="noopener noreferrer"
-              />{" "}
-              Github
+              >
+                Github
+              </a>
             </Button>
           </CardActions>
         </Card>

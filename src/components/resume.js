@@ -74,8 +74,8 @@ class Resume extends Component {
               <h3>Coding</h3>
               <SkillsBuffer skill="Python" progress={70} />
               <p>
-                Basic syntax for Flake8, SQLAlcemy, Pandas, Csv, Logging and
-                Django.
+                Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, Csv,
+                Logging and Django.
               </p>
               <SkillsBuffer skill="JavaScript" progress={50} />
               <p>Basic syntax for ES6, React and Vue.</p>
@@ -100,14 +100,18 @@ class Resume extends Component {
             <Education
               startYear="2018"
               endYear="2018"
-              schoolName="Courcera: The State University of New York"
-              schoolDescription="Blockchain"
+              schoolName="Coursera: The State University of New York"
+              schoolDescription="Specialization: Blockchain"
+              certificationUrl="https://www.coursera.org/account/accomplishments/specialization/certificate/X7UCYHP8LHQR"
+              schoolRef="Certification"
             />
             <Education
               startYear="2018"
               endYear="2018"
-              schoolName="edX: UC Barkely"
-              schoolDescription="Bitcoin"
+              schoolName="edX: University of California, Berkeley"
+              schoolDescription="CS198.1x: Bitcoin and Cryptocurrencies"
+              certificationUrl="https://courses.edx.org/certificates/16aeb6d5651748da8af03c40ffce5a3eX7UCYHP8LHQR"
+              schoolRef="Certification"
             />
             <Education
               startYear="2010"
@@ -119,7 +123,7 @@ class Resume extends Component {
             <h2>Experience</h2>
             <Experience
               startYear="2014"
-              endYear=" "
+              endYear="Present"
               jobName="SIIX Singapore"
               jobDescription="Sales executive/ Project management"
             />

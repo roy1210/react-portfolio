@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Card, CardTitle, CardText, CardActions, Button } from "react-mdl";
+import Barcerona from "../../img/Barcelona.jpg";
 
 class ReactProjects extends Component {
   render() {
@@ -46,7 +47,7 @@ class ReactProjects extends Component {
               color: "#fff",
               height: "150px",
               background:
-                "url(https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/GifMessi2-compressor.gif?raw=true) center / cover "
+                "url(https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/GifMessi2-compressor.gif?raw=true) center / cover "
             }}
           >
             GIF Search
