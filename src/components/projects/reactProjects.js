@@ -13,7 +13,7 @@ class ReactProjects extends Component {
               color: "#fff",
               height: "176px",
               background:
-                "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover "
+                "url(https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/portfolio.jpg?raw=true) center / cover "
             }}
           >
             Portfolio
@@ -34,7 +34,6 @@ class ReactProjects extends Component {
                 Github
               </a>{" "}
             </Button>
-            <Button colored>CodeSandBox</Button>
             <Button colored>Go</Button>
           </CardActions>
         </Card>
