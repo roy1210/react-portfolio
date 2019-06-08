@@ -178,6 +178,7 @@ span {
   font-size: 1.2em;
   line-height: 0.5em;
 }
+
 .skills p,
 span {
   color: white;
@@ -203,6 +204,23 @@ span {
   justify-content: center;
   padding-top: 2em;
   background: grey;
+}
+
+.contact i {
+  font-size: 20px;
+  padding-bottom: 0.5rem;
+}
+
+.contact span {
+  color: black;
+  font-size: 1.2em;
+  margin-left: 0em;
+}
+
+.contact a {
+  color: black;
+  font-size: 1.2em;
+  margin-left: 1em;
 }
 
 .contact-grid {
