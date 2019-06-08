@@ -4,7 +4,7 @@ import Education from "./education.js";
 import Experience from "./experience.js";
 import SkillsBuffer from "./skillsBuffer.js";
 import Skills from "./skills.js";
-import Barcerona5 from "../img/Barcerona5.jpg";
+import Barcerona from "../img/Barcerona5.jpg";
 
 class Resume extends Component {
   render() {
@@ -14,7 +14,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src={Barcerona5}
+                src={Barcerona}
                 alt="avatar"
                 className="avatar-img"
                 style={{ height: "500px" }}
@@ -23,25 +23,24 @@ class Resume extends Component {
 
             <h3>Shoe Kure (Roy)</h3>
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
-
-            <h4>Hello, world!</h4>
-            <p>
-              My name is Roy.
-              <br />
-              I'm a happy learner as I love to touch the new technology every
-              day.
-              <br />
-              I'd like to dive into the tech industry because this is the place
-              to use the cutting edge technology to make the world a better
-              place!
-              <br />
-              <br />
-              Other than programing language, I can speak Japanese, Chinese and
-              English as I have lived in Japan, China and Singapore.
-              <br />
-              Now, I'm ready to contribute as a software developer in the global
-              environment.
-            </p>
+            <div className="intro">
+              <h4>Hello, world!</h4>
+              <p>
+                My name is Roy.
+                <br />
+                I'm a happy learner as I love to touch new technology every day.
+                <br />
+                I'd like to dive into the tech industry because this is the
+                place to use technology to make the world a better place!
+                <br />
+                <br />
+                Other than programing language, I can speak Japanese, Chinese
+                and English as I have lived in Japan, China and Singapore.
+                <br />
+                Now, I'm ready to contribute as a software developer in the
+                global environment.
+              </p>
+            </div>
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <h5>Location:</h5>
             <p>Singapore</p>
@@ -51,7 +50,7 @@ class Resume extends Component {
             <a href="mailto:rswkure@gmail.com">rswkure@gmail.com</a>
             <h5>LinkedIn:</h5>
             <a
-              href="\https://www.linkedin.com/in/roy1210/"
+              href="https://www.linkedin.com/in/roy1210/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -74,7 +73,7 @@ class Resume extends Component {
               <h4>Coding</h4>
               <SkillsBuffer skill="Python" progress={70} />
               <p>
-                Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, Csv,
+                Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, CSV,
                 Logging and Django.
               </p>
               <SkillsBuffer skill="JavaScript" progress={50} />
@@ -84,14 +83,14 @@ class Resume extends Component {
               <Skills skill="SQL" progress={40} />
               <p>Basic syntax for SQlite3 and PostgreSQL.</p>
               <SkillsBuffer skill="Robot" progress={40} />
-              <p>Be able to control drone by Golang. (Drone: Tello edu) </p>
+              <p>Drone: Tello edu by Golang </p>
               <SkillsBuffer skill="Algorism" progress={50} />
               <p>Paiza skill check rank: C (S~E) </p>
               <hr style={{ borderTop: "3px dashed #e22947" }} />
               <h4>Languages / Knowledge</h4>
               <SkillsBuffer skill="Blockchain" progress={75} />
               <Skills skill="Japanese" progress={100} />
-              <Skills skill="Chinese" progress={80} />
+              <Skills skill="Chinese" progress={90} />
               <Skills skill="English" progress={70} />
               <span>TOEIC score: 875</span>
               <a
@@ -131,7 +130,7 @@ class Resume extends Component {
               startYear="2014"
               endYear="Present"
               jobName="SIIX Singapore"
-              jobDescription="Sales executive/ Project management"
+              jobDescription="Sales executive / Project management"
             />
           </Cell>
         </Grid>
