@@ -17,7 +17,7 @@ class Resume extends Component {
                 src={Barcerona}
                 alt="avatar"
                 className="avatar-img"
-                style={{ height: "390px" }}
+                style={{ height: "370px", borderRadius: "10%" }}
               />
             </div>
 
