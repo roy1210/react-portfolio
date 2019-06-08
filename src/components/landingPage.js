@@ -13,7 +13,7 @@ class Landing extends Component {
               <h3 style={{ paddingTop: "0.5em" }}>
                 Hi, this is Roy. Nice to meet you.
               </h3>
-              <h4>Front / Back-end Developer</h4>
+              <h4>Front / Back - End Developer</h4>
 
               <hr />
               <p> Python | Golang | JavaScript | React | Vue | Solidity</p>
