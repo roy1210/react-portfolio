@@ -101,8 +101,9 @@ a {
 }
 
 .resume h4 {
-  paddingtop: 1em;
+  padding-top: 0.5em;
   color: black;
+  text-align: center;
 }
 
 .resume-right-col {

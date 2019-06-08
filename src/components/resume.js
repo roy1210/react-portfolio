@@ -24,7 +24,7 @@ class Resume extends Component {
             <h4>Shoe Kure (Roy)</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <div className="intro">
-              <h4>Hello, world!</h4>
+              <h5>Hello, world!</h5>
               <p>
                 My name is Roy.
                 <br />
@@ -44,6 +44,9 @@ class Resume extends Component {
               <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
               <i className="fas fa-map-marked-alt" aria-hidden="true" />
               <span>Singapore</span>
+              <br />
+              <i className="fas fa-passport" aria-hidden="true" />
+              <span> Japan</span>
               <br />
               <i className="fab fa-skype" aria-hidden="true" />
               <span> roy_shoe_wu</span>
