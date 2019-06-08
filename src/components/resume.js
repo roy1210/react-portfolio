@@ -79,14 +79,14 @@ class Resume extends Component {
               <SkillsBuffer skill="Python" progress={70} />
               <p>
                 Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, CSV,
-                Logging and Django.
+                Logging and Django
               </p>
               <SkillsBuffer skill="JavaScript" progress={50} />
-              <p>Basic syntax for ES6, React and Vue.</p>
+              <p>Basic syntax for ES6, React and Vue</p>
               <SkillsBuffer skill="Golang" progress={50} />
               <p>Basic syntax, Gobot.</p>
               <Skills skill="SQL" progress={40} />
-              <p>Basic syntax for SQlite3 and PostgreSQL.</p>
+              <p>Basic syntax for SQLite3 and PostgreSQL</p>
               <SkillsBuffer skill="Robot" progress={40} />
               <p>Drone: Tello edu by Golang </p>
               <SkillsBuffer skill="Algorism" progress={50} />
