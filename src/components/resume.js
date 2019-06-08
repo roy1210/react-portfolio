@@ -102,7 +102,10 @@ class Resume extends Component {
                 Certification
               </a>
               <hr
-                style={{ borderTop: "3px solid #e22947", marginTop: "20px" }}
+                style={{
+                  borderTop: "3px solid #e22947",
+                  marginTop: "20px"
+                }}
               />
             </div>
             <div className="education-job">
@@ -120,7 +123,7 @@ class Resume extends Component {
                 endYear="2018"
                 schoolName="edX: University of California, Berkeley"
                 schoolDescription="CS198.1x: Bitcoin and Cryptocurrencies"
-                certificationUrl="https://courses.edx.org/certificates/16aeb6d5651748da8af03c40ffce5a3eX7UCYHP8LHQR"
+                certificationUrl="https://courses.edx.org/certificates/16aeb6d5651748da8af03c40ffce5a3e"
                 schoolRef="Certification"
               />
               <Education
