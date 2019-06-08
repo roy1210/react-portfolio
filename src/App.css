@@ -83,48 +83,6 @@ h4 {
   padding: 7px;
 }
 
-@media only screen and (max-width: 770px) {
-  .banner-text {
-    background-color: black;
-    opacity: 0.8;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 20px;
-    border-radius: 10px;
-  }
-
-  .banner-text h3 {
-    font-size: 1.5em;
-    color: white;
-  }
-  .banner-text h4 {
-    font-size: 1.4em;
-    color: white;
-  }
-  .banner-text p {
-    font-size: 1em;
-    color: white;
-  }
-  .social-links {
-    display: flex;
-    justify-content: space-between;
-    width: 65%;
-    margin: auto;
-  }
-  .social-links i {
-    color: white;
-    font-size: 3em;
-    padding: 4px;
-  }
-  .project {
-    width: 70%;
-  }
-}
-
-.landing-grid img {
-  /* border-radius: 20%; */
-}
-
 .projects-grid {
   display: flex;
   width: 100%;
@@ -257,3 +215,47 @@ span {
 }
 
 /* end - contact page css */
+
+@media only screen and (max-width: 770px) {
+  .banner-text {
+    background-color: black;
+    opacity: 0.8;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .banner-text h3 {
+    font-size: 1.5em;
+    color: white;
+  }
+  .banner-text h4 {
+    font-size: 1.4em;
+    color: white;
+  }
+  .banner-text p {
+    font-size: 1em;
+    color: white;
+  }
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+  }
+  .social-links i {
+    color: white;
+    font-size: 3em;
+    padding: 4px;
+  }
+  .project {
+    width: 70%;
+  }
+  .avatar-img {
+    margin-top: 20px;
+    width: 330px;
+    height: 270px;
+    border-radius: 10%;
+  }
+}
