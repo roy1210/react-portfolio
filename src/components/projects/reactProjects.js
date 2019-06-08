@@ -44,7 +44,28 @@ class ReactProjects extends Component {
                     Github
                   </a>{" "}
                 </Button>
-                <Button colored>Go</Button>
+                <Button colored>
+                  {" "}
+                  <a
+                    href="https://codesandbox.io/s/my-portfolio-x7ik2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    text-decoration="none"
+                  >
+                    CodeSandBox
+                  </a>
+                </Button>
+                <Button colored>
+                  {" "}
+                  <a
+                    href="https://roy1210.netlify.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    // style="none"
+                  >
+                    Go
+                  </a>
+                </Button>
               </CardActions>
             </Card>
           </Cell>
