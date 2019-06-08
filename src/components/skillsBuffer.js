@@ -7,7 +7,7 @@ class SkillsBuffer extends Component {
       // Use progress bar
       <Grid>
         <Cell col={12}>
-          <div style={{ display: "flex", fontSize: "1.5em" }}>
+          <div style={{ display: "flex", fontSize: "1.4em" }}>
             {this.props.skill}
             <ProgressBar
               style={{ margin: "auto", width: "75%" }}

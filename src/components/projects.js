@@ -20,7 +20,7 @@ class Projects extends Component {
           <Tabs
             activeTab={this.state.activeTab}
             onChange={tabId => this.setState({ activeTab: tabId })}
-            ripple
+            // ripple
           >
             <Tab>React</Tab>
             <Tab>Vue</Tab>
@@ -30,7 +30,7 @@ class Projects extends Component {
           </Tabs>
 
           <Grid>
-            <Cell col={12}>
+            <Cell col={12} phone={12} className="project">
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>

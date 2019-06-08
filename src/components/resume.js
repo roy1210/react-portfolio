@@ -17,11 +17,11 @@ class Resume extends Component {
                 src={Barcerona}
                 alt="avatar"
                 className="avatar-img"
-                style={{ height: "500px" }}
+                style={{ height: "390px" }}
               />
             </div>
 
-            <h3>Shoe Kure (Roy)</h3>
+            <h4>Shoe Kure (Roy)</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <div className="intro">
               <h4>Hello, world!</h4>
@@ -41,35 +41,37 @@ class Resume extends Component {
                 global environment.
               </p>
             </div>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
-            <h5>Location:</h5>
-            <p>Singapore</p>
-            <h5>Skype:</h5>
-            <p>roy_shoe_wu</p>
-            <h5>Email:</h5>
-            <a href="mailto:rswkure@gmail.com">rswkure@gmail.com</a>
-            <h5>LinkedIn:</h5>
-            <a
-              href="https://www.linkedin.com/in/roy1210/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              https://www.linkedin.com/in/roy1210/
-            </a>
-            <h5>Github:</h5>
-            <a
-              href="https://github.com/roy1210"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              https://github.com/roy1210
-            </a>
+            <div className="contact">
+              <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
+              <h5>Location:</h5>
+              <p>Singapore</p>
+              <h5>Skype:</h5>
+              <p>roy_shoe_wu</p>
+              <h5>Email:</h5>
+              <a href="mailto:rswkure@gmail.com">rswkure@gmail.com</a>
+              <h5>LinkedIn:</h5>
+              <a
+                href="https://www.linkedin.com/in/roy1210/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                https://www.linkedin.com/in/roy1210/
+              </a>
+              <h5>Github:</h5>
+              <a
+                href="https://github.com/roy1210"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                https://github.com/roy1210
+              </a>
 
-            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
+              <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
+            </div>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <div className="skills">
-              <h2>Skills</h2>
+              <h3>Skills</h3>
               <h4>Coding</h4>
               <SkillsBuffer skill="Python" progress={70} />
               <p>
@@ -87,51 +89,55 @@ class Resume extends Component {
               <SkillsBuffer skill="Algorism" progress={50} />
               <p>Paiza skill check rank: C (S~E) </p>
               <hr style={{ borderTop: "3px dashed #e22947" }} />
-              <h4>Languages / Knowledge</h4>
+              <h4>Knowledge / Languages</h4>
               <SkillsBuffer skill="Blockchain" progress={75} />
               <Skills skill="Japanese" progress={100} />
               <Skills skill="Chinese" progress={90} />
               <Skills skill="English" progress={70} />
-              <span>TOEIC score: 875</span>
+              <p>TOEIC score: 875</p>
               <a
                 href="https://drive.google.com/file/d/0B1XxMJPZzd2sWWZlbkNlRjluQ3M/view?usp=sharing"
                 target="_blank"
               >
                 Certification
               </a>
-              <hr style={{ borderTop: "3px solid #e22947" }} />
+              <hr
+                style={{ borderTop: "3px solid #e22947", marginTop: "20px" }}
+              />
             </div>
-            <h2>Education</h2>
-            <Education
-              startYear="2018"
-              endYear="2018"
-              schoolName="Coursera: The State University of New York"
-              schoolDescription="Specialization: Blockchain"
-              certificationUrl="https://www.coursera.org/account/accomplishments/specialization/certificate/X7UCYHP8LHQR"
-              schoolRef="Certification"
-            />
-            <Education
-              startYear="2018"
-              endYear="2018"
-              schoolName="edX: University of California, Berkeley"
-              schoolDescription="CS198.1x: Bitcoin and Cryptocurrencies"
-              certificationUrl="https://courses.edx.org/certificates/16aeb6d5651748da8af03c40ffce5a3eX7UCYHP8LHQR"
-              schoolRef="Certification"
-            />
-            <Education
-              startYear="2010"
-              endYear="2014"
-              schoolName="Academic: Sun Yat-sen University  – Guangdong, China"
-              schoolDescription="Bachelor of Management"
-            />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Job Experience</h2>
-            <Experience
-              startYear="2014"
-              endYear="Present"
-              jobName="SIIX Singapore"
-              jobDescription="Sales executive / Project management"
-            />
+            <div className="education-job">
+              <h3>Education</h3>
+              <Education
+                startYear="2018"
+                endYear="2018"
+                schoolName="Coursera: The State University of New York"
+                schoolDescription="Specialization: Blockchain"
+                certificationUrl="https://www.coursera.org/account/accomplishments/specialization/certificate/X7UCYHP8LHQR"
+                schoolRef="Certification"
+              />
+              <Education
+                startYear="2018"
+                endYear="2018"
+                schoolName="edX: University of California, Berkeley"
+                schoolDescription="CS198.1x: Bitcoin and Cryptocurrencies"
+                certificationUrl="https://courses.edx.org/certificates/16aeb6d5651748da8af03c40ffce5a3eX7UCYHP8LHQR"
+                schoolRef="Certification"
+              />
+              <Education
+                startYear="2010"
+                endYear="2014"
+                schoolName="Academic: Sun Yat-sen University  – Guangdong, China"
+                schoolDescription="Bachelor of Management"
+              />
+              <hr style={{ borderTop: "3px solid #e22947" }} />
+              <h3>Job Experience</h3>
+              <Experience
+                startYear="2014"
+                endYear="Present"
+                jobName="SIIX Singapore"
+                jobDescription="Sales executive / Project management"
+              />
+            </div>
           </Cell>
         </Grid>
       </div>

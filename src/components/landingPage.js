@@ -5,15 +5,15 @@ import profile from "../img/profile.jpg";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div style={{ width: "100%", margin: "auto" }} className="container">
         <Grid className="landing-grid">
-          <Cell col={12}>
+          <Cell col={12} phone={12}>
             <img src={profile} alt="avatar" className="profile" />
             <div className="banner-text">
-              <h2 style={{ paddingTop: "0.5em" }}>
+              <h3 style={{ paddingTop: "0.5em" }}>
                 Hi, this is Roy. Nice to meet you.
-              </h2>
-              <h3>Front / Back-end Developer</h3>
+              </h3>
+              <h4>Front / Back-end Developer</h4>
 
               <hr />
               <p> Python | Golang | JavaScript | React | Vue | Solidity</p>
