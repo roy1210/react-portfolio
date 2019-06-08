@@ -29,9 +29,9 @@ class ReactProjects extends Component {
                 Portfolio
               </CardTitle>
               <CardText>
-                This SAP portfolio website.
+                This portfolio website.
                 <br />
-                Made by React Router and React-MDL
+                Made by React Router and React-MDL.
               </CardText>
               <CardActions border>
                 <Button colored>
@@ -83,9 +83,7 @@ class ReactProjects extends Component {
               >
                 GIF Search
               </CardTitle>
-              <CardText>
-                SAP which simply search GIF by using GIPHY API.
-              </CardText>
+              <CardText>Search GIF by using GIPHY API.</CardText>
               <CardActions border>
                 <Button colored>
                   {" "}
