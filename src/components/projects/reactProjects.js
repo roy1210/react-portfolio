@@ -13,9 +13,9 @@ import Barcerona from "../../img/Barcelona.jpg";
 class ReactProjects extends Component {
   render() {
     return (
-      <div className="projects-grid">
-        <Grid>
-          <Cell col={4} phone={12}>
+      <div>
+        <Grid className="projects-grid">
+          <Cell>
             {/* Project 1 */}
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
@@ -47,7 +47,7 @@ class ReactProjects extends Component {
                 <Button colored>
                   {" "}
                   <a
-                    href="https://codesandbox.io/s/my-portfolio-67fng"
+                    href="https://codesandbox.io/s/my-portfolio-my66x"
                     target="_blank"
                     rel="noopener noreferrer"
                     text-decoration="none"
@@ -71,7 +71,7 @@ class ReactProjects extends Component {
           </Cell>
 
           {/* Project2  */}
-          <Cell col={4} offset={4} phone={12}>
+          <Cell>
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{

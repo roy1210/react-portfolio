@@ -217,7 +217,7 @@ span {
 
 /* end - contact page css */
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 800px) {
   .banner-text {
     background-color: black;
     opacity: 0.8;
@@ -262,9 +262,9 @@ span {
   .category-tabs {
     margin-top: 30px;
   }
-  .content {
+  .projects-grid {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
 }
