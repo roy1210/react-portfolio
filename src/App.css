@@ -262,4 +262,9 @@ span {
   .category-tabs {
     margin-top: 30px;
   }
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 }

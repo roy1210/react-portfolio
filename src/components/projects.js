@@ -30,7 +30,7 @@ class Projects extends Component {
           </Tabs>
 
           <Grid>
-            <Cell col={12} phone={12} className="project">
+            <Cell col={12} phone={12} tablet={12} className="project">
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
