@@ -48,7 +48,7 @@ class GolangProjects extends Component {
           </Cell>
 
           {/* Project 2 */}
-          <Cell col={4} offset={4} phone={12}>
+          <Cell col={4} phone={12}>
             <Card shadow={5} style={{ minWidth: "340px", margin: "auto" }}>
               <CardTitle
                 style={{
