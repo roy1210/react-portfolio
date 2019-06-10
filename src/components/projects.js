@@ -20,7 +20,7 @@ class Projects extends Component {
           <Tabs
             activeTab={this.state.activeTab}
             onChange={tabId => this.setState({ activeTab: tabId })}
-            // ripple
+            ripple
           >
             <Tab>React</Tab>
             <Tab>Vue</Tab>

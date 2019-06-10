@@ -259,4 +259,7 @@ span {
     height: 270px;
     border-radius: 10%;
   }
+  .category-tabs {
+    margin-top: 30px;
+  }
 }
