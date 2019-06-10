@@ -16,7 +16,11 @@ class Education extends Component {
             {this.props.schoolName}
           </h5>
           <p>{this.props.schoolDescription}</p>
-          <a href={this.props.certificationUrl} target="_blank">
+          <a
+            href={this.props.certificationUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {this.props.schoolRef}
           </a>
         </Cell>

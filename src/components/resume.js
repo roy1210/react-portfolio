@@ -109,6 +109,7 @@ class Resume extends Component {
               <a
                 href="https://drive.google.com/file/d/0B1XxMJPZzd2sWWZlbkNlRjluQ3M/view?usp=sharing"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Certification
               </a>
