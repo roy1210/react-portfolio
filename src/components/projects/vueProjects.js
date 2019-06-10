@@ -12,14 +12,14 @@ import {
 class VueProjects extends Component {
   render() {
     return (
-      <div className="projects-grid">
-        <Grid>
+      <div>
+        <Grid className="projects-grid">
           <Cell col={4} phone={12}>
             {/* Project 1 */}
-            <Card shadow={5} style={{ minWidth: "340px", margin: "auto" }}>
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
-                  color: "black",
+                  color: "#fff",
                   height: "176px",
                   background:
                     "url(https://github.com/roy1210/Vue_VS_Monster/raw/master/vsmonster.jpg) center / cover "
@@ -57,6 +57,8 @@ class VueProjects extends Component {
               </CardActions>
             </Card>
           </Cell>
+
+          <br />
 
           {/* Project2  */}
           <Cell col={4} phone={12}>

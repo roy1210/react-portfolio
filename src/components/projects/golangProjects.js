@@ -12,8 +12,8 @@ import {
 class GolangProjects extends Component {
   render() {
     return (
-      <div className="projects-grid">
-        <Grid>
+      <div>
+        <Grid className="projects-grid">
           <Cell col={4} phone={12}>
             {/* Project 1 */}
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
