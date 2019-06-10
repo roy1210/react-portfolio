@@ -123,6 +123,59 @@ class ReactProjects extends Component {
               </CardActions>
             </Card>
           </Cell>
+          {/* Project3  */}
+          <Cell col={4} phone={12}>
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "150px",
+                  background:
+                    "url(https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/GifMessi2-compressor.gif?raw=true) center / cover "
+                }}
+              >
+                Pokemon cards
+              </CardTitle>
+              <CardText>
+                Showing "Winning hand" or "Losing hand" for each side of deck.
+              </CardText>
+              <CardActions border>
+                <Button colored>
+                  {" "}
+                  <a
+                    href="https://github.com/roy1210/JS_React_Pokemon-Cards"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    text-decoration="none"
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  {" "}
+                  <a
+                    href="https://codesandbox.io/s/vj982kvj1l"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    text-decoration="none"
+                  >
+                    CodeSandBox
+                  </a>
+                </Button>
+                <Button colored>
+                  {" "}
+                  <a
+                    href="https://poke-cards-roy1210.netlify.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    // style="none"
+                  >
+                    Go
+                  </a>
+                </Button>
+              </CardActions>
+            </Card>
+          </Cell>
         </Grid>
       </div>
     );
