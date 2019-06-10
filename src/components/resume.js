@@ -21,7 +21,7 @@ class Resume extends Component {
               />
             </div>
 
-            <h4>Shoe Kure (Roy)</h4>
+            <h4>Shoe Kure (Roy, 呉 書栄)</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <div className="intro">
               <h5>Hello, world!</h5>
