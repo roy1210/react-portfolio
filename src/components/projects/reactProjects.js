@@ -15,7 +15,7 @@ class ReactProjects extends Component {
     return (
       <div>
         <Grid className="projects-grid">
-          <Cell phone={9}>
+          <Cell phone={9} style={{ alignItems: "center" }}>
             {/* Project 1 */}
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
@@ -71,7 +71,7 @@ class ReactProjects extends Component {
           </Cell>
 
           {/* Project2  */}
-          <Cell phone={9}>
+          <Cell phone={9} style={{ alignItems: "center" }}>
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
