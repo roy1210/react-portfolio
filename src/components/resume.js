@@ -11,7 +11,7 @@ class Resume extends Component {
     return (
       <div className="resume">
         <Grid>
-          <Cell col={4}>
+          <Cell col={4} phone={12} tablet={12}>
             <div style={{ textAlign: "center" }}>
               <img
                 src={Barcerona}
@@ -75,7 +75,7 @@ class Resume extends Component {
               <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             </div>
           </Cell>
-          <Cell className="resume-right-col" col={8}>
+          <Cell className="resume-right-col" col={8} phone={12} tablet={12}>
             <div className="skills">
               <h3>Skills</h3>
               <h4>Coding</h4>
