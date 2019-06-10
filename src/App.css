@@ -262,9 +262,10 @@ span {
   .category-tabs {
     margin-top: 30px;
   }
-  .projects-grid {
+  /* .projects-grid {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  } */
 }
