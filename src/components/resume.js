@@ -92,8 +92,8 @@ class Resume extends Component {
               <p>Basic syntax for SQLite3 and PostgreSQL</p>
               <Skills skill="Solidity" progress={40} />
               <p>
-                Basic syntax for web3, making transaction by Metamask, making
-                front-end by React
+                Basic syntax for web3, making transaction by Metamask and
+                Ganache, making front-end by React and Truffle
               </p>
               <SkillsBuffer skill="Robot" progress={40} />
               <p>Drone: Tello edu by Golang </p>
