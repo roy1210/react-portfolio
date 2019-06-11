@@ -37,6 +37,7 @@ class ReactProjects extends Component {
               github="https://github.com/roy1210/JS_React_Pokemon-Cards"
               codesandbox="https://codesandbox.io/s/pokemons-cfei1"
               siteUrl="https://poke-cards-roy1210.netlify.com/"
+              titleColor="black"
             />
           </Cell>
         </Grid>

@@ -9,12 +9,39 @@ class Project extends Component {
     } else {
       detail2 = "";
     }
+
+    let titleColor;
+    if (this.props.titleColor) {
+      titleColor = this.props.titleColor;
+    } else {
+      titleColor = "white";
+    }
+
+    let codesandbox;
+    if (this.props.codesandbox) {
+      codesandbox = (
+        <Button colored>
+          {" "}
+          <a
+            href={this.props.codesandbox}
+            target="_blank"
+            rel="noopener noreferrer"
+            text-decoration="none"
+          >
+            CodeSandBox
+          </a>
+        </Button>
+      );
+    } else {
+      codesandbox = "";
+    }
+
     return (
       <div>
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle
             style={{
-              color: "#fff",
+              color: `${titleColor}`,
               height: "176px",
               background: `url(${this.props.photoUrl}) center / cover `
             }}
@@ -36,17 +63,7 @@ class Project extends Component {
                 Github
               </a>{" "}
             </Button>
-            <Button colored>
-              {" "}
-              <a
-                href={this.props.codesandbox}
-                target="_blank"
-                rel="noopener noreferrer"
-                text-decoration="none"
-              >
-                CodeSandBox
-              </a>
-            </Button>
+            {codesandbox}
             <Button colored>
               {" "}
               <a
