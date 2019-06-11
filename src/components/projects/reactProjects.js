@@ -128,10 +128,10 @@ class ReactProjects extends Component {
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
-                  color: "#fff",
+                  color: "black",
                   height: "150px",
                   background:
-                    "url(https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/GifMessi2-compressor.gif?raw=true) center / cover "
+                    "url(https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/Poke-cards.jpg?raw=true) center / cover "
                 }}
               >
                 Pokemon cards
@@ -154,7 +154,7 @@ class ReactProjects extends Component {
                 <Button colored>
                   {" "}
                   <a
-                    href="https://codesandbox.io/s/vj982kvj1l"
+                    href="https://codesandbox.io/s/pokemons-cfei1"
                     target="_blank"
                     rel="noopener noreferrer"
                     text-decoration="none"
