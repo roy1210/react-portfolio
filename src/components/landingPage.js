@@ -7,7 +7,7 @@ class Landing extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }} className="container">
         <Grid className="landing-grid">
-          <Cell col={12} phone={12}>
+          <Cell col={12} phone={12} className="SlideDown">
             <img src={profile} alt="avatar" className="profile" />
             <div className="banner-text">
               <h3 style={{ paddingTop: "0.5em" }}>
