@@ -90,10 +90,6 @@ h4 {
 }
 
 /* resume page css */
-.resume img:hover {
-  transform: scale(1.08);
-  opacity: 1;
-}
 
 .resume p,
 a {
