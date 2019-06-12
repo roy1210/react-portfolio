@@ -36,6 +36,24 @@ class Project extends Component {
       codesandbox = "";
     }
 
+    let siteUrl;
+    if (this.props.siteUrl) {
+      siteUrl = (
+        <Button colored>
+          {" "}
+          <a
+            href={this.props.siteUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Go
+          </a>
+        </Button>
+      );
+    } else {
+      siteUrl = "";
+    }
+
     return (
       <div>
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -64,16 +82,7 @@ class Project extends Component {
               </a>{" "}
             </Button>
             {codesandbox}
-            <Button colored>
-              {" "}
-              <a
-                href={this.props.siteUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Go
-              </a>
-            </Button>
+            {siteUrl}
           </CardActions>
         </Card>
       </div>
