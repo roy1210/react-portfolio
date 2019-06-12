@@ -1,14 +1,5 @@
 import React, { Component } from "react";
-import {
-  Card,
-  CardTitle,
-  CardText,
-  CardActions,
-  Button,
-  CardMenu,
-  IconButton,
-  Spinner
-} from "react-mdl";
+import { Spinner } from "react-mdl";
 
 class PythonProjects extends Component {
   render() {

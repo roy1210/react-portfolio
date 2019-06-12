@@ -26,7 +26,6 @@ class Project extends Component {
             href={this.props.codesandbox}
             target="_blank"
             rel="noopener noreferrer"
-            text-decoration="none"
           >
             CodeSandBox
           </a>
