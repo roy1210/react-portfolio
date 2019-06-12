@@ -21,10 +21,10 @@ class ReactProjects extends Component {
           <Cell col={4} phone={12}>
             <Project
               photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/GifMessi2-compressor.gif?raw=true"
-              name="GIF Search"
+              name="Find GIF"
               detail1="Search GIF by using GIPHY API."
               github="https://github.com/roy1210/React_Find_Gif"
-              codesandbox="https://codesandbox.io/s/vj982kvj1l"
+              codesandbox="https://codesandbox.io/s/github/roy1210/React_Find_Gif"
               siteUrl="https://csb-vj982kvj1l.netlify.com/"
             />
           </Cell>
