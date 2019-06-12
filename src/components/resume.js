@@ -82,7 +82,7 @@ class Resume extends Component {
               <h5 className="Resume-frontend">Front-end</h5>
               <SkillsBuffer skill="JavaScript" progress={55} />
               <p>Basic syntax for ES6, React and Vue</p>
-              <Skills skill="HTML,CSS" progress={50} />
+              <Skills skill="HTML&CSS" progress={50} />
               <p>Basic syntax and bootstrap</p>
               <h5 className="Resume-backend">Back-end</h5>
               <SkillsBuffer skill="Python" progress={65} />
