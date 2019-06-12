@@ -79,27 +79,29 @@ class Resume extends Component {
             <div className="skills">
               <h3>Skills</h3>
               <h4>Coding</h4>
+              <h5>Front-end</h5>
+              <SkillsBuffer skill="JavaScript" progress={55} />
+              <p>Basic syntax for ES6, React and Vue</p>
+              <Skills skill="HTML, CSS" progress={50} />
+              <p>Basic syntax and bootstrap</p>
+              <h5>Back-end</h5>
               <SkillsBuffer skill="Python" progress={65} />
               <p>
                 Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, CSV,
                 Logging and Django
               </p>
-              <SkillsBuffer skill="JavaScript" progress={55} />
-              <p>Basic syntax for ES6, React and Vue</p>
-              <SkillsBuffer skill="Golang" progress={50} />
+              <Skills skill="Golang" progress={50} />
               <p>Basic syntax, Gobot.</p>
-              <Skills skill="SQL" progress={40} />
-              <p>Basic syntax for SQLite3 and PostgreSQL</p>
               <Skills skill="Solidity" progress={40} />
               <p>
                 Basic syntax for web3, making transaction by Metamask and
                 Ganache, making front-end by React and Truffle
               </p>
-              <Skills skill="HTML / CSS" progress={50} />
-              <p>Basic syntax and bootstrap</p>
-              <SkillsBuffer skill="Robot" progress={40} />
+              <Skills skill="Robot" progress={40} />
               <p>Drone: Tello edu by Golang </p>
-              <SkillsBuffer skill="Algorism" progress={50} />
+              <Skills skill="SQL" progress={40} />
+              <p>Basic syntax for SQLite3 and PostgreSQL</p>
+              <Skills skill="Algorism" progress={50} />
               <p>Paiza skill check rank: C (S~E) </p>
               <hr style={{ borderTop: "3px dashed #e22947" }} />
               <h4>Knowledge / Languages</h4>

@@ -156,6 +156,12 @@ span {
   padding-left: 1em;
 }
 
+.skills h5 {
+  font-size: 1.7em;
+  padding-left: 0.6em;
+  color: darkgray;
+}
+
 .skills h4 {
   paddingtop: 1em;
   color: white;
