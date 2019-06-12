@@ -54,7 +54,7 @@ class Resume extends Component {
               <i className="fa fa-envelope" aria-hidden="true" />
               <a href="mailto:rswkure@gmail.com">rswkure@gmail.com</a>
               <br />
-              <i class="fab fa-linkedin" aria-hidden="true" />
+              <i className="fab fa-linkedin" aria-hidden="true" />
               <a
                 href="https://www.linkedin.com/in/roy1210/"
                 rel="noopener noreferrer"
@@ -63,7 +63,7 @@ class Resume extends Component {
                 https://www.linkedin.com/in/roy1210/
               </a>
               <br />
-              <i class="fab fa-github" aria-hidden="true" />
+              <i className="fab fa-github" aria-hidden="true" />
               <a
                 href="https://github.com/roy1210"
                 rel="noopener noreferrer"
@@ -79,12 +79,12 @@ class Resume extends Component {
             <div className="skills">
               <h3>Skills</h3>
               <h4>Coding</h4>
-              <SkillsBuffer skill="Python" progress={70} />
+              <SkillsBuffer skill="Python" progress={65} />
               <p>
                 Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, CSV,
                 Logging and Django
               </p>
-              <SkillsBuffer skill="JavaScript" progress={50} />
+              <SkillsBuffer skill="JavaScript" progress={55} />
               <p>Basic syntax for ES6, React and Vue</p>
               <SkillsBuffer skill="Golang" progress={50} />
               <p>Basic syntax, Gobot.</p>
@@ -95,6 +95,8 @@ class Resume extends Component {
                 Basic syntax for web3, making transaction by Metamask and
                 Ganache, making front-end by React and Truffle
               </p>
+              <Skills skill="HTML / CSS" progress={50} />
+              <p>Basic syntax and bootstrap</p>
               <SkillsBuffer skill="Robot" progress={40} />
               <p>Drone: Tello edu by Golang </p>
               <SkillsBuffer skill="Algorism" progress={50} />

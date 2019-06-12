@@ -15,7 +15,7 @@ class ReactProjects extends Component {
               detail2="Made by React Router and React-MDL."
               github="https://github.com/roy1210/JS_React_Portfolio"
               codesandbox="https://codesandbox.io/s/my-portfolio-my66x"
-              siteUrl="https://roy1210.netlify.com/"
+              siteUrl="https://roy-k.netlify.com/"
             />
           </Cell>
           <Cell col={4} phone={12}>
