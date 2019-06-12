@@ -79,12 +79,12 @@ class Resume extends Component {
             <div className="skills">
               <h3>Skills</h3>
               <h4>Coding</h4>
-              <h5>Front-end</h5>
+              <h5 className="Resume-frontend">Front-end</h5>
               <SkillsBuffer skill="JavaScript" progress={55} />
               <p>Basic syntax for ES6, React and Vue</p>
               <Skills skill="HTML, CSS" progress={50} />
               <p>Basic syntax and bootstrap</p>
-              <h5>Back-end</h5>
+              <h5 className="Resume-backend">Back-end</h5>
               <SkillsBuffer skill="Python" progress={65} />
               <p>
                 Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, CSV,

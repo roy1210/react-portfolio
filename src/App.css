@@ -156,10 +156,20 @@ span {
   padding-left: 1em;
 }
 
-.skills h5 {
-  font-size: 1.7em;
-  padding-left: 0.6em;
+.Resume-frontend {
+  font-size: 1.8em;
+  padding-left: 0.5em;
   color: darkgray;
+  text-shadow: 1px 1px 0px darkgray, 2px 2px 0px black, 3px 3px 0px black,
+    4px 4px 0px darkgray, 3px 3px 0px #7777aa;
+}
+
+.Resume-backend {
+  font-size: 1.8em;
+  padding-left: 0.5em;
+  color: darkgray;
+  text-shadow: -1px -1px 15px silver, 1px 1px #ffffff;
+  /* text-shadow: 0px 0px 20px silver; */
 }
 
 .skills h4 {
