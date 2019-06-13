@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell, ProgressBar } from "react-mdl";
 
-class Skills extends Component {
+class SkillsProgressBuffer extends Component {
   render() {
     return (
       // Use progress bar
@@ -12,6 +12,7 @@ class Skills extends Component {
             <ProgressBar
               style={{ margin: "auto", width: "75%" }}
               progress={this.props.progress}
+              buffer={this.props.progress}
             />
           </div>
         </Cell>
@@ -20,4 +21,4 @@ class Skills extends Component {
   }
 }
 
-export default Skills;
+export default SkillsProgressBuffer;

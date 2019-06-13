@@ -1,15 +1,19 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import profile from "../img/profile.jpg";
+import "../CSS/Landing.css";
 
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }} className="container">
-        <Grid className="landing-grid">
-          <Cell col={12} phone={12} className="SlideDown">
-            <img src={profile} alt="avatar" className="profile" />
-            <div className="banner-text">
+      <div
+        style={{ width: "100%", margin: "auto" }}
+        className="Landing-container"
+      >
+        <Grid className="Landing-grid">
+          <Cell col={12} phone={12} className="Landing-SlideDown">
+            <img src={profile} alt="avatar" className="Landing-profile" />
+            <div className="Landing-banner-text">
               <h3 style={{ paddingTop: "0.5em" }}>
                 Hi, this is Roy. Nice to meet you.
               </h3>
@@ -17,7 +21,7 @@ class Landing extends Component {
 
               <hr />
               <p> Python | Golang | JavaScript | React | Vue | Solidity</p>
-              <div className="social-links">
+              <div className="Landing-social-links">
                 {/* LinkedIn */}
                 <a
                   href="https://www.linkedin.com/in/shoe-kure-2271ab90/"

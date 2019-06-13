@@ -5,6 +5,7 @@ import VueProjects from "./projects/vueProjects.js";
 import GolangProjects from "./projects/golangProjects.js";
 import PythonProjects from "./projects/pythonProjects.js";
 import SolidityProjects from "./projects/solidityProjects.js";
+import "../CSS/Projects.css";
 
 class Projects extends Component {
   constructor(props) {
@@ -15,22 +16,22 @@ class Projects extends Component {
   // Each Tab got unique tab key (index) by default by react-mdl
   render() {
     return (
-      <div className="projects">
-        <div className="category-tabs">
+      <div className="Projects">
+        <div className="Projects-category-tabs">
           <Tabs
             activeTab={this.state.activeTab}
             onChange={tabId => this.setState({ activeTab: tabId })}
             ripple
           >
-            <Tab>React</Tab>
-            <Tab>Vue</Tab>
-            <Tab>Golang</Tab>
-            <Tab>Django</Tab>
+            <Tab className="Projects-fade-in one">React</Tab>
+            <Tab className="Projects-fade-in two">Vue</Tab>
+            <Tab className="Projects-fade-in three">Golang</Tab>
+            <Tab className="Projects-fade-in four">Django</Tab>
             {/* <Tab>Solidity</Tab> */}
           </Tabs>
 
           <Grid>
-            <Cell col={12} phone={12} tablet={12} className="project">
+            <Cell col={12} phone={12} tablet={12} className="Projects-Project">
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>

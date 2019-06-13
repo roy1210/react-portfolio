@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card, CardTitle, CardText, CardActions, Button } from "react-mdl";
-
+import "../../CSS/Project.css";
 class Project extends Component {
   render() {
     let detail2;
@@ -54,7 +54,7 @@ class Project extends Component {
     }
 
     return (
-      <div>
+      <div className="Project-SlideDown">
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle
             style={{

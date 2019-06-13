@@ -1,0 +1,210 @@
+.Resume-avatar img {
+  margin-top: 20px;
+  height: 370px;
+  border-radius: 10%;
+}
+
+.Resume-avatar {
+  text-align: center;
+}
+
+.Resume-intro p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.Resume-name {
+  text-align: center;
+  padding-top: 0.5em;
+  color: black;
+}
+
+.Resume-contact-body {
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  background: grey;
+}
+
+.Resume-contact i {
+  font-size: 20px;
+  padding-bottom: 0.5rem;
+}
+
+.Resume-linkedin i {
+  font-size: 22px;
+  padding-bottom: 0.5rem;
+}
+
+.Resume-contact span {
+  color: black;
+  font-size: 1.2em;
+  margin-left: 0em;
+}
+
+.Resume-contact a {
+  color: black;
+  font-size: 1.2em;
+  line-height: 0.5em;
+  margin-left: 1.15em;
+}
+
+.Resume-contact-adj {
+  font-size: 1.2em;
+  line-height: 0.5em;
+  padding-left: 21px;
+}
+
+.Resume-contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+  /* border: 2px solid red; */
+}
+
+/* Font -family from google fonts */
+.Resume-contact-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.Resume-contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+/* margin: auto will put the  ... in center */
+.Resume-contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.Resume-contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+.Resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 1.5em;
+  line-height: 0.3em;
+}
+
+.Resume-right-col h3 {
+  paddingtop: 1em;
+  color: sienna;
+  font-family: monospace;
+}
+
+.Resume-frontend {
+  font-size: 1.8em;
+  padding-left: 0.5em;
+  color: darkgray;
+  text-shadow: 1px 1px 0px darkgray, 2px 2px 0px black, 3px 3px 0px black,
+    4px 4px 0px darkgray, 3px 3px 0px #7777aa;
+}
+
+.Resume-backend {
+  font-size: 1.8em;
+  padding-left: 0.5em;
+  color: darkgray;
+  text-shadow: -1px -1px 15px goldenrod, 1px 1px #ffffff;
+  /* text-shadow: 0px 0px 20px silver; */
+}
+
+.Resume-skills p,
+span {
+  color: white;
+  font-size: 1.1em;
+  padding-left: 1em;
+}
+
+.Resume-skills a {
+  font-size: 1em;
+  padding-left: 1em;
+}
+
+.Resume-skills h4 {
+  text-align: center;
+  padding-top: 0.5em;
+  color: white;
+}
+
+.Resume-education-job {
+  color: white;
+}
+
+.Resume-education-job p {
+  line-height: 2em;
+  font-size: 1.2em;
+}
+
+.Resume-education-job a {
+  font-size: 1em;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Resume-fade-in {
+  opacity: 0; /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.Resume-fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+.Resume-fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.Resume-fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}

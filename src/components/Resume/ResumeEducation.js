@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
-class Education extends Component {
+class ResumeEducation extends Component {
   render() {
     return (
       <Grid>
@@ -29,4 +29,4 @@ class Education extends Component {
   }
 }
 
-export default Education;
+export default ResumeEducation;

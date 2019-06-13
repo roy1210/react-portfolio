@@ -1,11 +1,11 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import LandingPage from "./landingPage";
-import AboutMe from "./aboutMe";
-import Contact from "./contact";
-import Projects from "./projects";
-import Resume from "./resume";
+import LandingPage from "./LandingPage";
+import AboutMe from "./AboutMe";
+import Contact from "./Contact";
+import Projects from "./Projects";
+import Resume from "./Resume";
 
 // no need class for `stateless`
 // exact pass for default page
