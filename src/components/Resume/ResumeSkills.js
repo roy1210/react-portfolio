@@ -12,7 +12,7 @@ class ResumeSkills extends Component {
         <SkillsProgressBuffer skill="JavaScript" progress={55} />
         <p>Basic syntax for ES6, React and Vue</p>
         <SkillsProgress skill="HTML&CSS" progress={50} />
-        <p>Basic syntax and bootstrap</p>
+        <p>Basic syntax for CSS animations, bootstrap</p>
         <h5 className="Resume-backend">Back-end</h5>
         <SkillsProgressBuffer skill="Python" progress={65} />
         <p>
@@ -37,6 +37,7 @@ class ResumeSkills extends Component {
         <SkillsProgressBuffer skill="Blockchain" progress={75} />
         <SkillsProgress skill="Japanese" progress={100} />
         <SkillsProgress skill="Chinese" progress={85} />
+        <SkillsProgress skill="Cantonese" progress={75} />
         <SkillsProgress skill="English" progress={70} />
         <p>TOEIC score: 875</p>
         <a
