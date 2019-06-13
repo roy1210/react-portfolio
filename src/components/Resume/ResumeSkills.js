@@ -23,14 +23,14 @@ class ResumeSkills extends Component {
         <p>Basic syntax, Gobot.</p>
         <SkillsProgress skill="Solidity" progress={40} />
         <p>
-          Basic syntax for web3, making transaction by Metamask and Ganache,
-          making front-end by React and Truffle
+          Basic syntax for web3, making Dapps by Truffle, Metamask, Ganache and
+          React
         </p>
         <SkillsProgress skill="Robot" progress={40} />
         <p>Drone: Tello edu by Golang </p>
-        <SkillsProgress skill="SQL" progress={40} />
+        <SkillsProgress skill="SQL" progress={35} />
         <p>Basic syntax for SQLite3 and PostgreSQL</p>
-        <SkillsProgress skill="Algorism" progress={50} />
+        <SkillsProgress skill="Algorism" progress={40} />
         <p>Paiza skill check rank: C (S~E) </p>
         <hr style={{ borderTop: "3px dashed #e22947" }} />
         <h4>Knowledge / Languages</h4>
