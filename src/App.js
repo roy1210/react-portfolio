@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import Main from "./components/Main";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import { Link } from "react-router-dom";
-// import "./CSS/App.css";
-import "./App.css";
+import "./CSS/App.css";
 
 class App extends Component {
   render() {

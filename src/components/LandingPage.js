@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import LandingCard from "./LandingPage/LandingCard";
 import profile from "../img/profile.jpg";
 import "../CSS/Landing.css";
 
 class Landing extends Component {
+  let;
   render() {
     return (
       <div
@@ -12,11 +14,12 @@ class Landing extends Component {
       >
         <Grid className="Landing-grid">
           <Cell col={12} phone={12} className="Landing-SlideDown">
-            <img src={profile} alt="avatar" className="Landing-profile" />
+            <div className="Landing-phone-profile">
+              <img src={profile} alt="profile" />
+            </div>
+            <LandingCard />
             <div className="Landing-banner-text">
-              <h3 style={{ paddingTop: "0.5em" }}>
-                Hi, this is Roy. Nice to meet you.
-              </h3>
+              <h3>Hi, this is Roy. Nice to meet you.</h3>
               <h4>Front / Back - End Developer</h4>
 
               <hr />
