@@ -9,7 +9,7 @@ class ReactProjects extends Component {
         <Grid className="projects-grid">
           <Cell col={4} phone={12}>
             <Project
-              photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/portfolio.jpg?raw=true"
+              photoUrl=""
               name="Portfolio"
               detail1="This portfolio website."
               detail2="Made by React Router and React-MDL."
