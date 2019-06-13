@@ -132,10 +132,10 @@ a {
 .education-job a {
   font-size: 1em;
 }
-.contact p,
-span {
+.contact-adj {
   font-size: 1.2em;
   line-height: 0.5em;
+  padding-left: 21px;
 }
 
 .contact a {
@@ -189,6 +189,11 @@ span {
 
 .contact i {
   font-size: 20px;
+  padding-bottom: 0.5rem;
+}
+
+.Resume-linkedin i {
+  font-size: 22px;
   padding-bottom: 0.5rem;
 }
 

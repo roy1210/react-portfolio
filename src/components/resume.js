@@ -46,23 +46,24 @@ class Resume extends Component {
               <span>Singapore</span>
               <br />
               <i className="fas fa-passport" aria-hidden="true" />
-              <span> Japan</span>
+              <span className="contact-adj">Japan</span>
               <br />
               <i className="fab fa-skype" aria-hidden="true" />
-              <span> roy_shoe_wu</span>
+              <span className="contact-adj">roy_shoe_wu</span>
               <br />
               <i className="fa fa-envelope" aria-hidden="true" />
               <a href="mailto:rswkure@gmail.com">rswkure@gmail.com</a>
               <br />
-              <i className="fab fa-linkedin" aria-hidden="true" />
-              <a
-                href="https://www.linkedin.com/in/roy1210/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                https://www.linkedin.com/in/roy1210/
-              </a>
-              <br />
+              <div className="Resume-linkedin">
+                <i className="fab fa-linkedin" aria-hidden="true" />
+                <a
+                  href="https://www.linkedin.com/in/roy1210/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://www.linkedin.com/in/roy1210/
+                </a>
+              </div>
               <i className="fab fa-github" aria-hidden="true" />
               <a
                 href="https://github.com/roy1210"
