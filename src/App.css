@@ -139,9 +139,10 @@ a {
 }
 
 .contact a {
+  color: black;
   font-size: 1.2em;
   line-height: 0.5em;
-  padding-left: 2px;
+  margin-left: 1.15em;
 }
 
 .skills p,
@@ -201,12 +202,6 @@ span {
   color: black;
   font-size: 1.2em;
   margin-left: 0em;
-}
-
-.contact a {
-  color: black;
-  font-size: 1.2em;
-  margin-left: 1em;
 }
 
 .contact-grid {
