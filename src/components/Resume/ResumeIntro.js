@@ -54,6 +54,17 @@ class ResumeIntro extends Component {
           >
             https://github.com/roy1210
           </a>
+          <br />
+          <div className="Resume-home">
+            <i className="fas fa-home" aria-hidden="true" />
+            <a
+              href="https://github.com/roy1210"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              https://roy-k.tk/
+            </a>
+          </div>
           <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
         </div>
       </div>
