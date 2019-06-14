@@ -25,7 +25,7 @@ class ReactProjects extends Component {
               detail1="Search GIF by using GIPHY API."
               github="https://github.com/roy1210/React_Find_Gif"
               codesandbox="https://codesandbox.io/s/github/roy1210/React_Find_Gif"
-              siteUrl="https://csb-vj982kvj1l.netlify.com/"
+              siteUrl="https://csb-gp67w.netlify.com/"
             />
           </Cell>
 
