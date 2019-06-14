@@ -29,10 +29,7 @@ class ResumeSkills extends Component {
         <SkillsProgress skill="Robot" progress={40} />
         <p>Drone: Tello edu by Golang </p>
         <SkillsProgress skill="Network" progress={15} />
-        <p>
-          Hosting website with Freenom and Netlify. Set own custom domain
-          without any cost ( for personal )
-        </p>
+        <p>Hosting website with Freenom and Netlify to set own custom domain</p>
         <SkillsProgress skill="SQL" progress={35} />
         <p>Basic syntax for SQLite3 and PostgreSQL</p>
         <SkillsProgress skill="Algorism" progress={40} />
