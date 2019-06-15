@@ -10,7 +10,7 @@ class App extends Component {
     const miniPlayground = () => (
       <Popup
         trigger={<Icon name="js" color="yellow" size="large" circular />}
-        content="Hiden game is somewhere in landing page, try to find it!"
+        content="Hidden game is somewhere in landing page, try to find it!"
         position="bottom right"
       />
     );
