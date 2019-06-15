@@ -89,7 +89,7 @@ h4 {
   position: relative;
   margin: 10px auto;
   width: 800px;
-  height: 370px;
+  height: 390px;
   z-index: 1;
 }
 #Landing-f1_container {
@@ -117,7 +117,8 @@ h4 {
 }
 .Landing-face h4 {
   margin: 0em;
-  padding: 0.2em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
 }
 .Landing-face.back {
   display: block;
