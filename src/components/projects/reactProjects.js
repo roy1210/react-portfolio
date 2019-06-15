@@ -12,7 +12,7 @@ class ReactProjects extends Component {
               photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/Portfolio.gif?raw=true"
               name="Portfolio"
               detail1="This portfolio website."
-              detail2="Made by React Router and React-MDL."
+              detail2="Create with React Router, Semantic-ui-react, and React-MDL."
               github="https://github.com/roy1210/JS_React_Portfolio"
               codesandbox="https://codesandbox.io/s/my-portfolio-mjewd"
               siteUrl="https://roy-k.tk/"

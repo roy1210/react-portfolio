@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import LandingCard from "./LandingPage/LandingCard";
+import LandingPlayground from "./LandingPage/LandingPlayground";
 import profile from "../img/profile.jpg";
 import "../CSS/Landing.css";
 
 class Landing extends Component {
-  let;
   render() {
     return (
       <div
@@ -17,7 +16,7 @@ class Landing extends Component {
             <div className="Landing-phone-profile">
               <img src={profile} alt="profile" />
             </div>
-            <LandingCard />
+            <LandingPlayground />
             <div className="Landing-banner-text">
               <h3>Hi, this is Roy. Nice to meet you.</h3>
               <h4>Front / Back - End Developer</h4>

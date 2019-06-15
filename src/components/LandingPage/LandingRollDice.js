@@ -37,16 +37,16 @@ class LandingRollDice extends Component {
   }
 
   render() {
-    let secret;
+    let funFact;
     if (this.state.total > 0) {
-      secret = (
+      funFact = (
         <div>
           <h5>Fun fact #{this.state.total}</h5>
           <h5>{this.props.fun[this.state.total - 1]}</h5>
         </div>
       );
     } else {
-      secret = "";
+      funFact = "";
     }
     return (
       <div className="RollDice">
@@ -56,7 +56,7 @@ class LandingRollDice extends Component {
         <button onClick={this.roll} disabled={this.state.rolling}>
           {this.state.rolling ? "Rolling..." : "Roll Dice!"}
         </button>
-        {secret}
+        {funFact}
       </div>
     );
   }

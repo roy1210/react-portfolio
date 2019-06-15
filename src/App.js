@@ -1,11 +1,19 @@
 import React, { Component } from "react";
 import Main from "./components/Main";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Popup, Icon } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import "./CSS/App.css";
 
 class App extends Component {
   render() {
+    const miniPlayground = () => (
+      <Popup
+        trigger={<Icon name="js" color="yellow" size="large" circular />}
+        content="Hiden game is somewhere in landing page, try to find it!"
+        position="bottom right"
+      />
+    );
     return (
       <div className="demo-big-content">
         <Layout>
@@ -20,9 +28,8 @@ class App extends Component {
           >
             <Navigation>
               <Link to="/resume">Resume / Contact</Link>
-              {/* <Link to="/aboutme">About Me</Link> */}
               <Link to="/projects">Projects</Link>
-              {/* <Link to="/contact">Contact</Link> */}
+              <Link to="/">{miniPlayground()}</Link>
             </Navigation>
           </Header>
           <Drawer
@@ -34,9 +41,7 @@ class App extends Component {
           >
             <Navigation>
               <Link to="/resume">Resume / Contact</Link>
-              {/* <Link to="/aboutme">About Me</Link> */}
               <Link to="/projects">Projects</Link>
-              {/* <Link to="/contact">Contact</Link> */}
             </Navigation>
           </Drawer>
           <Content>
