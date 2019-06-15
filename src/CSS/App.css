@@ -11,3 +11,11 @@
     #000428
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.ui.segment {
+  background-color: #aaa;
+  padding: 0px;
+  margin: 0px;
+  /* border: medium solid yellow; */
+  border: none !important;
+}

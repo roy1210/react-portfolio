@@ -56,7 +56,7 @@ class LandingRollDice extends Component {
         <button onClick={this.roll} disabled={this.state.rolling}>
           {this.state.rolling ? "Rolling..." : "Roll Dice!"}
         </button>
-        {funFact}
+        <div className="RollDice-funfact">{funFact}</div>
       </div>
     );
   }

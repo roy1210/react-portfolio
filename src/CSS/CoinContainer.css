@@ -1,0 +1,131 @@
+.CoinContainer button {
+  font-size: 1em;
+  align-self: center;
+  width: 10em;
+  padding: 0.3em;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  margin: 0.9em;
+}
+
+.CoinContainer button:hover {
+  background-color: darkslateblue;
+  cursor: pointer;
+}
+
+.CoinContainer h1 {
+  font-size: 1.5em;
+  margin: 0.4em;
+}
+
+.CoinContainer h2 {
+  font-size: 1.3em;
+}
+.CoinContainer h4 {
+  font-size: 1em;
+}
+
+.CoinContainer-win span {
+  font-size: 1.1em;
+  color: red;
+  padding: 0.15em;
+}
+
+.CoinContainer-lose span {
+  font-size: 1em;
+  color: blue;
+  padding: 0.2em;
+}
+
+.Coin img {
+  margin: auto;
+  padding: auto;
+  width: 105px;
+  height: 105px;
+}
+
+/* Spin */
+
+.Coin-spinning img {
+  margin: auto;
+  padding: auto;
+  width: 105px;
+  height: 105px;
+  animation-name: spin;
+  animation-duration: 1s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateY(1000deg);
+  }
+
+  100% {
+    transform: rotateY(10deg);
+  }
+}
+
+/* end spin */
+
+/* fade-in */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.CoinContainer-fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.CoinContainer-fade-in.one {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+/* end fade in */

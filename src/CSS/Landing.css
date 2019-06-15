@@ -30,7 +30,7 @@
 }
 
 .Landing-profile {
-  height: 270px;
+  height: 320px;
   padding-top: 5em;
 }
 
@@ -80,12 +80,15 @@ h4 {
   font-size: 5em;
   padding: 7px;
 }
+.Landing-tanbs {
+  color: yellow;
+}
 
 /* Flipping a simple image to a div */
 #Landing-f1_container {
   position: relative;
   margin: 10px auto;
-  width: 750px;
+  width: 800px;
   height: 370px;
   z-index: 1;
 }
@@ -112,7 +115,7 @@ h4 {
   padding-top: 0.5em;
   margin-bottom: 0em;
 }
-.Landing-face h3 {
+.Landing-face h4 {
   margin: 0em;
   padding: 0.2em;
 }

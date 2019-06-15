@@ -1,13 +1,18 @@
 .RollDice {
   display: flex;
   flex-flow: column nowrap;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  background-color: #aaa;
 }
 
 .RollDice-container {
   display: flex;
   justify-content: center;
   align-content: center;
+  margin: auto;
+}
+.RollDice-funfact {
+  margin: 12px;
 }
 
 .RollDice button {

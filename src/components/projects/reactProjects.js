@@ -12,17 +12,29 @@ class ReactProjects extends Component {
               photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/Portfolio.gif?raw=true"
               name="Portfolio"
               detail1="This portfolio website."
-              detail2="Create with React Router, Semantic-ui-react, and React-MDL."
+              detail2="Created with React Router, Semantic-ui-react, and React-MDL."
               github="https://github.com/roy1210/JS_React_Portfolio"
               codesandbox="https://codesandbox.io/s/my-portfolio-mjewd"
               siteUrl="https://roy-k.tk/"
             />
           </Cell>
+
+          <Cell col={4} phone={12}>
+            <Project
+              photoUrl="https://github.com/roy1210/react-flip-coin/blob/master/src/ScreenShot.gif?raw=true"
+              name="Flip-coin"
+              detail1="A mini-game guessing which coin shows up"
+              github="https://github.com/roy1210/react-flip-coin"
+              codesandbox="https://codesandbox.io/s/flip-coin-6mu0b"
+              siteUrl="https://coin-game-k.netlify.com"
+            />
+          </Cell>
+
           <Cell col={4} phone={12}>
             <Project
               photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/GifMessi2-compressor.gif?raw=true"
               name="Find GIF"
-              detail1="Search GIF by using GIPHY API."
+              detail1="Search for GIF using GIPHY API."
               github="https://github.com/roy1210/React_Find_Gif"
               codesandbox="https://codesandbox.io/s/github/roy1210/React_Find_Gif"
               siteUrl="https://csb-gp67w.netlify.com/"
