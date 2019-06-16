@@ -49,6 +49,11 @@ class Landing extends Component {
                 </a>
               </div>
             </div>
+            <div className="LandingWrapper">
+              <div className="LandingFooter">
+                <small>© {new Date().getFullYear()} Shoe Kure</small>
+              </div>
+            </div>
           </Cell>
         </Grid>
       </div>

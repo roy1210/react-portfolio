@@ -58,7 +58,7 @@ class NavigationLayout extends Component {
           </Content>
           <Footer size="mini">
             <FooterSection>
-              <small>© Shoe Kure 2019</small>
+              <small>© {new Date().getFullYear()} Shoe Kure</small>
             </FooterSection>
           </Footer>
         </Layout>

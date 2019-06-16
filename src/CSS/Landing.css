@@ -88,8 +88,8 @@ h4 {
   padding-bottom: 0.3em;
 }
 
-.Landing-tanbs {
-  color: yellow;
+.LandingFooter {
+  bottom: 0;
 }
 
 /* Flipping a simple image to a div */
