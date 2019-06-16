@@ -12,7 +12,7 @@ class Landing extends Component {
         className="Landing-container"
       >
         <Grid className="Landing-grid">
-          <Cell col={12} phone={12} className="Landing-SlideDown">
+          <Cell col={12} phone={12} tablet={12} className="Landing-SlideDown">
             <div className="Landing-phone-profile">
               <img src={profile} alt="profile" />
             </div>
@@ -20,7 +20,6 @@ class Landing extends Component {
             <div className="Landing-banner-text">
               <h3>Hi, this is Roy. Nice to meet you.</h3>
               <h4>Front / Back - End Developer</h4>
-
               <hr />
               <p>JavaScript | React | Python | Golang | Solidity</p>
               <div className="Landing-social-links">
@@ -45,7 +44,6 @@ class Landing extends Component {
                   href="https://codesandbox.io/u/roy1210/sandboxes"
                   rel="noopener noreferrer"
                   target="_blank"
-                  style={{}}
                 >
                   <i className="fab fa-codepen" aria-hidden="true" />
                 </a>

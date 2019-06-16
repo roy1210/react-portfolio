@@ -208,7 +208,7 @@ h4 {
     display: none;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (min-width: 480px) {
   .Landing-banner-text {
     background-color: black;
     opacity: 0.8;
@@ -221,7 +221,6 @@ h4 {
   }
   .Landing-face img {
     display: inline-flex;
-    text-align: center;
     height: 320px;
     padding-top: 5em;
     padding-right: 4.5em;
