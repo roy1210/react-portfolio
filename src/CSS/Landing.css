@@ -199,9 +199,9 @@ h4 {
 
   .Landing-phone-profile img {
     display: inline-flex;
+    text-align: center;
     height: 230px;
-    padding-top: 5em;
-    padding-right: 1em;
+    padding-top: 4em;
   }
   /* Flipping a simple image to a div */
   #Landing-f1_container {
@@ -219,9 +219,11 @@ h4 {
     margin-bottom: 10px;
     border-radius: 10px;
   }
-  .Landing-profile {
+  .Landing-face img {
+    display: inline-flex;
+    text-align: center;
     height: 320px;
     padding-top: 5em;
-    padding-right: 5em;
+    padding-right: 4.5em;
   }
 }
