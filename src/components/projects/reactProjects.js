@@ -33,7 +33,7 @@ class ReactProjects extends Component {
 
           <Cell col={4} phone={12}>
             <Project
-              photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/GifMessi2-compressor.gif?raw=true"
+              photoUrl="https://github.com/roy1210/React_Find_Gif/blob/master/src/screen-shot.gif?raw=true"
               name="Find GIF"
               detail1="Search for GIF using GIPHY API."
               github="https://github.com/roy1210/React_Find_Gif"
