@@ -55,6 +55,15 @@ class ResumeIntro extends Component {
             https://github.com/roy1210
           </a>
           <br />
+          <i className="fab fa-codepen" aria-hidden="true" />
+          <a
+            href="https://codesandbox.io/u/roy1210/sandboxes"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            https://codesandbox.io/u/roy1210/sandboxes
+          </a>
+          <br />
           <div className="Resume-home">
             <i className="fas fa-home" aria-hidden="true" />
             <a

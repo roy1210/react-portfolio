@@ -9,12 +9,14 @@ class ResumeSkills extends Component {
         <h3>Skills</h3>
         <h4>Coding</h4>
         <h5 className="Resume-frontend">Front-end</h5>
-        <SkillsProgressBuffer skill="JavaScript" progress={55} />
+        <SkillsProgressBuffer skill="JavaScript" progress={45} />
         <p>Basic syntax for ES6, React and Vue</p>
+        <SkillsProgressBuffer skill="React.js" progress={35} />
+        <p>Using with React Router, API, Semantic-ui, and React-MDL</p>
         <SkillsProgress skill="HTML&CSS" progress={50} />
         <p>Basic syntax for CSS animations, bootstrap</p>
         <h5 className="Resume-backend">Back-end</h5>
-        <SkillsProgressBuffer skill="Python" progress={65} />
+        <SkillsProgress skill="Python" progress={55} />
         <p>
           Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, CSV, Logging
           and Django
