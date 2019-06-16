@@ -43,6 +43,7 @@
 .CoinContainer-even span {
   font-size: 1em;
   color: green;
+  padding: 0.2em;
 }
 
 .Coin img {
