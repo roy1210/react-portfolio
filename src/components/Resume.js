@@ -4,7 +4,7 @@ import ResumeEducations from "./Resume/ResumeEducations";
 import ResumeExperiences from "./Resume/ResumeExperiences";
 import ResumeSkills from "./Resume/ResumeSkills";
 import ResumeIntro from "./Resume/ResumeIntro";
-import Barcerona from "../img/Barcerona5.jpg";
+import Barcerona from "../img/Barcerona.jpg";
 import "../CSS/Resume.css";
 
 class Resume extends Component {
