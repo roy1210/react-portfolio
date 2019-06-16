@@ -19,3 +19,22 @@
   /* border: medium solid yellow; */
   border: none !important;
 }
+/* <footer class="mdl-mini-footer */
+/* .mdl-mini-footer{
+  background-color: white;
+} */
+
+.mdl-mini-footer {
+  /* display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify; */
+  justify-content: center !important;
+  padding: 10px 16px !important;
+  color: black !important;
+  background-color: white !important;
+}
