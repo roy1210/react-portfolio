@@ -22,7 +22,7 @@ class Landing extends Component {
               <h4>Front / Back - End Developer</h4>
 
               <hr />
-              <p> Python | Golang | JavaScript | React | Vue | Solidity</p>
+              <p>JavaScript | React | Python | Golang | Solidity</p>
               <div className="Landing-social-links">
                 {/* LinkedIn */}
                 <a
@@ -39,6 +39,15 @@ class Landing extends Component {
                   target="_blank"
                 >
                   <i className="fab fa-github" aria-hidden="true" />
+                </a>
+                {/* CodeSandBox */}
+                <a
+                  href="https://codesandbox.io/u/roy1210/sandboxes"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  style={{}}
+                >
+                  <i className="fab fa-codepen" aria-hidden="true" />
                 </a>
               </div>
             </div>
