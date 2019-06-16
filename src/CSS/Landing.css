@@ -51,12 +51,12 @@ h4 {
   color: white;
 }
 .Landing-banner-text h3 {
-  padding-top: 0.7em;
+  padding-top: 0.5em;
   font-weight: bold;
   color: whitesmoke;
 }
 .Landing-banner-text h4 {
-  margin: 0.4em;
+  margin: 0.5em;
   font-size: 2em;
   color: whitesmoke;
 }
@@ -70,8 +70,8 @@ h4 {
 .Landing-banner-text p {
   color: white;
   font-size: 1.5em;
-  padding: 0.5em;
-  margin-bottom: 0.4em;
+  padding-top: 0.7em;
+  padding-bottom: 0.1em;
 }
 
 .Landing-social-links {
@@ -84,8 +84,8 @@ h4 {
 .Landing-social-links i {
   color: white;
   font-size: 5em;
-  padding: 7px;
-  margin-bottom: 0.2em;
+  padding: 0.1em;
+  padding-bottom: 0.3em;
 }
 
 .Landing-tanbs {
