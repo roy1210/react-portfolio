@@ -9,7 +9,7 @@ class ReactProjects extends Component {
         <Grid className="projects-grid">
           <Cell col={4} phone={12}>
             <Project
-              photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/190616Portfolio.gif?raw=true"
+              photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/190616-Portfolio.jpg?raw=true"
               name="Portfolio"
               detail1="This portfolio website."
               detail2="Created with React Router, Semantic-ui-react, and React-MDL."
@@ -44,7 +44,7 @@ class ReactProjects extends Component {
 
           <Cell col={4} phone={12}>
             <Project
-              photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/React_PF/Poke-cards.jpg?raw=true"
+              photoUrl="https://github.com/roy1210/JS_React_Pokemon-Cards/blob/master/src/Poke-cards.jpg?raw=true"
               name="Pokemon cards"
               detail1='Showing "Winning hand" or "Losing hand" for each side of deck.'
               github="https://github.com/roy1210/JS_React_Pokemon-Cards"
