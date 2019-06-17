@@ -1,29 +1,33 @@
 import React, { Component } from "react";
 import codeSandBox from "../../img/ResumeCodeSandBox.png";
 
-class ResumeIntro extends Component {
+class ResumeIntroduction extends Component {
   render() {
+    const ResumeIntro = (
+      <section>
+        <h5>Hello, world!</h5>
+        <p>
+          My name is Roy.
+          <br />
+          I'm a happy learner and I love to learn about new technology every
+          day.
+          <br />
+          I communicate well with people from different culutures.
+          <br />
+          I'd like to dive into the tech industry because this is the place to
+          use technology to make the world a better place!
+          <br />
+          Now, I'm ready to contribute as a software developer in the global
+          environment.
+        </p>
+      </section>
+    );
+
     return (
       <div>
         <h4 className="Resume-name">Shoe Kure (Roy, 呉 書栄)</h4>
         <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
-        <div className="Resume-intro">
-          <h5>Hello, world!</h5>
-          <p>
-            My name is Roy.
-            <br />
-            I'm a happy learner and I love to learn about new technology every
-            day.
-            <br />
-            I communicate well with people from different culutures.
-            <br />
-            I'd like to dive into the tech industry because this is the place to
-            use technology to make the world a better place!
-            <br />
-            Now, I'm ready to contribute as a software developer in the global
-            environment.
-          </p>
-        </div>
+        <div className="Resume-intro">{ResumeIntro}</div>
         <div className="Resume-contact">
           <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
           <i className="fas fa-map-marked-alt" aria-hidden="true" />
@@ -85,4 +89,4 @@ class ResumeIntro extends Component {
   }
 }
 
-export default ResumeIntro;
+export default ResumeIntroduction;

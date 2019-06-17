@@ -107,11 +107,13 @@ h4 {
 .Landing-social-links {
   display: flex;
   justify-content: space-between;
-  width: 45%;
+  align-items: flex-start;
+  width: 40%;
   margin: auto;
 }
 
 .Landing-social-links i {
+  display: inline-flexbox;
   color: white;
   font-size: 5em;
   padding: 0.1em;
@@ -230,32 +232,33 @@ h4 {
     color: white;
     font-size: 16px;
     padding-top: 13px;
-    padding-bottom: 2px;
+    margin-bottom: 5px;
   }
   .Landing-banner-text span {
     color: white;
-    font-size: 15px;
+    font-size: 13.5px;
     padding-top: 13px;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
     padding-left: 0px;
   }
   .Landing-social-links {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
-    width: 65%;
+    width: 60%;
     margin: auto;
   }
   .Landing-social-links i {
     color: white;
-    font-size: 3em;
+    font-size: 2.7em;
     padding: 4px;
   }
-  .Landing-social-links img {
+  /* .Landing-social-links img {
     color: white;
     width: 3.2em;
     padding: 3.5px;
     padding-top: 0.35em;
-  }
+  } */
 
   .Landing-phone-profile img {
     display: inline-flex;

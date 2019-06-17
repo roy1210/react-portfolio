@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import LandingPlayground from "./LandingPage/LandingPlayground";
+import LandingIcon from "./LandingPage/LandingIcon";
 import profile from "../img/profile.jpg";
 import "../CSS/Landing.css";
-// import codeSandBox from "../img/CodeSandBox.png";
 
 class Landing extends Component {
   render() {
@@ -22,7 +22,6 @@ class Landing extends Component {
               <h3>Hi, this is Roy. Nice to meet you.</h3>
               <h4>Front / Back - End Developer</h4>
               <hr />
-              {/* <p>JavaScript | React | Python | Golang | Solidity</p> */}
               <p>
                 <span className="Landing-javascript">JavaScript</span> |{" "}
                 <span className="Landing-react">React</span> |{" "}
@@ -31,39 +30,18 @@ class Landing extends Component {
                 <span className="Landing-solidity">Solidity</span>
               </p>
               <div className="Landing-social-links">
-                {/* LinkedIn */}
-                <a
-                  href="https://www.linkedin.com/in/shoe-kure-2271ab90/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fab fa-linkedin" aria-hidden="true" />
-                </a>
-                {/* Github */}
-                <a
-                  href="https://github.com/roy1210"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fab fa-github" aria-hidden="true" />
-                </a>
-                {/* CodeSandBox */}
-                <a
-                  href="https://codesandbox.io/u/roy1210/sandboxes"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  {/* <img src={codeSandBox} alt="CodeSandBox" /> */}
-                  <i className="fab fas fa-cube" aria-hidden="true" />
-                </a>
-                {/* CodeSandBox
-                <a
-                  href="https://codesandbox.io/u/roy1210/sandboxes"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fab fa-codepen" aria-hidden="true" />
-                </a> */}
+                <LandingIcon
+                  url="https://www.linkedin.com/in/shoe-kure-2271ab90/"
+                  icon="fab fa-linkedin"
+                />
+                <LandingIcon
+                  url="https://github.com/roy1210"
+                  icon="fab fa-github"
+                />
+                <LandingIcon
+                  url="https://codesandbox.io/u/roy1210/sandboxes"
+                  icon="fab fas fa-cube"
+                />
               </div>
             </div>
             <div className="LandingFooter">

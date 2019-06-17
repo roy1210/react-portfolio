@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import ResumeEducations from "./Resume/ResumeEducations";
 import ResumeExperiences from "./Resume/ResumeExperiences";
 import ResumeSkills from "./Resume/ResumeSkills";
-import ResumeIntro from "./Resume/ResumeIntro";
+import ResumeIntroduction from "./Resume/ResumeIntroduction";
 import Barcerona from "../img/Barcerona.jpg";
 import "../CSS/Resume.css";
 
@@ -17,7 +17,7 @@ class Resume extends Component {
               <img src={Barcerona} alt="avatar" />
             </div>
             <div className="Resume-fade-in two">
-              <ResumeIntro />
+              <ResumeIntroduction />
             </div>
           </Cell>
           <Cell className="Resume-right-col" col={8} phone={12} tablet={12}>
