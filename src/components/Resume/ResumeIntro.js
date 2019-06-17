@@ -45,7 +45,7 @@ class ResumeIntro extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              https://www.linkedin.com/in/roy1210
+              https://linkedin.com/in/roy1210
             </a>
           </div>
           <i className="fab fa-github" aria-hidden="true" />
@@ -57,15 +57,15 @@ class ResumeIntro extends Component {
             https://github.com/roy1210
           </a>
           <br />
-          {/* <i className="fab fa-codepen" aria-hidden="true" /> */}
           <div className="Resume-codeSandBox">
+            {/* Traffic stats:	http://bit.do/codesandbox-roy- */}
             <img src={codeSandBox} alt="CodeSandBox" />
             <a
               href="https://codesandbox.io/u/roy1210/sandboxes"
               rel="noopener noreferrer"
               target="_blank"
             >
-              https://tinyurl.com/codesandbox-roy
+              http://bit.do/codesandbox-roy
             </a>
           </div>
           <div className="Resume-home">
