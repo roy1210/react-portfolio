@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import codeSandBox from "../../img/ResumeCodeSandBox.png";
+
 class ResumeIntro extends Component {
   render() {
     return (
@@ -43,7 +45,7 @@ class ResumeIntro extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              https://www.linkedin.com/in/roy1210/
+              https://www.linkedin.com/in/roy1210
             </a>
           </div>
           <i className="fab fa-github" aria-hidden="true" />
@@ -55,15 +57,17 @@ class ResumeIntro extends Component {
             https://github.com/roy1210
           </a>
           <br />
-          <i className="fab fa-codepen" aria-hidden="true" />
-          <a
-            href="https://codesandbox.io/u/roy1210/sandboxes"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            https://codesandbox.io/u/roy1210/sandboxes
-          </a>
-          <br />
+          {/* <i className="fab fa-codepen" aria-hidden="true" /> */}
+          <div className="Resume-codeSandBox">
+            <img src={codeSandBox} alt="CodeSandBox" />
+            <a
+              href="https://codesandbox.io/u/roy1210/sandboxes"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              https://tinyurl.com/codesandbox-roy
+            </a>
+          </div>
           <div className="Resume-home">
             <i className="fas fa-home" aria-hidden="true" />
             <a
@@ -71,7 +75,7 @@ class ResumeIntro extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              https://roy-k.tk/
+              https://roy-k.tk
             </a>
           </div>
           <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />

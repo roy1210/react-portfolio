@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import LandingPlayground from "./LandingPage/LandingPlayground";
 import profile from "../img/profile.jpg";
+import codeSandBox from "../img/CodeSandBox.png";
 import "../CSS/Landing.css";
 
 class Landing extends Component {
@@ -45,8 +46,16 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fab fa-codepen" aria-hidden="true" />
+                  <img src={codeSandBox} alt="CodeSandBox" />
                 </a>
+                {/* CodeSandBox
+                <a
+                  href="https://codesandbox.io/u/roy1210/sandboxes"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fab fa-codepen" aria-hidden="true" />
+                </a> */}
               </div>
             </div>
             <div className="LandingWrapper">

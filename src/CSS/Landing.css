@@ -87,6 +87,12 @@ h4 {
   padding: 0.1em;
   padding-bottom: 0.3em;
 }
+.Landing-social-links img {
+  color: white;
+  width: 5em;
+  padding: 0.1em;
+  padding-top: 0.5em;
+}
 
 .LandingFooter {
   bottom: 0;
@@ -195,6 +201,12 @@ h4 {
     color: white;
     font-size: 3em;
     padding: 4px;
+  }
+  .Landing-social-links img {
+    color: white;
+    width: 3.2em;
+    padding: 3.5px;
+    padding-top: 0.35em;
   }
 
   .Landing-phone-profile img {
