@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import LandingPlayground from "./LandingPage/LandingPlayground";
 import profile from "../img/profile.jpg";
-import codeSandBox from "../img/CodeSandBox.png";
 import "../CSS/Landing.css";
+// import codeSandBox from "../img/CodeSandBox.png";
 
 class Landing extends Component {
   render() {
@@ -22,7 +22,14 @@ class Landing extends Component {
               <h3>Hi, this is Roy. Nice to meet you.</h3>
               <h4>Front / Back - End Developer</h4>
               <hr />
-              <p>JavaScript | React | Python | Golang | Solidity</p>
+              {/* <p>JavaScript | React | Python | Golang | Solidity</p> */}
+              <p>
+                <span className="Landing-javascript">JavaScript</span> |{" "}
+                <span className="Landing-react">React</span> |{" "}
+                <span className="Landing-python">Python</span> |{" "}
+                <span className="Landing-golang">Golang</span> |{" "}
+                <span className="Landing-solidity">Solidity</span>
+              </p>
               <div className="Landing-social-links">
                 {/* LinkedIn */}
                 <a
@@ -46,7 +53,8 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <img src={codeSandBox} alt="CodeSandBox" />
+                  {/* <img src={codeSandBox} alt="CodeSandBox" /> */}
+                  <i className="fab fas fa-cube" aria-hidden="true" />
                 </a>
                 {/* CodeSandBox
                 <a
@@ -58,10 +66,8 @@ class Landing extends Component {
                 </a> */}
               </div>
             </div>
-            <div className="LandingWrapper">
-              <div className="LandingFooter">
-                <small>© {new Date().getFullYear()} Shoe Kure</small>
-              </div>
+            <div className="LandingFooter">
+              <small>© {new Date().getFullYear()} Shoe Kure</small>
             </div>
           </Cell>
         </Grid>
