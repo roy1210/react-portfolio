@@ -269,7 +269,7 @@ h4 {
   #Landing-f1_container {
     display: none;
   }
-  /* .LandingFooter {
+  .LandingFooter {
     display: flex;
     justify-content: center;
     padding: 5px 0px;
@@ -277,7 +277,7 @@ h4 {
     position: fixed;
     bottom: 0;
     left: 36.5%;
-  } */
+  }
 }
 @media screen and (max-width: 800px) and (min-width: 480px) {
   .Landing-banner-text {
