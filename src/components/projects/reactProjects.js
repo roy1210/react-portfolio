@@ -44,12 +44,13 @@ class ReactProjects extends Component {
 
           <Cell col={4} phone={12}>
             <Project
-              photoUrl="https://github.com/roy1210/react-roll-dice/blob/master/pic-screenshot.gif?raw=true"
+              photoUrl="https://github.com/roy1210/react-roll-dice/blob/master/screenShot.jpg?raw=true"
               name="Roll dice"
               detail1="Material for rolling dice"
               github="https://github.com/roy1210/react-roll-dice"
               codesandbox="https://codesandbox.io/s/dice-xjrei"
               siteUrl="https://rolling-dice-k.netlify.com"
+              titleColor="black"
             />
           </Cell>
 
