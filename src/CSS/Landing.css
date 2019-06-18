@@ -138,11 +138,7 @@ h4 {
 .LandingFooter {
   display: flex;
   justify-content: center;
-  padding: 5px 0px;
-  padding-bottom: 5px;
-  position: fixed;
-  bottom: 0;
-  left: 46%;
+  padding: 0px;
 }
 
 /* Flipping a simple image to a div */
