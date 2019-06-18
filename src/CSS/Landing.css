@@ -138,8 +138,11 @@ h4 {
 .LandingFooter {
   display: flex;
   justify-content: center;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  padding: 5px 0px;
+  padding-bottom: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 46%;
 }
 
 /* Flipping a simple image to a div */
@@ -269,6 +272,15 @@ h4 {
   /* Flipping a simple image to a div */
   #Landing-f1_container {
     display: none;
+  }
+  .LandingFooter {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 36.5%;
   }
 }
 @media screen and (max-width: 800px) and (min-width: 480px) {
