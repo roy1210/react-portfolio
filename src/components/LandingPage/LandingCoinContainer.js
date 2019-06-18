@@ -108,6 +108,15 @@ class LandingCoinContainer extends Component {
             </div>
           </div>
         )}
+        <div className="CoinContainer-footer">
+          <a
+            href="https://codesandbox.io/s/flip-coin-6mu0b"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            CodeSandBox
+          </a>
+        </div>
       </div>
     );
   }

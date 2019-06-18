@@ -3,6 +3,13 @@
   flex-flow: column nowrap;
   /* min-height: 100vh; */
   background-color: #aaa;
+  position: relative;
+}
+
+.RollDice-footer {
+  position: fixed;
+  bottom: 0;
+  right: 2%;
 }
 
 .RollDice-container {

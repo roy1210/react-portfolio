@@ -57,6 +57,15 @@ class LandingRollDice extends Component {
           {this.state.rolling ? "Rolling..." : "Roll Dice!"}
         </button>
         <div className="RollDice-funfact">{funFact}</div>
+        <div className="RollDice-footer">
+          <a
+            href="https://codesandbox.io/s/dice-xjrei"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            CodeSandBox
+          </a>
+        </div>
       </div>
     );
   }

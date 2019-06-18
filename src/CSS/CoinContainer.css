@@ -53,6 +53,16 @@
   height: 100px;
 }
 
+.CoinContainer {
+  position: relative;
+}
+
+.CoinContainer-footer {
+  position: fixed;
+  bottom: 0;
+  right: 2%;
+}
+
 /* Spin */
 
 .Coin-spinning img {
