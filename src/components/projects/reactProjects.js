@@ -46,7 +46,7 @@ class ReactProjects extends Component {
             <Project
               photoUrl="https://github.com/roy1210/react-roll-dice/blob/master/screenShot.jpg?raw=true"
               name="Roll dice"
-              detail1="Material for rolling dice"
+              detail1="Component for rolling dice"
               github="https://github.com/roy1210/react-roll-dice"
               codesandbox="https://codesandbox.io/s/dice-xjrei"
               siteUrl="https://rolling-dice-k.netlify.com"
@@ -54,7 +54,7 @@ class ReactProjects extends Component {
             />
           </Cell>
 
-          <Cell col={4} phone={12}>
+          {/* <Cell col={4} phone={12}>
             <Project
               photoUrl="https://github.com/roy1210/JS_React_Pokemon-Cards/blob/master/src/Poke-cards.jpg?raw=true"
               name="Pokemon cards"
@@ -64,7 +64,7 @@ class ReactProjects extends Component {
               siteUrl="https://poke-cards-roy1210.netlify.com/"
               titleColor="black"
             />
-          </Cell>
+          </Cell> */}
         </Grid>
       </div>
     );
