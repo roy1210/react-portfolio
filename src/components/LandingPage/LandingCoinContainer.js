@@ -41,8 +41,7 @@ class LandingCoinContainer extends Component {
     await this.setState(() => {
       return { betOn: e };
     });
-    console.log(this.state.betOn);
-    this.flipCoin();
+    await this.flipCoin();
   }
 
   render() {
