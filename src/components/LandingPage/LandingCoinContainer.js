@@ -5,18 +5,7 @@ import "../../CSS/CoinContainer.css";
 
 class LandingCoinContainer extends Component {
   static defaultProps = {
-    coins: [
-      {
-        side: "bitcoin",
-        imgSrc:
-          "https://cdn.shopify.com/s/files/1/1277/7365/products/bitcoin-ag-obverse_740x.png?v=1547616796"
-      },
-      {
-        side: "dog-coin",
-        imgSrc:
-          "https://www.wildtornado.com/blog/wp-content/uploads/2018/08/0f21b-dog-291x300.png"
-      }
-    ]
+    coins: [{ side: "bitcoin" }, { side: "dog-coin" }]
   };
   constructor(props) {
     super(props);
