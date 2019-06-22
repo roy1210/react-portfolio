@@ -12,7 +12,7 @@ class ResumeIntroduction extends Component {
           I'm a happy learner and I love to learn about new technology every
           day.
           <br />
-          I communicate well with people from different culutures.
+          I communicate well with people from different cultures.
           <br />
           I'd like to dive into the tech industry because this is the place to
           use technology to make the world a better place!
