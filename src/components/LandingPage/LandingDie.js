@@ -3,12 +3,8 @@ import "../../CSS/Die.css";
 
 class LandingDie extends Component {
   render() {
-    return (
-      <i
-        className={`Die fas fa-dice-${this.props.face} ${this.props.rolling &&
-          "shaking"}`}
-      />
-    );
+    const { face, rolling } = this.props;
+    return <i className={`Die fas fa-dice-${face} ${rolling && "shaking"}`} />;
   }
 }
 
