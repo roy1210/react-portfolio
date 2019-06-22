@@ -30,19 +30,19 @@
 
 .CoinContainer-win span {
   font-size: 1.1em;
-  color: red;
+  color: green;
   padding: 0.15em;
 }
 
 .CoinContainer-lose span {
   font-size: 1em;
-  color: blue;
+  color: crimson;
   padding: 0.2em;
 }
 
 .CoinContainer-even span {
   font-size: 1em;
-  color: green;
+  color: wheat;
   padding: 0.2em;
 }
 
