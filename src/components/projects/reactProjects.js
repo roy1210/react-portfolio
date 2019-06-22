@@ -21,13 +21,12 @@ class ReactProjects extends Component {
 
           <Cell col={4} phone={12}>
             <Project
-              photoUrl="https://github.com/roy1210/react-flip-coin/blob/master/src/img/screenshot.gif?raw=true"
+              photoUrl="https://github.com/roy1210/react-flip-coin/blob/master/src/img/Screenshot.gif?raw=true"
               name="Flip coin"
               detail1="A mini-game guessing which coin shows up"
               github="https://github.com/roy1210/react-flip-coin"
               codesandbox="https://codesandbox.io/s/flip-coin-6mu0b"
               siteUrl="https://coin-game-k.netlify.com"
-              titleColor="black"
             />
           </Cell>
 
