@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { choice } from "./LandingHelpers";
 import LandingCoin from "./LandingCoin";
+import Bitcoin from "../../img/Bitcoin.png";
+import DogCoin from "../../img/DogCoin.png";
 import "../../CSS/CoinContainer.css";
 
 class LandingCoinContainer extends Component {
@@ -41,10 +43,17 @@ class LandingCoinContainer extends Component {
     await this.setState(() => {
       return { betOn: e };
     });
-    await this.flipCoin();
+    this.flipCoin();
   }
 
   render() {
+    const mountPhoto = (
+      <div style={{ display: "none" }}>
+        <img src={Bitcoin} alt="bitcoin" />
+        <img src={DogCoin} alt="dog-coin" />
+      </div>
+    );
+
     return (
       <div className="CoinContainer">
         <h2 className="CoinContainer-fade-in one">
@@ -105,6 +114,8 @@ class LandingCoinContainer extends Component {
             CodeSandBox
           </a>
         </div>
+        {/* Mount photo to avoid lag. display: none */}
+        {mountPhoto}
       </div>
     );
   }
