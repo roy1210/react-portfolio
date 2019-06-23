@@ -22,7 +22,7 @@ class ResumeSkills extends Component {
           and Django
         </p>
         <SkillsProgress skill="Golang" progress={50} />
-        <p>Basic syntax, Gobot.</p>
+        <p>Basic syntax, Gobot, GoCV</p>
         <SkillsProgress skill="Solidity" progress={40} />
         <p>
           Basic syntax for web3, making Dapps by Truffle, Metamask, Ganache and
