@@ -26,7 +26,7 @@ class NavigationLayout extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header
-            style={{ position: "fixed", opacity: "0.95" }}
+            // style={{ position: "fixed", opacity: "0.95" }}
             className="header-color"
             title={
               <Link style={{ textDecoration: "none", color: "white" }} to="/">
@@ -42,7 +42,6 @@ class NavigationLayout extends Component {
             </Navigation>
           </Header>
           <Drawer
-            style={{ position: "fixed" }}
             title={
               <Link style={{ textDecoration: "none", color: "black" }} to="/">
                 Roy

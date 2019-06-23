@@ -41,3 +41,13 @@
 
 @media only screen and (max-width: 480px) {
 }
+
+@media only screen and (min-width: 1024px) {
+  header {
+    position: fixed;
+    opacity: 0.95;
+  }
+  Drawer {
+    position: fixed;
+  }
+}
