@@ -19,10 +19,6 @@
   /* border: medium solid yellow; */
   border: none !important;
 }
-/* <footer class="mdl-mini-footer */
-/* .mdl-mini-footer{
-  background-color: white;
-} */
 
 .mdl-mini-footer {
   display: -webkit-flex;
@@ -37,6 +33,10 @@
   padding: 5px 16px !important;
   color: black !important;
   background-color: white !important;
+}
+
+.mdl-layout__drawer-button {
+  position: fixed !important;
 }
 
 @media only screen and (max-width: 480px) {

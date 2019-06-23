@@ -69,12 +69,14 @@
 }
 /* End fade in */
 
-@media only screen and (max-width: 700px) {
-  .Projects-Project {
-    width: 70%;
-  }
-
+@media only screen and (max-width: 800px) {
   .Projects-category-tabs {
     margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .Projects {
+    padding-top: 4.8em;
   }
 }

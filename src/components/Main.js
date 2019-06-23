@@ -6,9 +6,7 @@ import Projects from "./Projects";
 import Resume from "./Resume";
 
 // no need class for `stateless`
-// exact pass for default page
 // can omit `const Main = () => { return () } ` as `const Main =() => ( <Switch></Switch> ); `
-
 const Main = () => {
   return (
     <Switch>

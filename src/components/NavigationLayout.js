@@ -26,6 +26,7 @@ class NavigationLayout extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header
+            style={{ position: "fixed" }}
             className="header-color"
             title={
               <Link style={{ textDecoration: "none", color: "white" }} to="/">
@@ -41,6 +42,7 @@ class NavigationLayout extends Component {
             </Navigation>
           </Header>
           <Drawer
+            style={{ position: "fixed" }}
             title={
               <Link style={{ textDecoration: "none", color: "black" }} to="/">
                 Roy
@@ -56,6 +58,7 @@ class NavigationLayout extends Component {
             <div className="page-content" />
             <Main />
           </Content>
+
           <Footer size="mini">
             <FooterSection>
               <small>© {new Date().getFullYear()} Shoe Kure</small>

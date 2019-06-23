@@ -10,7 +10,7 @@ class LandingRollDice extends Component {
       "Favorite book: Digital Gold",
       "Favorite motto: Learn from yesterday, live for today, hope for tomorrow",
       "Finishing time for full marathon (42.195km): 6h 45m",
-      "Reached peak of Mt. Fuji in 9h",
+      "Reached peak of Mt. Fuji(3,776m) in 9h",
       "Favorite author: Yoichi Ochiai"
     ]
   };
