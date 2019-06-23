@@ -147,7 +147,7 @@ h4 {
   width: 750px;
   height: 385px;
   z-index: 1;
-  /* padding-top: 2.6em; */
+  padding-top: 2.6em;
 }
 #Landing-f1_container {
   perspective: 1000;

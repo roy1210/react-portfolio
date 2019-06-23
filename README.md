@@ -11,7 +11,7 @@ Portfolio website built with React.
 - React MDL material design
 - Semantic UI React
 
-##Start App
+## Start App
 
 Clone repo, install, cd into folder and run:
 
