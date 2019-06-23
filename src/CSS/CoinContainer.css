@@ -7,7 +7,7 @@
   border-radius: 10px;
   color: white;
   background-color: black;
-  margin: 0.9em;
+  margin: 0.5em;
 }
 
 .CoinContainer button:hover {
@@ -22,7 +22,7 @@
 
 .CoinContainer h2 {
   font-size: 1.3em;
-  margin-bottom: 0.03em;
+  margin-bottom: 0.02em;
 }
 .CoinContainer h4 {
   font-size: 1em;
