@@ -14,6 +14,9 @@
   font-size: 1.2em;
   line-height: 1.5em;
 }
+.Resume-txt-center {
+  text-align: center;
+}
 
 .Resume-name {
   text-align: center;
@@ -162,6 +165,10 @@ span {
 
 .Resume-education-job a {
   font-size: 1em;
+}
+
+.description {
+  font-size: 0.95em;
 }
 
 @-webkit-keyframes fadeIn {
