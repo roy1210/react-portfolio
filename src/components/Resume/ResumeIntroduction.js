@@ -8,7 +8,7 @@ class ResumeIntroduction extends Component {
       <section>
         <h5 className="Resume-txt-center">Hello, world!</h5>
         <p>
-          My name is Roy.
+          Hi, this is Roy.
           <br />
           I'm a happy learner and I love to learn about new technology every
           day.
@@ -86,64 +86,88 @@ class ResumeIntroduction extends Component {
 
     const thisYear = new Date().getFullYear();
     const nextYear = new Date().getFullYear() + 1;
-    const ResumeInterest = (
+
+    const ResumePlans = (
       <section>
         <h5 className="Resume-txt-center">
-          {thisYear}-{nextYear} Plans
+          {thisYear}-{nextYear} Study plans
         </h5>
         <List>
           <List.Item>
             {/* L1 */}
             <List.Icon name="folder open" />
             <List.Content>
-              <List.Header>Skills to learn</List.Header>
-              <List.Description>
-                - Source files for keen to learn
-              </List.Description>
+              <List.Header>
+                SkillsToLearn
+                {
+                  <span className="Resume-plans-description">
+                    : Source files for keen to learn
+                  </span>
+                }
+                {/* <List.Description>
+                  - Source files for keen to learn
+                </List.Description> */}
+              </List.Header>
+
               {/* L2 */}
               <List.List>
                 <List.Item>
                   <List.Icon name="folder open" />
                   <List.Content>
                     <List.Header>JavaScript</List.Header>
-                    {/* <List.Description>To develop web App</List.Description> */}
                     {/* L3 */}
                     <List.List>
                       <List.Item>
                         <List.Icon name="folder open" />
                         <List.Content>
-                          <List.Header>Library / Framework</List.Header>
+                          <List.Header>Library</List.Header>
                           {/* L4 */}
                           <List.List>
                             <List.Item>
                               <List.Icon
                                 name="linkify"
-                                style={{ paddingBottom: "0.5em" }}
+                                style={{ paddingBottom: "0.55em" }}
                               />
                               <List.Content>
                                 <List.Header>Redux</List.Header>
-                                {/* <List.Description>
-                                  Managing application state
-                                </List.Description> */}
                               </List.Content>
                             </List.Item>
                             <List.Item>
-                              <List.Icon name="react" />
+                              <List.Icon
+                                name="react"
+                                style={{ paddingBottom: "0.55em" }}
+                              />
                               <List.Content>
-                                <List.Header>React.js</List.Header>
-                                <List.Description>
+                                <List.Header>
+                                  React.js
+                                  {
+                                    <span className="Resume-plans-description">
+                                      : React Native, Next.js & GatsbyJS
+                                    </span>
+                                  }
+                                </List.Header>
+                                {/* <List.Description>
                                   - React Native, Next.js & GatsbyJS
-                                </List.Description>
+                                </List.Description> */}
                               </List.Content>
                             </List.Item>
                             <List.Item>
                               <List.Icon
                                 name="vuejs"
-                                style={{ paddingRight: "0.45em" }}
+                                style={{
+                                  paddingRight: "0.45em",
+                                  paddingBottom: "0.55em"
+                                }}
                               />
                               <List.Content>
-                                <List.Header>Vue.js</List.Header>
-                                <List.Description>- Nuxt.js</List.Description>
+                                <List.Header>
+                                  Vue.js
+                                  {
+                                    <span className="Resume-plans-description">
+                                      : Nuxt.js
+                                    </span>
+                                  }
+                                </List.Header>
                               </List.Content>
                             </List.Item>
                           </List.List>
@@ -152,7 +176,7 @@ class ResumeIntroduction extends Component {
                       <List.Item>
                         <List.Icon
                           name="js square"
-                          style={{ paddingBottom: "0.5em" }}
+                          style={{ paddingBottom: "0.55em" }}
                         />
                         <List.Content>
                           <List.Header>ES6, ES7</List.Header>
@@ -180,12 +204,19 @@ class ResumeIntroduction extends Component {
                     <List.Header>Golang</List.Header>
                     <List.List>
                       <List.Item>
-                        <List.Icon name="plane" />
+                        <List.Icon
+                          name="plane"
+                          style={{ paddingBottom: "0.7em" }}
+                        />
                         <List.Content>
-                          <List.Header>Drone</List.Header>
-                          <List.Description>
-                            - Operate drone by Gobot and GoCV
-                          </List.Description>
+                          <List.Header>
+                            Drone
+                            {
+                              <span className="Resume-plans-description">
+                                : Gobot & GoCV
+                              </span>
+                            }
+                          </List.Header>
                         </List.Content>
                       </List.Item>
                     </List.List>
@@ -203,22 +234,36 @@ class ResumeIntroduction extends Component {
                       <List.Item>
                         <List.Icon
                           name="python"
-                          style={{ paddingRight: "0.5em" }}
+                          style={{
+                            paddingRight: "0.5em",
+                            paddingBottom: "0.55em"
+                          }}
                         />
                         <List.Content>
-                          <List.Header>Django</List.Header>
-                          <List.Description>
-                            - Serving with React.js together
-                          </List.Description>
+                          <List.Header>
+                            Django
+                            {
+                              <span className="Resume-plans-description">
+                                : Serving with React.js together
+                              </span>
+                            }
+                          </List.Header>
                         </List.Content>
                       </List.Item>
                       <List.Item>
-                        <List.Icon name="plane" />
+                        <List.Icon
+                          name="plane"
+                          style={{ paddingBottom: "0.7em" }}
+                        />
                         <List.Content>
-                          <List.Header>Drone</List.Header>
-                          <List.Description>
-                            - Operate drone by tello edu SDK and openCV
-                          </List.Description>
+                          <List.Header>
+                            Drone
+                            {
+                              <span className="Resume-plans-description">
+                                : Tello edu SDK & openCV
+                              </span>
+                            }
+                          </List.Header>
                         </List.Content>
                       </List.Item>
                     </List.List>
@@ -228,12 +273,16 @@ class ResumeIntroduction extends Component {
 
                 {/* L2 */}
                 <List.Item>
-                  <List.Icon name="file code" />
+                  <List.Icon name="database" />
                   <List.Content>
-                    <List.Header>Firebase</List.Header>
-                    <List.Description>
-                      - Build serverless web app
-                    </List.Description>
+                    <List.Header>
+                      Firebase
+                      {
+                        <span className="Resume-plans-description">
+                          : Building a serverless web app
+                        </span>
+                      }
+                    </List.Header>
                   </List.Content>
                 </List.Item>
               </List.List>
@@ -261,7 +310,7 @@ class ResumeIntroduction extends Component {
         <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
         <div className="Resume-intro">{ResumeIntro}</div>
         <div className="Resume-contact">{ResumeContact}</div>
-        <div className="Resume-interest">{ResumeInterest}</div>
+        <div className="Resume-plans">{ResumePlans}</div>
       </div>
     );
   }

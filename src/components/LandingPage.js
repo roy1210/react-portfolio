@@ -7,6 +7,7 @@ import "../CSS/Landing.css";
 
 class Landing extends Component {
   render() {
+    const thisYear = new Date().getFullYear();
     return (
       <div
         style={{ width: "100%", margin: "auto" }}
@@ -45,7 +46,7 @@ class Landing extends Component {
               </div>
             </div>
             <div className="LandingFooter">
-              <small>© {new Date().getFullYear()} Shoe Kure</small>
+              <small>© {thisYear} Shoe Kure</small>
             </div>
           </Cell>
         </Grid>

@@ -170,10 +170,18 @@ span {
   font-size: 1em;
 }
 
-.description {
+.Resume-plans-description {
+  color: rgba(0, 0, 0, 0.7);
+  padding-left: 0.09em;
+  font-size: 0.9em;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* .description {
   padding-top: 0.2em;
   font-size: 0.95em;
-}
+} */
 
 @-webkit-keyframes fadeIn {
   from {
