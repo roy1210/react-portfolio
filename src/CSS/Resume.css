@@ -43,6 +43,9 @@
   font-size: 22px;
   padding-bottom: 0.5rem;
 }
+.Resume-linkedin i：hover {
+  color: white;
+}
 .Resume-codeSandBox img {
   color: black;
   width: 20px;
