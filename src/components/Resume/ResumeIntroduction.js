@@ -84,9 +84,13 @@ class ResumeIntroduction extends Component {
       </section>
     );
 
+    const thisYear = new Date().getFullYear();
+    const nextYear = new Date().getFullYear() + 1;
     const ResumeInterest = (
       <section>
-        <h5 className="Resume-txt-center">Skills to learn in 2019-2020</h5>
+        <h5 className="Resume-txt-center">
+          {thisYear}-{nextYear} Plans
+        </h5>
         <List>
           <List.Item>
             {/* L1 */}
@@ -94,7 +98,7 @@ class ResumeIntroduction extends Component {
             <List.Content>
               <List.Header>Skills to learn</List.Header>
               <List.Description>
-                Source files for keen to learn
+                - Source files for keen to learn
               </List.Description>
               {/* L2 */}
               <List.List>
@@ -128,7 +132,7 @@ class ResumeIntroduction extends Component {
                               <List.Content>
                                 <List.Header>React.js</List.Header>
                                 <List.Description>
-                                  Keen to learn about Next.js & GatsbyJS
+                                  - React Native, Next.js & GatsbyJS
                                 </List.Description>
                               </List.Content>
                             </List.Item>
@@ -139,9 +143,7 @@ class ResumeIntroduction extends Component {
                               />
                               <List.Content>
                                 <List.Header>Vue.js</List.Header>
-                                <List.Description>
-                                  Keen to learn about Nuxt.js
-                                </List.Description>
+                                <List.Description>- Nuxt.js</List.Description>
                               </List.Content>
                             </List.Item>
                           </List.List>
@@ -182,7 +184,7 @@ class ResumeIntroduction extends Component {
                         <List.Content>
                           <List.Header>Drone</List.Header>
                           <List.Description>
-                            Controll drone by Gobot and GoCV
+                            - Operate drone by Gobot and GoCV
                           </List.Description>
                         </List.Content>
                       </List.Item>
@@ -206,7 +208,7 @@ class ResumeIntroduction extends Component {
                         <List.Content>
                           <List.Header>Django</List.Header>
                           <List.Description>
-                            Serving with React.js together
+                            - Serving with React.js together
                           </List.Description>
                         </List.Content>
                       </List.Item>
@@ -215,7 +217,7 @@ class ResumeIntroduction extends Component {
                         <List.Content>
                           <List.Header>Drone</List.Header>
                           <List.Description>
-                            Controll drone by tello edu SDK and openCV
+                            - Operate drone by tello edu SDK and openCV
                           </List.Description>
                         </List.Content>
                       </List.Item>
@@ -230,7 +232,7 @@ class ResumeIntroduction extends Component {
                   <List.Content>
                     <List.Header>Firebase</List.Header>
                     <List.Description>
-                      Build serverless web app
+                      - Build serverless web app
                     </List.Description>
                   </List.Content>
                 </List.Item>
