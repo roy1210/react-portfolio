@@ -99,11 +99,9 @@ class ResumeIntroduction extends Component {
             <List.Content>
               <List.Header>
                 SkillsToLearn
-                {
-                  <span className="Resume-plans-description">
-                    : Source files for keen to learn
-                  </span>
-                }
+                <span className="Resume-plans-description">
+                  : Source files for keen to learn
+                </span>
                 {/* <List.Description>
                   - Source files for keen to learn
                 </List.Description> */}
@@ -140,11 +138,9 @@ class ResumeIntroduction extends Component {
                               <List.Content>
                                 <List.Header>
                                   React.js
-                                  {
-                                    <span className="Resume-plans-description">
-                                      : React Native, Next.js & GatsbyJS
-                                    </span>
-                                  }
+                                  <span className="Resume-plans-description">
+                                    : React Native, Next.js & GatsbyJS
+                                  </span>
                                 </List.Header>
                                 {/* <List.Description>
                                   - React Native, Next.js & GatsbyJS
@@ -162,11 +158,9 @@ class ResumeIntroduction extends Component {
                               <List.Content>
                                 <List.Header>
                                   Vue.js
-                                  {
-                                    <span className="Resume-plans-description">
-                                      : Nuxt.js
-                                    </span>
-                                  }
+                                  <span className="Resume-plans-description">
+                                    : Nuxt.js
+                                  </span>
                                 </List.Header>
                               </List.Content>
                             </List.Item>
@@ -211,11 +205,9 @@ class ResumeIntroduction extends Component {
                         <List.Content>
                           <List.Header>
                             Drone
-                            {
-                              <span className="Resume-plans-description">
-                                : Gobot & GoCV
-                              </span>
-                            }
+                            <span className="Resume-plans-description">
+                              : Gobot & GoCV
+                            </span>
                           </List.Header>
                         </List.Content>
                       </List.Item>
@@ -242,11 +234,9 @@ class ResumeIntroduction extends Component {
                         <List.Content>
                           <List.Header>
                             Django
-                            {
-                              <span className="Resume-plans-description">
-                                : Serving with React.js together
-                              </span>
-                            }
+                            <span className="Resume-plans-description">
+                              : Serving with React.js together
+                            </span>
                           </List.Header>
                         </List.Content>
                       </List.Item>
@@ -258,11 +248,9 @@ class ResumeIntroduction extends Component {
                         <List.Content>
                           <List.Header>
                             Drone
-                            {
-                              <span className="Resume-plans-description">
-                                : Tello edu SDK & openCV
-                              </span>
-                            }
+                            <span className="Resume-plans-description">
+                              : Tello edu SDK & openCV
+                            </span>
                           </List.Header>
                         </List.Content>
                       </List.Item>
@@ -277,11 +265,9 @@ class ResumeIntroduction extends Component {
                   <List.Content>
                     <List.Header>
                       Firebase
-                      {
-                        <span className="Resume-plans-description">
-                          : Building a serverless web app
-                        </span>
-                      }
+                      <span className="Resume-plans-description">
+                        : Building a serverless web app
+                      </span>
                     </List.Header>
                   </List.Content>
                 </List.Item>
