@@ -279,8 +279,6 @@ h4 {
   .LandingFooter {
     display: flex;
     justify-content: center;
-    padding: 5px 0px;
-    padding-bottom: 5px;
     position: fixed;
     bottom: 0;
     left: 36.5%;

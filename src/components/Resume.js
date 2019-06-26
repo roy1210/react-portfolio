@@ -32,6 +32,7 @@ class Resume extends Component {
             </div>
           </Cell>
         </Grid>
+        <section style={{ marginBottom: "1em" }} />
       </div>
     );
   }

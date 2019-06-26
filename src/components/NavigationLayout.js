@@ -15,6 +15,7 @@ import "../CSS/App.css";
 
 class NavigationLayout extends Component {
   render() {
+    const thisYear = new Date().getFullYear();
     const miniPlayground = () => (
       <Popup
         trigger={<Icon name="js" color="yellow" size="large" circular />}
@@ -56,13 +57,10 @@ class NavigationLayout extends Component {
           <Content>
             <div className="page-content" />
             <Main />
+            <div className="footer">
+              <small>© {thisYear} Shoe Kure</small>
+            </div>
           </Content>
-
-          <Footer size="mini">
-            <FooterSection>
-              <small>© {new Date().getFullYear()} Shoe Kure</small>
-            </FooterSection>
-          </Footer>
         </Layout>
       </div>
     );
