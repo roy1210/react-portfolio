@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import codeSandBox from "../../img/ResumeCodeSandBox.png";
 import { List } from "semantic-ui-react";
 
 class ResumeIntroduction extends Component {
   render() {
     const ResumeIntro = (
-      <section>
+      <Fragment>
         <h5 className="Resume-txt-center">Hello, world!</h5>
         <p>
           Hi, this is Roy.
@@ -22,11 +22,11 @@ class ResumeIntroduction extends Component {
           environment.
         </p>
         <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
-      </section>
+      </Fragment>
     );
 
     const ResumeContact = (
-      <section>
+      <Fragment>
         <h5 className="Resume-txt-center">About / Contact</h5>
         <i className="fas fa-map-marked-alt" aria-hidden="true" />
         <span>Singapore</span>
@@ -81,14 +81,14 @@ class ResumeIntroduction extends Component {
           </a>
         </div>
         <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
-      </section>
+      </Fragment>
     );
 
     const thisYear = new Date().getFullYear();
     const nextYear = new Date().getFullYear() + 1;
 
     const ResumePlans = (
-      <section>
+      <Fragment>
         <h5 className="Resume-txt-center">
           {thisYear}-{nextYear} Study plans
         </h5>
@@ -235,7 +235,7 @@ class ResumeIntroduction extends Component {
                           <List.Header>
                             Django
                             <span className="Resume-plans-description">
-                              : Serving with React.js together
+                              : Serving with React.js
                             </span>
                           </List.Header>
                         </List.Content>
@@ -287,17 +287,17 @@ class ResumeIntroduction extends Component {
           </List.Item> */}
         </List>
         <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
-      </section>
+      </Fragment>
     );
 
     return (
-      <div>
+      <Fragment>
         <h4 className="Resume-name">Shoe Kure (Roy, 呉 書栄)</h4>
         <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
         <div className="Resume-intro">{ResumeIntro}</div>
         <div className="Resume-contact">{ResumeContact}</div>
         <div className="Resume-plans">{ResumePlans}</div>
-      </div>
+      </Fragment>
     );
   }
 }

@@ -157,6 +157,12 @@ span {
   color: white;
 }
 
+#Resume-react-bar .mdl-progress .mdl-js-progress .is-upgraded .data-upgraded {
+  margin-left: 3.7em !important;
+}
+
+/* <div class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress" style="margin: auto;margin-left: 3.7em;width: 75%;"><div class="progressbar bar bar1" style="width: 35%;"></div><div class="bufferbar bar bar2" style="width: 35%;"></div><div class="auxbar bar bar3" style="width: 65%;"></div></div> */
+
 .Resume-education-job {
   color: white;
 }
