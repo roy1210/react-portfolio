@@ -8,7 +8,7 @@ class ResumeExperience extends Component {
     return (
       <Grid>
         <Cell col={3} phone={12}>
-          <p>
+          <p style={{ color: "white" }}>
             {" "}
             {startYear} - {endYear}{" "}
           </p>

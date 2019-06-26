@@ -110,6 +110,14 @@
   padding-right: 5rem;
 }
 
+.Resume-plans-description {
+  color: rgba(0, 0, 0, 0.7);
+  padding-left: 0.09em;
+  font-size: 0.9em;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 .Resume-right-col {
   background: #27221f;
   color: white;
@@ -118,7 +126,6 @@
 }
 
 .Resume-right-col h3 {
-  paddingtop: 1em;
   color: sienna;
   font-family: monospace;
 }
@@ -139,11 +146,18 @@
   /* text-shadow: 0px 0px 20px silver; */
 }
 
+.Resume-skill-title {
+  display: flex;
+  font-size: 1.4em;
+}
+
 .Resume-skills p,
 span {
-  color: white;
   font-size: 1.1em;
   padding-left: 1em;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  color: lightgray;
 }
 
 .Resume-skills a {
@@ -157,37 +171,26 @@ span {
   color: white;
 }
 
-#Resume-react-bar .mdl-progress .mdl-js-progress .is-upgraded .data-upgraded {
-  margin-left: 3.7em !important;
-}
-
-/* <div class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress" style="margin: auto;margin-left: 3.7em;width: 75%;"><div class="progressbar bar bar1" style="width: 35%;"></div><div class="bufferbar bar bar2" style="width: 35%;"></div><div class="auxbar bar bar3" style="width: 65%;"></div></div> */
-
 .Resume-education-job {
   color: white;
 }
 
+.Resume-education-job h5 {
+  line-height: 2em;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
 .Resume-education-job p {
   line-height: 2em;
   font-size: 1.2em;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  color: lightgray;
 }
 
 .Resume-education-job a {
   font-size: 1em;
 }
-
-.Resume-plans-description {
-  color: rgba(0, 0, 0, 0.7);
-  padding-left: 0.09em;
-  font-size: 0.9em;
-  font-weight: 400;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-/* .description {
-  padding-top: 0.2em;
-  font-size: 0.95em;
-} */
 
 @-webkit-keyframes fadeIn {
   from {
@@ -248,12 +251,96 @@ span {
 }
 
 @media only screen and (max-width: 800px) {
+  .mdl-grid {
+    padding: 4.5px !important;
+  }
+
   .Resume-avatar img {
     margin-top: 3em;
     height: 280px;
     border-radius: 10%;
     -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.8));
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .Resume-right-col {
+    background: #27221f;
+    color: white;
+    padding: 1.5em 0.5em;
+    line-height: 0.3em;
+  }
+
+  .Resume-right-col h3 {
+    font-size: 2.2em;
+    color: sienna;
+    font-family: monospace;
+    margin-bottom: 0em;
+  }
+
+  .Resume-frontend {
+    font-size: 1.6em;
+    margin: 1em 0em;
+    padding-left: 0.2em;
+    color: darkgray;
+    text-shadow: 1px 1px 0px darkgray, 2px 2px 0px black, 3px 3px 0px black,
+      4px 4px 0px darkgray, 3px 3px 0px #7777aa;
+  }
+
+  .Resume-backend {
+    font-size: 1.6em;
+    padding-left: 0.5em;
+    color: darkgray;
+    text-shadow: -1px -1px 15px goldenrod, 1px 1px #ffffff;
+    /* text-shadow: 0px 0px 20px silver; */
+  }
+
+  /* .Resume-skills > div > div:nth-child(4){
+  color:yellow !important;
+} */
+
+  .Resume-skill-title {
+    display: flex;
+    font-size: 1.2em;
+  }
+
+  .Resume-skills p,
+  span {
+    /* color: white; */
+    font-size: 1em;
+    padding-left: 1em;
+    font-weight: 400;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  .Resume-skills a {
+    font-size: 1em;
+    padding-left: 1em;
+  }
+
+  .Resume-skills h4 {
+    text-align: center;
+    padding-top: 0em;
+    color: white;
+  }
+
+  .Resume-education-job {
+    color: white;
+  }
+
+  .Resume-education-job h5 {
+    line-height: 2em;
+    font-size: 1.05em;
+  }
+
+  .Resume-education-job p {
+    line-height: 2em;
+    font-size: 1em;
+    color: lightgray;
+    font-weight: 400;
+  }
+
+  .Resume-education-job a {
+    font-size: 1em;
   }
 }
 @media only screen and (min-width: 800px) {

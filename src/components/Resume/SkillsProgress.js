@@ -9,7 +9,7 @@ class SkillsProgress extends Component {
       // Use progress bar
       <Grid>
         <Cell col={12}>
-          <div style={{ display: "flex", fontSize: "1.4em" }}>
+          <div className="Resume-skill-title">
             {skill} {space}
             <ProgressBar
               style={{ margin: "auto", width: "75%" }}

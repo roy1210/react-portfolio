@@ -25,7 +25,7 @@ class ResumeEducations extends Component {
         <ResumeEducation
           startYear="2010"
           endYear="2014"
-          schoolName="Academic: Sun Yat-sen University  – Guangdong, China"
+          schoolName="Academic: Sun Yat-sen University - Guangdong, China"
           schoolDescription="Bachelor of Management"
         />
         <hr style={{ borderTop: "3px solid #e22947" }} />

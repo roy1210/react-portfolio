@@ -102,9 +102,6 @@ class ResumeIntroduction extends Component {
                 <span className="Resume-plans-description">
                   : Source files for keen to learn
                 </span>
-                {/* <List.Description>
-                  - Source files for keen to learn
-                </List.Description> */}
               </List.Header>
 
               {/* L2 */}
@@ -139,12 +136,9 @@ class ResumeIntroduction extends Component {
                                 <List.Header>
                                   React.js
                                   <span className="Resume-plans-description">
-                                    : React Native, Next.js & GatsbyJS
+                                    : React Native & GatsbyJS
                                   </span>
                                 </List.Header>
-                                {/* <List.Description>
-                                  - React Native, Next.js & GatsbyJS
-                                </List.Description> */}
                               </List.Content>
                             </List.Item>
                             <List.Item>
@@ -263,12 +257,7 @@ class ResumeIntroduction extends Component {
                 <List.Item>
                   <List.Icon name="database" />
                   <List.Content>
-                    <List.Header>
-                      Firebase
-                      <span className="Resume-plans-description">
-                        : Building a serverless web app
-                      </span>
-                    </List.Header>
+                    <List.Header>Firebase</List.Header>
                   </List.Content>
                 </List.Item>
               </List.List>

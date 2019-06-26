@@ -15,15 +15,13 @@ class ResumeEducation extends Component {
     return (
       <Grid>
         <Cell col={3} phone={12}>
-          <p>
+          <p style={{ color: "white" }}>
             {" "}
             {startYear} - {endYear}{" "}
           </p>
         </Cell>
         <Cell col={9} phone={12}>
-          <h5 style={{ marginTop: "5px", marginBottom: "0px" }}>
-            {schoolName}
-          </h5>
+          <h5>{schoolName}</h5>
           <p>{schoolDescription}</p>
           <a href={certificationUrl} target="_blank" rel="noopener noreferrer">
             {schoolRef}
