@@ -23,7 +23,7 @@ class ReactProjects extends Component {
             <Project
               photoUrl="https://github.com/roy1210/react-flip-coin/blob/master/src/img/Screenshot.gif?raw=true"
               name="Flip coin"
-              detail1="A mini-game guessing which coin shows up"
+              detail1="A mini-game guessing which coin shows up."
               github="https://github.com/roy1210/react-flip-coin"
               codesandbox="https://codesandbox.io/s/flip-coin-6mu0b"
               siteUrl="https://coin-game-k.netlify.com"
@@ -45,7 +45,7 @@ class ReactProjects extends Component {
             <Project
               photoUrl="https://github.com/roy1210/react-roll-dice/blob/master/screenShot.jpg?raw=true"
               name="Roll dice"
-              detail1="Component for rolling dice"
+              detail1="Component for rolling dice."
               github="https://github.com/roy1210/react-roll-dice"
               codesandbox="https://codesandbox.io/s/dice-xjrei"
               siteUrl="https://rolling-dice-k.netlify.com"
