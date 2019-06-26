@@ -1,15 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Main from "./Main";
-import {
-  Layout,
-  Header,
-  Navigation,
-  Drawer,
-  Content,
-  Footer,
-  FooterSection
-} from "react-mdl";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import { Popup, Icon } from "semantic-ui-react";
 import "../CSS/App.css";
 
@@ -57,7 +49,7 @@ class NavigationLayout extends Component {
           <Content>
             <div className="page-content" />
             <Main />
-            <div className="footer">
+            <div className="App-footer">
               <small>© {thisYear} Shoe Kure</small>
             </div>
           </Content>

@@ -20,13 +20,23 @@
   border: none !important;
 }
 
-.footer {
+.App-footer {
   display: flex;
   justify-content: center;
+  position: absolute;
   padding: 5px;
+  bottom: 0;
+  left: 46.8%;
 }
 
 @media only screen and (max-width: 800px) {
+  .App-footer {
+    display: flex;
+    justify-content: center;
+    position: static;
+    padding: 5px;
+    bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
