@@ -148,9 +148,11 @@ h4 {
   /* position: sticky; */
   bottom: 0;
   padding-top: 1.5em;
-  left: 46.8%;
+  /* left: 49%; */
 }
-
+.Landing-marginBottom {
+  margin-bottom: 2.7em;
+}
 /* Flipping a simple image to a div */
 #Landing-f1_container {
   position: relative;
@@ -295,20 +297,8 @@ h4 {
     left: 36.5%;
   }
 }
-@media screen and (max-width: 800px) and (min-width: 480px) {
-  .Landing-banner-text {
-    background-color: black;
-    opacity: 0.8;
-    width: 90%;
-    padding: auto;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-  }
-}
 /* for desktop resolution layout */
-@media screen and (min-height: 770px) {
+@media screen and (min-height: 815px) {
   .Landing-footer {
     display: flex;
     justify-content: center;
@@ -321,12 +311,16 @@ h4 {
     padding-bottom: 0.5em;
     left: 46.8%;
   }
-  .Landing-banner-text {
-    background-color: black;
-    opacity: 0.8;
-    width: 70%;
-    margin: 0.5em auto;
-    margin-bottom: 5em;
-    border-radius: 10px;
+  @media screen and (max-width: 800px) and (min-width: 480px) {
+    .Landing-banner-text {
+      background-color: black;
+      opacity: 0.8;
+      width: 90%;
+      padding: auto;
+      margin: auto;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
   }
 }

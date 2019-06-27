@@ -46,6 +46,7 @@ class Landing extends Component {
                 />
               </div>
             </div>
+            <div className="Landing-marginBottom" />
             <div className="Landing-footer">
               <AppFooter />
             </div>
