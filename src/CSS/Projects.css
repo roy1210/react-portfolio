@@ -3,6 +3,15 @@
   width: 100%;
 }
 
+.Projects-footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 0.5em;
+  left: 46.8%;
+}
+
 /* face in  */
 @-webkit-keyframes fadeIn {
   from {
@@ -72,6 +81,13 @@
 @media only screen and (max-width: 800px) {
   .Projects-category-tabs {
     margin-top: 30px;
+  }
+  .Projects-footer {
+    display: flex;
+    justify-content: center;
+    position: static;
+    padding: 5px;
+    bottom: 0;
   }
 }
 

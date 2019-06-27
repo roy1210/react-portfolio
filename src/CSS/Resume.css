@@ -203,6 +203,15 @@ span {
   font-size: 1em;
 }
 
+.Resume-footer {
+  display: flex;
+  justify-content: center;
+  position: static;
+  padding: 5px;
+  bottom: 0;
+  left: 46.8%;
+}
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -352,6 +361,14 @@ span {
 
   .Resume-education-job a {
     font-size: 1em;
+  }
+
+  .Resume-footer {
+    display: flex;
+    justify-content: center;
+    position: static;
+    padding: 5px;
+    bottom: 0;
   }
 }
 @media only screen and (min-width: 800px) {

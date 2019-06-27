@@ -34,7 +34,7 @@ class Resume extends Component {
           </Cell>
         </Grid>
         <section style={{ marginBottom: "1em" }} />
-        <div className="App-footer">
+        <div className="Resume-footer">
           <AppFooter />
         </div>
       </div>

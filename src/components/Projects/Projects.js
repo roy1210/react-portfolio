@@ -37,7 +37,7 @@ class Projects extends Component {
             </Cell>
           </Grid>
         </div>
-        <div className="App-footer">
+        <div className="Projects-footer">
           <AppFooter />
         </div>
       </div>
