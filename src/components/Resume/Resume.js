@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import ResumeEducations from "./Resume/ResumeEducations";
-import ResumeExperiences from "./Resume/ResumeExperiences";
-import ResumeSkills from "./Resume/ResumeSkills";
-import ResumeIntroduction from "./Resume/ResumeIntroduction";
-import AppFooter from "./AppFooter";
-import Barcerona from "../img/Barcerona.jpg";
-import "../CSS/Resume.css";
+import ResumeEducations from "./ResumeEducations";
+import ResumeExperiences from "./ResumeExperiences";
+import ResumeSkills from "./ResumeSkills";
+import ResumeIntroduction from "./ResumeIntroduction";
+import AppFooter from "../AppFooter";
+import Barcerona from "../../img/Barcerona.jpg";
+import "../../CSS/Resume.css";
 
 class Resume extends Component {
   render() {

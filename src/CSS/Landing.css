@@ -13,11 +13,7 @@
 
   text-align: center;
   /* 全画面に固定、空白を覆いかぶさるイメージ */
-  /* position: static; */
-  /* position: relative; */
   position: fixed;
-  /* position: absolute; */
-  /* position: sticky; */
   top: 0;
   left: 0;
   width: 100%;
@@ -41,44 +37,44 @@
 .Landing-banner-text {
   background-color: black;
   opacity: 0.8;
-  width: 70%;
-  margin: 0.5em auto;
+  width: 60%;
+  margin: auto;
   border-radius: 10px;
 }
 
-.Landing-banner-text h1,
-h2,
-h3,
+.Landing-banner-text h3,
 h4 {
   font-weight: bold;
   color: white;
 }
 .Landing-banner-text h3 {
+  font-size: 2.35em;
   padding-top: 0.5em;
+  margin-bottom: 0.1em;
   font-weight: bold;
   color: whitesmoke;
 }
 .Landing-banner-text h4 {
   margin: 0.5em;
-  font-size: 2em;
+  /* margin-top: 0.4em; */
+  font-size: 1.95em;
   color: whitesmoke;
 }
 
 .Landing-banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
+  border-top: 4.5px dotted white;
+  width: 48%;
   margin: auto;
 }
 
 .Landing-banner-text p {
   color: white;
-  font-size: 23px;
+  font-size: 22px;
   padding-top: 15px;
-  padding-bottom: 5px;
 }
 .Landing-banner-text span {
   color: white;
-  font-size: 22px;
+  font-size: 21px;
   padding-top: 15px;
   padding-bottom: 5px;
   padding-left: 0px;
@@ -118,15 +114,10 @@ h4 {
 .Landing-social-links i {
   display: inline-flexbox;
   color: white;
-  font-size: 5em;
+  font-size: 4.5em;
   padding: 0.1em;
   padding-bottom: 0.3em;
 }
-/* .Landing-social-links img {
-  width: 5em;
-  padding: 0.1em;
-  padding-top: 0.5em;
-} */
 
 .Landing-social-links .fa-linkedin:hover {
   color: rgb(0, 115, 177);
@@ -142,16 +133,12 @@ h4 {
   display: flex;
   justify-content: center;
   position: static;
-  /* position: relative; */
-  /* position: fixed; */
-  /* position: absolute; */
-  /* position: sticky; */
   bottom: 0;
-  padding-top: 1.5em;
-  /* left: 49%; */
+  padding-top: 0.5em;
+  /* left: 52%; */
 }
 .Landing-marginBottom {
-  margin-bottom: 2.7em;
+  margin-bottom: 0em;
 }
 /* Flipping a simple image to a div */
 #Landing-f1_container {
@@ -218,7 +205,7 @@ h4 {
   animation-name: SlideDown;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   .Landing-banner-text {
     background-color: black;
     opacity: 0.8;
@@ -230,8 +217,8 @@ h4 {
     border-radius: 10px;
   }
   .Landing-banner-text hr {
-    border-top: 5px dotted white;
-    width: 69%;
+    border-top: 3px dotted white;
+    width: 80%;
     margin: auto;
   }
   .Landing-banner-text h3 {
@@ -262,19 +249,19 @@ h4 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 60%;
+    width: 50%;
     margin: auto;
+    padding-left: 0.45em;
   }
   .Landing-social-links i {
     color: white;
-    font-size: 2.7em;
+    font-size: 2.5em;
     padding: 4px;
   }
   .Landing-solidity:hover {
     background: linear-gradient(#6d7f86 75%, rgb(191, 192, 192) 35%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* white-space: nowrap; */
   }
 
   .Landing-phone-profile img {
@@ -294,33 +281,34 @@ h4 {
     justify-content: center;
     position: fixed;
     bottom: 0;
-    left: 36.5%;
+    left: 36.5% !important;
   }
 }
 /* for desktop resolution layout */
-@media screen and (min-height: 815px) {
+@media screen and (min-height: 720px) {
   .Landing-footer {
     display: flex;
     justify-content: center;
-    /* position: static; */
-    /* position: relative; */
     position: fixed;
-    /* position: absolute; */
-    /* position: sticky; */
     bottom: 0;
     padding-bottom: 0.5em;
-    left: 46.8%;
+    left: 45.3%;
   }
-  @media screen and (max-width: 800px) and (min-width: 480px) {
+  @media screen and (max-width: 840px) and (min-width: 480px) {
     .Landing-banner-text {
       background-color: black;
       opacity: 0.8;
-      width: 90%;
+      width: 80%;
       padding: auto;
       margin: auto;
       margin-top: 15px;
       margin-bottom: 10px;
       border-radius: 10px;
+    }
+    .Landing-banner-text hr {
+      border-top: 4px dotted white;
+      width: 70%;
+      margin: auto;
     }
   }
 }

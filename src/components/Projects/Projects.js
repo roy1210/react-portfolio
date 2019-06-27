@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Tabs, Tab, Grid, Cell } from "react-mdl";
-import ReactProjects from "./projects/reactProjects.js";
-import VueProjects from "./projects/vueProjects.js";
-import GolangProjects from "./projects/golangProjects.js";
-import PythonProjects from "./projects/pythonProjects.js";
-import SolidityProjects from "./projects/solidityProjects.js";
-import AppFooter from "./AppFooter";
-import "../CSS/Projects.css";
+import ReactProjects from "./reactProjects.js";
+import VueProjects from "./vueProjects.js";
+import GolangProjects from "./golangProjects.js";
+import PythonProjects from "./pythonProjects.js";
+import SolidityProjects from "./solidityProjects.js";
+import AppFooter from "../AppFooter";
+import "../../CSS/Projects.css";
 
 class Projects extends Component {
   constructor(props) {
@@ -16,7 +16,6 @@ class Projects extends Component {
 
   // Each Tab got unique tab key (index) by default by react-mdl
   render() {
-    const thisYear = new Date().getFullYear();
     return (
       <div className="Projects">
         <div className="Projects-category-tabs">

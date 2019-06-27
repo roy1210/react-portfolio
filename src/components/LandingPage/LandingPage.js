@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import LandingPlayground from "./LandingPage/LandingPlayground";
-import AppFooter from "./AppFooter";
-import LandingIcon from "./LandingPage/LandingIcon";
-import profile from "../img/profile.jpg";
-import "../CSS/Landing.css";
+import LandingPlayground from "./LandingPlayground";
+import AppFooter from "../AppFooter";
+import LandingIcon from "./LandingIcon";
+import profile from "../../img/profile.jpg";
+import "../../CSS/Landing.css";
 
 class Landing extends Component {
   render() {
-    const thisYear = new Date().getFullYear();
     return (
       <div
         style={{ width: "100%", margin: "auto" }}
@@ -46,7 +45,7 @@ class Landing extends Component {
                 />
               </div>
             </div>
-            <div className="Landing-marginBottom" />
+            {/* <div className="Landing-marginBottom" /> */}
             <div className="Landing-footer">
               <AppFooter />
             </div>

@@ -150,12 +150,7 @@ class ResumeIntroduction extends Component {
                                 }}
                               />
                               <List.Content>
-                                <List.Header>
-                                  Vue.js
-                                  <span className="Resume-plans-description">
-                                    : Nuxt.js
-                                  </span>
-                                </List.Header>
+                                <List.Header>Vue.js</List.Header>
                               </List.Content>
                             </List.Item>
                           </List.List>
