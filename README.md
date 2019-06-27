@@ -1,8 +1,8 @@
-# My portfolio website
+# Portfolio
 
 ## Introduction
 
-Portfolio website built with React.
+Portfolio website built with React.js.
 
 ## Tools
 
@@ -15,7 +15,7 @@ Portfolio website built with React.
 
 Clone repo, install, cd into folder and run:
 
-```git
+```
 npm install
 npm start
 ```
