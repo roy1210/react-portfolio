@@ -13,7 +13,11 @@
 
   text-align: center;
   /* 全画面に固定、空白を覆いかぶさるイメージ */
+  /* position: static; */
+  /* position: relative; */
   position: fixed;
+  /* position: absolute; */
+  /* position: sticky; */
   top: 0;
   left: 0;
   width: 100%;
@@ -134,10 +138,17 @@ h4 {
   color: #656054;
 }
 
-.LandingFooter {
+.Landing-footer {
   display: flex;
   justify-content: center;
-  padding: 0px;
+  position: static;
+  /* position: relative; */
+  /* position: fixed; */
+  /* position: absolute; */
+  /* position: sticky; */
+  bottom: 0;
+  padding-top: 1.5em;
+  left: 46.8%;
 }
 
 /* Flipping a simple image to a div */
@@ -276,7 +287,7 @@ h4 {
   #Landing-f1_container {
     display: none;
   }
-  .LandingFooter {
+  .Landing-footer {
     display: flex;
     justify-content: center;
     position: fixed;
@@ -293,6 +304,29 @@ h4 {
     margin: auto;
     margin-top: 15px;
     margin-bottom: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-height: 770px) {
+  .Landing-footer {
+    display: flex;
+    justify-content: center;
+    /* position: static; */
+    /* position: relative; */
+    position: fixed;
+    /* position: absolute; */
+    /* position: sticky; */
+    bottom: 0;
+    padding-bottom: 0.5em;
+    left: 46.8%;
+  }
+  .Landing-banner-text {
+    background-color: black;
+    opacity: 0.8;
+    width: 70%;
+    margin: 0.5em auto;
+    margin-bottom: 5em;
     border-radius: 10px;
   }
 }

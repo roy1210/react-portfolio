@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import LandingPlayground from "./LandingPage/LandingPlayground";
+import AppFooter from "./AppFooter";
 import LandingIcon from "./LandingPage/LandingIcon";
 import profile from "../img/profile.jpg";
 import "../CSS/Landing.css";
@@ -45,8 +46,8 @@ class Landing extends Component {
                 />
               </div>
             </div>
-            <div className="LandingFooter">
-              <small>© {thisYear} Shoe Kure</small>
+            <div className="Landing-footer">
+              <AppFooter />
             </div>
           </Cell>
         </Grid>

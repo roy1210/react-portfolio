@@ -5,6 +5,7 @@ import VueProjects from "./projects/vueProjects.js";
 import GolangProjects from "./projects/golangProjects.js";
 import PythonProjects from "./projects/pythonProjects.js";
 import SolidityProjects from "./projects/solidityProjects.js";
+import AppFooter from "./AppFooter";
 import "../CSS/Projects.css";
 
 class Projects extends Component {
@@ -15,6 +16,7 @@ class Projects extends Component {
 
   // Each Tab got unique tab key (index) by default by react-mdl
   render() {
+    const thisYear = new Date().getFullYear();
     return (
       <div className="Projects">
         <div className="Projects-category-tabs">
@@ -35,6 +37,9 @@ class Projects extends Component {
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
+        </div>
+        <div className="App-footer">
+          <AppFooter />
         </div>
       </div>
     );
