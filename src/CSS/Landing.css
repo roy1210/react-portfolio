@@ -135,10 +135,9 @@ h4 {
   position: static;
   bottom: 0;
   padding-top: 0.5em;
-  /* left: 52%; */
 }
 .Landing-marginBottom {
-  margin-bottom: 0em;
+  margin-bottom: 2.7em;
 }
 /* Flipping a simple image to a div */
 #Landing-f1_container {
