@@ -162,7 +162,7 @@ class ResumeIntroduction extends Component {
                           style={{ paddingBottom: "0.55em" }}
                         />
                         <List.Content>
-                          <List.Header>ES6, ES7</List.Header>
+                          <List.Header>ES6</List.Header>
                         </List.Content>
                       </List.Item>
                       <List.Item>
