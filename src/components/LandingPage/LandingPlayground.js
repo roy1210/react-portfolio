@@ -35,7 +35,7 @@ class LandingPlayground extends Component {
       <div id="Landing-f1_container">
         <div id="Landing-f1_card" className="Landing-shadow">
           <div className="front Landing-face">
-            <img src={profile} alt="avatar" className="Landing-profile" />
+            <img src={profile} alt="avatar" id="Landing-profile" />
           </div>
           <div className="back center Landing-face">
             <h4>You got me!</h4>
