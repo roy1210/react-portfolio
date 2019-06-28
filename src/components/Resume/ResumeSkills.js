@@ -26,7 +26,7 @@ class ResumeSkills extends Component {
         <SkillsProgress skill="Solidity" blank={11} progress={40} />
         <p>
           Basic syntax for web3, making Dapps by Truffle, Metamask, Ganache and
-          React
+          React.js
         </p>
         <SkillsProgress skill="Robot" blank={13} progress={40} />
         <p>Drone: Tello edu by Golang </p>
