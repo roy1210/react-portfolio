@@ -20,7 +20,7 @@ class Landing extends Component {
             </div>
             <LandingPlayground />
             <div className="Landing-banner-text">
-              <h3>Hi, this is Roy. Nice to meet you.</h3>
+              <h3>Hi, this is Roy. Nice to meet you!</h3>
               <h4>Front / Back - End Developer</h4>
               <hr />
               <p>
