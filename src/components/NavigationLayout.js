@@ -31,7 +31,6 @@ class NavigationLayout extends Component {
             <Navigation>
               <Link to="/resume">Resume / Contact</Link>
               <Link to="/projects">Projects</Link>
-              <Link to="/404">404</Link>
               <Link to="/">{miniPlayground()}</Link>
             </Navigation>
           </Header>
