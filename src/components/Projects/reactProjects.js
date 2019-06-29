@@ -12,8 +12,8 @@ class ReactProjects extends Component {
             name="Portfolio"
             detail1="This portfolio website."
             detail2="Created with React Router, Semantic-ui-react, and React-MDL."
-            github="https://github.com/roy1210/JS_React_Portfolio"
-            codesandbox="https://codesandbox.io/s/my-portfolio-mjewd"
+            github="https://github.com/roy1210/react-portfolio"
+            codesandbox="https://codesandbox.io/s/my-portfolio-qmqcp"
             siteUrl="https://roy-k.tk/"
           />
         </Cell>
