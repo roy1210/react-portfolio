@@ -12,9 +12,9 @@ const Main = () => {
   return (
     <Switch>
       <Route exact path="/" component={LandingPage} />
+      <Route exact path="/*" component={PageNotFound} />
       <Route path="/projects" component={Projects} />
       <Route path="/resume" component={Resume} />
-      <Route path="/*" component={PageNotFound} />
     </Switch>
   );
 };
