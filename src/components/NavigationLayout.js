@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Main from "./Main";
+import RoutePage from "./RoutePage";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import { Popup, Icon } from "semantic-ui-react";
 import "../CSS/App.css";
@@ -48,7 +48,7 @@ class NavigationLayout extends Component {
           </Drawer>
           <Content>
             <div className="page-content" />
-            <Main />
+            <RoutePage />
           </Content>
         </Layout>
       </div>
