@@ -120,6 +120,15 @@ body {
   -ms-user-select: none; 
   user-select: none; 
 } */
+.PageNotFound {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
 
 .PageNotFound-bg-purple {
   background: url(http://salehriaz.com/404Page/img/bg_purple.png);

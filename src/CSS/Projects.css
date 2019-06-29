@@ -1,12 +1,22 @@
+.Projects {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
 .Projects-grid {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .Projects-footer {
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: static;
   bottom: 0;
   padding-bottom: 0.5em;
   left: 46.8%;
