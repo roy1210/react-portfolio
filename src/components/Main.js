@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <Switch>
       <Route exact path="/" component={LandingPage} />
-      {/* <Route component={PageNotFound} /> */}
+      <Route path="/404" component={PageNotFound} />
       <Route component={NoMatch} />
       <Route path="/projects" component={Projects} />
       <Route path="/resume" component={Resume} />
