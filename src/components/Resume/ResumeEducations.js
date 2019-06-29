@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import ResumeEducation from "./ResumeEducation";
 
 class ResumeEducations extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
         <h3>Education</h3>
         <ResumeEducation
           startYear="2018"
@@ -29,7 +29,7 @@ class ResumeEducations extends Component {
           schoolDescription="Bachelor of Management"
         />
         <hr style={{ borderTop: "3px solid #e22947" }} />
-      </div>
+      </Fragment>
     );
   }
 }

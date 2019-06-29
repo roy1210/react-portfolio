@@ -40,7 +40,7 @@ class ResumeSkills extends Component {
         <h4>Knowledge / Languages</h4>
         <SkillsProgressBuffer skill="Blockchain" blank={5} progress={75} />
         <SkillsProgress skill="Japanese" blank={7} progress={100} />
-        <SkillsProgress skill="Chinese" blank={9} progress={85} />
+        <SkillsProgress skill="Chinese" blank={9} progress={80} />
         <SkillsProgress skill="Cantonese" blank={5} progress={75} />
         <SkillsProgress skill="English" blank={10} progress={70} />
         <p>TOEIC score: 875</p>

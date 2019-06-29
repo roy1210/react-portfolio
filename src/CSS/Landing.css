@@ -36,22 +36,18 @@
 
 .Landing-banner-text {
   background-color: black;
+  /* background-image: linear-gradient(180deg, black 0%, #333333 5%); */
   opacity: 0.8;
-  width: 60%;
+  width: 54em;
   margin: auto;
   border-radius: 10px;
 }
 
-.Landing-banner-text h3,
-h4 {
-  font-weight: bold;
-  color: white;
-}
 .Landing-banner-text h3 {
-  font-size: 2.35em;
+  font-size: 2.5em;
   padding-top: 0.5em;
   margin-bottom: 0.1em;
-  font-weight: bold;
+  font-weight: 900;
   color: whitesmoke;
 }
 .Landing-banner-text h4 {
@@ -292,7 +288,7 @@ h4 {
     padding-bottom: 0.5em;
     left: 45.3%;
   }
-  @media screen and (max-width: 840px) and (min-width: 480px) {
+  @media screen and (max-width: 1020px) and (min-width: 480px) {
     .Landing-banner-text {
       background-color: black;
       opacity: 0.8;
