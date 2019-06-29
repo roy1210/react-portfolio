@@ -14,7 +14,7 @@ const Main = () => {
       <Route exact path="/" component={LandingPage} />
       <Route path="/projects" component={Projects} />
       <Route path="/resume" component={Resume} />
-      <Route component={PageNotFound} />
+      <Route path="/*" component={PageNotFound} />
     </Switch>
   );
 };
