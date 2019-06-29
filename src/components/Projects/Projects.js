@@ -52,8 +52,6 @@ class Projects extends Component {
       return <GolangProjects />;
     } else if (this.state.activeTab === 3) {
       return <PythonProjects />;
-    } else if (this.state.activeTab === 4) {
-      return <SolidityProjects />;
     }
   }
 }
