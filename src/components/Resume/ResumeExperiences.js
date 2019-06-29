@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import ResumeExperience from "./ResumeExperience";
 
 class ResumeExperiences extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
         <h3>Job Experience</h3>
         <ResumeExperience
           startYear="2014"
@@ -12,7 +12,7 @@ class ResumeExperiences extends Component {
           jobName="SIIX Singapore"
           jobDescription="Sales executive / Project management"
         />
-      </div>
+      </Fragment>
     );
   }
 }

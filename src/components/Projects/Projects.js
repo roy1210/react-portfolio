@@ -4,7 +4,6 @@ import ReactProjects from "./reactProjects.js";
 import VueProjects from "./vueProjects.js";
 import GolangProjects from "./golangProjects.js";
 import PythonProjects from "./pythonProjects.js";
-import SolidityProjects from "./solidityProjects.js";
 import AppFooter from "../AppFooter";
 import "../../CSS/Projects.css";
 
