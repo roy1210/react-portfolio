@@ -12,10 +12,10 @@ const Main = () => {
   return (
     <Switch>
       <Route exact path="/" component={LandingPage} />
-      <Route path="/404" component={PageNotFound} />
+      <Route exact path="/404" component={PageNotFound} />
       <Route component={NoMatch} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/resume" component={Resume} />
+      <Route exact path="/projects" component={Projects} />
+      <Route exact path="/resume" component={Resume} />
     </Switch>
   );
 };
@@ -24,6 +24,10 @@ function NoMatch({ location }) {
   return (
     <div>
       <h3>
+        No match for <code>{location.pathname}</code>
+        No match for <code>{location.pathname}</code>
+        No match for <code>{location.pathname}</code>
+        No match for <code>{location.pathname}</code>
         No match for <code>{location.pathname}</code>
       </h3>
     </div>
