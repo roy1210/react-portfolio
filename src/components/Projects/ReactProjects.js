@@ -8,8 +8,8 @@ const ReactProjects = () => (
       <Project
         photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/190616-Portfolio.jpg?raw=true"
         name="Portfolio"
-        detail1="This portfolio website."
-        detail2="Created with React Router, Semantic-ui-react, and React-MDL."
+        detail1="This portfolio website. Domain is registered on Freenom and hosted on Netlify."
+        detail2="Created with React Router, React Helmet, Semantic-ui-react, and React-MDL."
         github="https://github.com/roy1210/react-portfolio"
         codesandbox="https://codesandbox.io/s/my-portfolio-qmqcp"
         siteUrl="https://roy-k.tk/"

@@ -7,9 +7,10 @@ Portfolio website built with React.js
 ## Tools
 
 - Create-react-app cli
-- React Router v5
 - React MDL material design
 - Semantic UI React
+- React Router v5
+- React-Helmet
 
 ## Start App
 
