@@ -6,7 +6,6 @@ const AppFooter = () => (
     <small>© {thisYear} Shoe Kure</small>
     <br />
     <span className="AppFooter-made-with">Made with</span>
-
     <span className="AppFooter-react">
       <a
         href="https://codesandbox.io/s/my-portfolio-qmqcp"
