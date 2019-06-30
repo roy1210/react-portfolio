@@ -206,6 +206,7 @@
   animation-name: SlideDown;
 }
 
+/* phone */
 @media only screen and (max-width: 765px) {
   .Landing-banner-text {
     display: block;
@@ -283,48 +284,47 @@
   }
   .Landing-footer {
     display: block;
-    /* justify-content: center; */
-    position: fix;
+    position: fixed;
     bottom: 0;
     margin: auto;
-    /* margin-top: 50px; */
-    /* text-align: center; */
     left: 33% !important;
   }
 }
 
 /* for desktop resolution layout */
-@media screen and (min-height: 728px) {
+@media screen and (min-height: 760px) {
   .Landing-footer {
     display: flex;
     justify-content: center;
     position: fixed;
     bottom: 0;
     padding-bottom: 0.5em;
-    left: 45.3%;
+    left: 43.8%;
   }
-  @media screen and (max-width: 1020px) and (min-width: 766px) {
-    .Landing-banner-text {
-      background-color: black;
-      opacity: 0.8;
-      width: 45em;
-      padding: auto;
-      margin: auto;
-      margin-top: 15px;
-      margin-bottom: 10px;
-      border-radius: 10px;
-    }
-    .Landing-banner-text hr {
-      border-top: 4px dotted white;
-      width: 55%;
-      margin: auto;
-    }
-    .Landing-social-links i {
-      display: inline-flexbox;
-      color: white;
-      font-size: 4.5em;
-      padding: 0.1em;
-      margin-bottom: 0.35em;
-    }
+}
+
+/* Ipad pro */
+@media screen and (max-width: 1020px) and (min-width: 766px) {
+  .Landing-banner-text {
+    background-color: black;
+    opacity: 0.8;
+    width: 45em;
+    padding: auto;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .Landing-banner-text hr {
+    border-top: 4px dotted white;
+    width: 55%;
+    margin: auto;
+  }
+  .Landing-social-links i {
+    display: inline-flexbox;
+    color: white;
+    font-size: 4.5em;
+    padding: 0.1em;
+    margin-bottom: 0.35em;
   }
 }
