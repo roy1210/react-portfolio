@@ -282,14 +282,14 @@
     display: none;
   }
   .Landing-footer {
-    display: flex;
-    justify-content: center;
+    display: block;
+    /* justify-content: center; */
     position: fix;
     bottom: 0;
     margin: auto;
     /* margin-top: 50px; */
-    text-align: center;
-    left: 31.3% !important;
+    /* text-align: center; */
+    left: 33% !important;
   }
 }
 

@@ -57,7 +57,10 @@ class Project extends Component {
 
     return (
       <div className="Project-SlideDown">
-        <Card shadow={5} style={{ width: "307px", margin: "auto" }}>
+        <Card
+          shadow={5}
+          style={{ width: "307px", display: "block", margin: "auto" }}
+        >
           <CardTitle
             style={{
               color: `${titleColor}`,

@@ -15,7 +15,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .mdl-grid .projects-grid {
+  /* .mdl-grid .projects-grid {
     padding-left: 0px !important;
-  }
+  } */
 }
