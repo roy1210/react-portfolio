@@ -103,10 +103,10 @@
   }
 }
 
-.PageNotFound-spin-earth-on-hover {
+/* .PageNotFound-spin-earth-on-hover {
   transition: ease 200s !important;
   transform: rotate(-3600deg) !important;
-}
+} */
 
 /* html,
 body {
@@ -139,35 +139,6 @@ body {
   overflow: hidden;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  /*    overflow: hidden;*/
-  display: flex;
-  align-items: center;
-}
-
-li {
-  float: left;
-  padding: 0px 15px;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 12px;
-
-  -webkit-transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -ms-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-}
-
 .PageNotFound-btn-request {
   padding: 10px 25px;
   border: 1px solid cyan;
@@ -186,17 +157,17 @@ li a {
   position: relative;
   z-index: 200;
   margin: 20px auto;
-  width: 150px;
-  padding: 10px 15px;
-  border: 1px solid cyan;
+  width: 200px;
+  padding: 10px 8px;
+  border: 2px solid cyan;
   border-radius: 100px;
   font-weight: 400;
   display: block;
-  color: white;
+  color: tomato;
   text-align: center;
   text-decoration: none;
   letter-spacing: 2px;
-  font-size: 11px;
+  font-size: 20px;
 
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
