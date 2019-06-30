@@ -371,15 +371,54 @@ span {
     bottom: 0;
   }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
   .Resume {
     padding-top: 4.8em;
   }
 }
-@media only screen and (max-width: 1024px) and (min-width: 800px) {
+@media only screen and (max-width: 839px) and (min-width: 768px) {
   .Resume-avatar img {
     margin-top: 3em;
     height: 320px;
+    border-radius: 10%;
+    -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.8));
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
+  }
+  .Resume-right-col {
+    background: #27221f;
+    color: white;
+    margin-top: 3.5em !important;
+    line-height: 0.3em;
+  }
+  /* 中央寄せ */
+  .Resume .Resume-intro-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1100px) and (min-width: 840px) {
+  .Resume-avatar img {
+    margin-top: 1em;
+    height: 235px;
+    border-radius: 10%;
+    -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.8));
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
+  }
+  .Resume-name {
+    padding-top: 1em;
+    font-size: 1.7em;
+  }
+  .Resume {
+    padding-top: auto;
+    font-size: 80%;
+  }
+}
+@media only screen and (max-width: 1025px) and (min-width: 1024px) {
+  .Resume-avatar img {
+    margin-top: 3em;
+    height: 300px;
     border-radius: 10%;
     -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.8));
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));

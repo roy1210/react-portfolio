@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Card, CardTitle, CardText, CardActions, Button } from "react-mdl";
 import "../../CSS/Project.css";
+
+// Preffer to use CLASS because a lot of props
 class Project extends Component {
   render() {
     let detail2;

@@ -1,14 +1,6 @@
-import React, { Component, Fragment } from "react";
+import React from "react";
 
-class AppFooter extends Component {
-  render() {
-    const thisYear = new Date().getFullYear();
-    return (
-      <Fragment>
-        <small>© {thisYear} Shoe Kure</small>
-      </Fragment>
-    );
-  }
-}
+const thisYear = new Date().getFullYear();
+const AppFooter = () => <small>© {thisYear} Shoe Kure</small>;
 
 export default AppFooter;

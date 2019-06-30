@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Grid, Cell, ProgressBar } from "react-mdl";
 
+// Example code if using CLASS with stateless components.
+// Needs to use with `this.props` for parameter come from parents components.
+// Needs to usw with `render()` in the first place.
 class SkillsProgress extends Component {
   render() {
     const { skill, progress, blank } = this.props;

@@ -1,22 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import Bitcoin from "../../img/Bitcoin.png";
 import DogCoin from "../../img/DogCoin.png";
 
-class LandingCoin extends Component {
-  render() {
-    let pic;
-    if (this.props.info.side === "bitcoin") {
-      pic = <img src={Bitcoin} alt={this.props.info.side} />;
-    } else if (this.props.info.side === "dog-coin") {
-      pic = <img src={DogCoin} alt={this.props.info.side} />;
-    }
-
-    return (
-      <div className={this.props.spinning ? "Coin-spinning" : "Coin"}>
-        {pic}
-      </div>
-    );
+const LandingCoin = ({ info, spinning }) => {
+  let pic;
+  if (info.side === "bitcoin") {
+    pic = <img src={Bitcoin} alt={info.side} />;
+  } else if (info.side === "dog-coin") {
+    pic = <img src={DogCoin} alt={info.side} />;
   }
-}
+
+  return <div className={spinning ? "Coin-spinning" : "Coin"}>{pic}</div>;
+};
 
 export default LandingCoin;

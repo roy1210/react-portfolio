@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Tabs, Tab, Grid, Cell } from "react-mdl";
-import ReactProjects from "./reactProjects.js";
-import VueProjects from "./vueProjects.js";
-import GolangProjects from "./golangProjects.js";
-import PythonProjects from "./pythonProjects.js";
+import ReactProjects from "./ReactProjects.js";
+import VueProjects from "./VueProjects.js";
+import GolangProjects from "./GolangProjects.js";
+import DjangoProjects from "./DjangoProjects.js";
 import AppFooter from "../AppFooter";
 import "../../CSS/Projects.css";
 
-class Projects extends Component {
+class ProjectsPage extends Component {
   constructor(props) {
     super(props);
     this.state = { activeTab: 0 };
@@ -51,9 +51,9 @@ class Projects extends Component {
     } else if (this.state.activeTab === 2) {
       return <GolangProjects />;
     } else if (this.state.activeTab === 3) {
-      return <PythonProjects />;
+      return <DjangoProjects />;
     }
   }
 }
 
-export default Projects;
+export default ProjectsPage;
