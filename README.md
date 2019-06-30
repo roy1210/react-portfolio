@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Portfolio website built with React.js.
+Portfolio website built with React.js
 
 ## Tools
 

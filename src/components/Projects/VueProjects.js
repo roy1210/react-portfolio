@@ -8,7 +8,7 @@ const VueProjects = () => (
       <Project
         photoUrl="https://github.com/roy1210/Vue_VS_Monster/raw/master/vsmonster.jpg"
         name="VS Monster"
-        detail1="Game: Beat the monster."
+        detail1="Game for beat the monster."
         github="https://github.com/roy1210/JS_Vue_VS_Monster"
         siteUrl="https://roy1210.github.io/JS_Vue_VS_Monster/"
         titleColor="black"
@@ -18,7 +18,7 @@ const VueProjects = () => (
       <Project
         photoUrl="https://github.com/roy1210/JS_Vue_My_Markdown_Memo/raw/master/mymarkdown.jpg"
         name="Markdown Memo"
-        detail1="Markdown memo which can preview and edit on same time. (Like Evernote)"
+        detail1="Markdown memo which can preview and edit on the same time. (Like Evernote)"
         detail2="Login with Google account and DB in firebase realtime DB."
         github="https://github.com/roy1210/JS_Vue_My_Markdown_Memo"
         codesandbox="https://codesandbox.io/s/mymarkdown-s0etj"

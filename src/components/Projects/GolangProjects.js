@@ -16,7 +16,7 @@ const GolangProjects = () => (
       <Project
         photoUrl="https://github.com/roy1210/Golang_Digital_Clock/raw/master/clock.gif"
         name="Digital clock"
-        detail1="Digital clock which run in the terminal."
+        detail1="A digital clock which runs in the terminal."
         github="https://github.com/roy1210/Golang_Digital_Clock"
       />
     </Cell>
@@ -24,8 +24,8 @@ const GolangProjects = () => (
       <Project
         photoUrl="https://github.com/roy1210/Golang_Http_Status_checker/raw/master/checker.jpg"
         name="HTTP status checker"
-        detail1="Check the current status of website. Able to detect if website
-                is downed due to http request returns 404."
+        detail1="Check the current status of the website. Able to detect if the website
+                is downed due to HTTP request returns 404."
         github="https://github.com/roy1210/Golang_Http_Status_checker"
       />
     </Cell>

@@ -5,18 +5,17 @@ import { List } from "semantic-ui-react";
 const ResumeIntro = (
   <Fragment>
     <h5 className="Resume-txt-center">Hello, world!</h5>
+    <p>Hi, this is Roy.</p>
     <p>
-      Hi, this is Roy.
-      <br />
       I'm a happy learner and I love to learn about new technology every day.
-      <br />
-      I communicate well with people from different cultures.
       <br />
       I'd like to dive into the tech industry because this is the place to use
       technology to make the world a better place!
-      <br />
-      Now, I'm ready to contribute as a software developer in the global
-      environment.
+    </p>
+    <p>
+      Now, I'm ready to contribute as a software developer and leveling up one
+      day at a time.
+      {/* As a software developer, I'm ready to contribute and leveling up one day at a time. */}
     </p>
     <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
   </Fragment>
