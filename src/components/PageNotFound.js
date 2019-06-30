@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../CSS/PageNotFound.css";
 import { Link } from "react-router-dom";
-import LandingPage from "./LandingPage/LandingPage";
 
 class PageNotFound extends Component {
   render() {
@@ -16,11 +15,7 @@ class PageNotFound extends Component {
                 width="300px"
                 alt="404"
               />
-              <Link
-                to="/"
-                component={LandingPage}
-                className="PageNotFound-btn-go-home"
-              >
+              <Link to="/" className="PageNotFound-btn-go-home">
                 BRING ME HOME
               </Link>
             </div>
