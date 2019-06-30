@@ -9,9 +9,6 @@ import Barcerona from "../../img/Barcerona.jpg";
 import "../../CSS/Resume.css";
 
 class ResumePage extends Component {
-  componentDidMount() {
-    document.title = "Roy | Resume";
-  }
   render() {
     return (
       <div className="Resume">

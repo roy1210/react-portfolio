@@ -8,9 +8,6 @@ import AppFooter from "../AppFooter";
 import "../../CSS/Projects.css";
 
 class ProjectsPage extends Component {
-  componentDidMount() {
-    document.title = "Roy | Projects";
-  }
   constructor(props) {
     super(props);
     this.state = { activeTab: 0 };

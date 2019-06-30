@@ -7,9 +7,9 @@ import profile from "../../img/profile.jpg";
 import "../../CSS/Landing.css";
 
 class LandingPage extends Component {
-  componentDidMount() {
-    document.title = "Roy";
-  }
+  // componentDidMount() {
+  //   document.title = "Roy";
+  // }
   render() {
     return (
       <div className="Landing-container">
