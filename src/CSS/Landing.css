@@ -44,7 +44,7 @@
 }
 
 .Landing-banner-text h3 {
-  font-size: 2.5em;
+  font-size: 2.7em;
   padding-top: 0.5em;
   margin-bottom: 0.1em;
   font-weight: 900;
@@ -199,11 +199,11 @@
   animation-name: SlideDown;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 765px) {
   .Landing-banner-text {
     background-color: black;
     opacity: 0.8;
-    width: 95%;
+    width: 23em;
     padding: auto;
     margin: auto;
     margin-top: 15px;
@@ -212,7 +212,7 @@
   }
   .Landing-banner-text hr {
     border-top: 3px dotted white;
-    width: 80%;
+    width: 68%;
     margin: auto;
   }
   .Landing-banner-text h3 {
@@ -251,6 +251,8 @@
     color: white;
     font-size: 2.5em;
     padding: 4px;
+    padding-top: 7px;
+    margin-bottom: 18px;
   }
   .Landing-solidity:hover {
     background: linear-gradient(#6d7f86 75%, rgb(191, 192, 192) 35%);
@@ -278,6 +280,7 @@
     left: 36.5% !important;
   }
 }
+
 /* for desktop resolution layout */
 @media screen and (min-height: 720px) {
   .Landing-footer {
@@ -288,11 +291,11 @@
     padding-bottom: 0.5em;
     left: 45.3%;
   }
-  @media screen and (max-width: 1020px) and (min-width: 480px) {
+  @media screen and (max-width: 1020px) and (min-width: 766px) {
     .Landing-banner-text {
       background-color: black;
       opacity: 0.8;
-      width: 80%;
+      width: 45em;
       padding: auto;
       margin: auto;
       margin-top: 15px;
@@ -301,8 +304,15 @@
     }
     .Landing-banner-text hr {
       border-top: 4px dotted white;
-      width: 70%;
+      width: 55%;
       margin: auto;
+    }
+    .Landing-social-links i {
+      display: inline-flexbox;
+      color: white;
+      font-size: 4.5em;
+      padding: 0.1em;
+      margin-bottom: 0.35em;
     }
   }
 }
