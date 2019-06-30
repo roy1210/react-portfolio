@@ -11,6 +11,7 @@ class PageNotFound extends Component {
             <div className="PageNotFound-central-body">
               <img
                 className="PageNotFound-image-404"
+                // src="http://drive.google.com/uc?export=view&id=1X1ZIGV0GzvWgtpxbO-5jqgIOSWKyEwRj"
                 src="http://salehriaz.com/404Page/img/404.svg"
                 width="300px"
                 alt="404"
