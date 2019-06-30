@@ -116,7 +116,7 @@ const ResumePlans = (
                       <List.List>
                         <List.Item>
                           <List.Icon
-                            name="linkify"
+                            name="refresh"
                             style={{ paddingBottom: "0.55em" }}
                           />
                           <List.Content>
@@ -246,9 +246,16 @@ const ResumePlans = (
 
             {/* L2 */}
             <List.Item>
-              <List.Icon name="database" />
+              <List.Icon name="database" style={{ paddingBottom: "0.55em" }} />
               <List.Content>
                 <List.Header>Firebase</List.Header>
+              </List.Content>
+            </List.Item>
+            {/* L2 */}
+            <List.Item>
+              <List.Icon name="chain" />
+              <List.Content>
+                <List.Header>Blockchain</List.Header>
               </List.Content>
             </List.Item>
           </List.List>
