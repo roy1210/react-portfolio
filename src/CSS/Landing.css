@@ -135,9 +135,10 @@
   justify-content: center;
   position: static;
   bottom: 0;
+  text-align: center;
 }
 .Landing-marginBottom {
-  margin-bottom: 2.7em;
+  margin-bottom: 0.5em;
 }
 /* Flipping a simple image to a div */
 #Landing-f1_container {
@@ -214,6 +215,7 @@
     margin-top: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
+    text-align: center;
   }
   .Landing-banner-text hr {
     border-top: 3px dotted white;
@@ -287,7 +289,7 @@
 }
 
 /* for desktop resolution layout */
-@media screen and (min-height: 720px) {
+@media screen and (min-height: 728px) {
   .Landing-footer {
     display: flex;
     justify-content: center;

@@ -20,6 +20,32 @@
   border: none !important;
 }
 
+.AppFooter {
+  padding: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.AppFooter i {
+  padding-top: 0.1em;
+  color: rgb(97, 218, 251);
+  font-size: 1.3em;
+  font-weight: 400;
+}
+.AppFooter-made-with {
+  font-size: 0.8em;
+  color: slategray;
+  font-weight: bold;
+  padding: 0em;
+}
+.AppFooter-react {
+  padding-left: 0.3em;
+}
+.AppFooter-react a {
+  font-weight: bold;
+  font-size: 1em;
+  color: rgb(97, 218, 251);
+}
 @media only screen and (max-width: 800px) {
   /* .App-footer {
     display: flex;
