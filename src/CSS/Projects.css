@@ -14,12 +14,12 @@
 }
 
 .Projects-footer {
-  display: flex;
-  justify-content: center;
-  position: static;
-  bottom: 0;
+  display: block;
+  position: fixed;
   padding-bottom: 0.5em;
   left: 46.8%;
+  margin: auto;
+  bottom: 0;
 }
 
 /* face in  */
@@ -88,6 +88,7 @@
 }
 /* End fade in */
 
+/* phone */
 @media only screen and (max-width: 800px) {
   .Projects-category-tabs {
     margin-top: 30px;
@@ -101,7 +102,30 @@
   }
 }
 
-@media only screen and (min-width: 800px) {
+/* ipad */
+@media only screen and (max-width: 800px) and (min-width: 768px) {
+  .Projects {
+    padding-top: 0em;
+  }
+
+  .Projects-footer {
+    display: block;
+    margin: auto;
+    position: fixed;
+    padding: 5px;
+    bottom: 0;
+    left: 39.8%;
+  }
+}
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) and (min-width: 800px) {
+  .Projects {
+    padding-top: 2.5em;
+  }
+}
+/* laptop */
+@media only screen and (min-width: 1025px) {
   .Projects {
     padding-top: 4.8em;
   }
