@@ -51,7 +51,7 @@
 
 .Landing-banner-text h3 {
   font-size: 2.7em;
-  padding-top: 0.5em;
+  padding-top: 0.4em;
   margin-bottom: 0.1em;
   font-weight: 900;
   color: whitesmoke;
@@ -73,6 +73,7 @@
   color: white;
   font-size: 22px;
   padding-top: 15px;
+  margin-bottom: 9px;
 }
 .Landing-banner-text span {
   color: white;
@@ -118,7 +119,8 @@
   color: white;
   font-size: 4.5em;
   padding: 0.1em;
-  padding-bottom: 0.3em;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.1em;
 }
 
 .Landing-social-links .fa-linkedin:hover {
@@ -251,9 +253,9 @@
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
-  -webkit-animation-duration: 15s;
-  -moz-animation-duration: 15s;
-  animation-duration: 15s;
+  -webkit-animation-duration: 3.8s;
+  -moz-animation-duration: 3.8s;
+  animation-duration: 3.8s;
 }
 /* 
 .Landing-footer.one {
