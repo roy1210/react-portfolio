@@ -9,7 +9,7 @@ const AppFooter = () => (
       <span className="AppFooter-made-with">Made with</span>
       <span className="AppFooter-react">
         <a
-          href="https://codesandbox.io/s/my-portfolio-qmqcp"
+          href="https://codesandbox.io/s/my-portfolio-489ir"
           rel="noopener noreferrer"
           target="_blank"
         >

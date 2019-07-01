@@ -11,7 +11,7 @@ const ReactProjects = () => (
         detail1="This portfolio website. Domain is registered on Freenom and hosted on Netlify."
         detail2="Created with React Router, React Helmet, Semantic-ui-react, and React-MDL."
         github="https://github.com/roy1210/react-portfolio"
-        codesandbox="https://codesandbox.io/s/my-portfolio-qmqcp"
+        codesandbox="https://codesandbox.io/s/my-portfolio-489ir"
         siteUrl="https://roy-k.tk/"
       />
     </Cell>
