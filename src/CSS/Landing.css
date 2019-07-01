@@ -51,33 +51,33 @@
 
 .Landing-banner-text h3 {
   font-size: 2.7em;
-  padding-top: 0.4em;
-  margin-bottom: 0.1em;
+  padding-top: 0.45em;
+  margin-bottom: 0em;
   font-weight: 900;
   color: whitesmoke;
 }
 .Landing-banner-text h4 {
   margin: 0.5em;
   /* margin-top: 0.4em; */
-  font-size: 1.95em;
+  font-size: 1.98em;
   color: whitesmoke;
 }
 
 .Landing-banner-text hr {
-  border-top: 4.5px dotted white;
+  border-top: 3.8px dotted white;
   width: 48%;
   margin: auto;
 }
 
 .Landing-banner-text p {
   color: white;
-  font-size: 22px;
-  padding-top: 15px;
-  margin-bottom: 9px;
+  font-size: 20px;
+  padding-top: 13px;
+  margin-bottom: 10px;
 }
 .Landing-banner-text span {
   color: white;
-  font-size: 21px;
+  font-size: 20px;
   padding-top: 15px;
   padding-bottom: 5px;
   padding-left: 0px;
@@ -117,10 +117,9 @@
 .Landing-social-links i {
   display: inline-flexbox;
   color: white;
-  font-size: 4.5em;
+  font-size: 4.35em;
   padding: 0.1em;
-  padding-bottom: 0.1em;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.17em;
 }
 
 .Landing-social-links .fa-linkedin:hover {
