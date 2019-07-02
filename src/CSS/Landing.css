@@ -344,7 +344,10 @@
     position: fixed;
     bottom: 0;
     margin: auto;
-    left: 33% !important;
+    left: 35% !important;
+  }
+  .mdl-cell--12-col-phone {
+    margin-left: 16px !important;
   }
 }
 
