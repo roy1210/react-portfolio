@@ -279,16 +279,18 @@
   }
   .Landing-banner-text hr {
     border-top: 3px dotted white;
-    width: 68%;
+    width: 72%;
     margin: auto;
   }
   .Landing-banner-text h3 {
-    font-size: 1.3em;
+    font-size: 1.35em;
     color: white;
     margin-bottom: 0.1em;
+    padding-top: auto;
+    margin-top: auto;
   }
   .Landing-banner-text h4 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: white;
     margin-top: 0em;
     margin-bottom: 0.5em;
@@ -296,13 +298,13 @@
   .Landing-banner-text p {
     color: white;
     font-size: 16px;
-    padding-top: 13px;
+    padding-top: 10px;
     margin-bottom: 5px;
   }
   .Landing-banner-text span {
     color: white;
-    font-size: 13.5px;
-    padding-top: 13px;
+    font-size: 13.8px;
+    padding-top: 10px;
     padding-bottom: 0px;
     padding-left: 0px;
   }
@@ -310,16 +312,17 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 50%;
+    width: 70%;
     margin: auto;
-    padding-left: 0.45em;
+    padding-left: 0.6em;
   }
   .Landing-social-links i {
     color: white;
-    font-size: 2.5em;
-    padding: 4px;
+    margin: auto;
+    padding: auto;
+    font-size: 3em;
     padding-top: 7px;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
   }
   .Landing-solidity:hover {
     background: linear-gradient(#6d7f86 75%, rgb(191, 192, 192) 35%);
@@ -346,9 +349,12 @@
     margin: auto;
     left: 35% !important;
   }
-  .mdl-cell--12-col-phone {
+  /* .mdl-cell--12-col-phone {
     margin-left: 16px !important;
-  }
+  } */
+}
+.Landing-container .mdl-cell--12-col-phone {
+  margin-left: 16px !important;
 }
 
 /* for desktop resolution layout */
