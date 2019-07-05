@@ -164,14 +164,22 @@ const ResumePlans = (
                   <List.Item>
                     <List.Icon
                       name="js square"
-                      style={{ paddingBottom: "0.7em" }}
+                      style={{ paddingBottom: "0.55em" }}
                     />
                     <List.Content>
                       <List.Header>TypeScript</List.Header>
                     </List.Content>
                   </List.Item>
+                  <List.Item>
+                    <List.Icon
+                      name="node js"
+                      style={{ paddingBottom: "0.7em", paddingRight: "0.3em" }}
+                    />
+                    <List.Content>
+                      <List.Header>Node.js</List.Header>
+                    </List.Content>
+                  </List.Item>
                 </List.List>
-
                 {/* L2-close */}
               </List.Content>
             </List.Item>
@@ -246,9 +254,19 @@ const ResumePlans = (
 
             {/* L2 */}
             <List.Item>
-              <List.Icon name="database" style={{ paddingBottom: "0.55em" }} />
+              <List.Icon
+                name="gripfire"
+                style={{ paddingBottom: "0.55em", paddingRight: "0.5em" }}
+              />
               <List.Content>
                 <List.Header>Firebase</List.Header>
+              </List.Content>
+            </List.Item>
+            {/* L2 */}
+            <List.Item>
+              <List.Icon name="sun" style={{ paddingBottom: "0.55em" }} />
+              <List.Content>
+                <List.Header>GraphQL</List.Header>
               </List.Content>
             </List.Item>
             {/* L2 */}
