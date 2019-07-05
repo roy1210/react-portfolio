@@ -31,7 +31,8 @@ const ReactProjects = () => (
       <Project
         photoUrl="https://github.com/roy1210/React_Find_Gif/blob/master/src/screen-shot.gif?raw=true"
         name="Find GIF"
-        detail1="Search for GIF using GIPHY API."
+        detail1="Search GIF app."
+        detail2="Developed with GIPHY API."
         github="https://github.com/roy1210/React_Find_Gif"
         codesandbox="https://codesandbox.io/s/github/roy1210/React_Find_Gif"
         siteUrl="https://csb-gp67w.netlify.com/"
@@ -42,7 +43,7 @@ const ReactProjects = () => (
       <Project
         photoUrl="https://github.com/roy1210/react-roll-dice/blob/master/screenShot.jpg?raw=true"
         name="Roll dice"
-        detail1="Component for rolling dice."
+        detail1="Material component for rolling dice."
         github="https://github.com/roy1210/react-roll-dice"
         codesandbox="https://codesandbox.io/s/dice-xjrei"
         siteUrl="https://rolling-dice-k.netlify.com"

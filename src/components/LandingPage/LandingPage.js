@@ -27,6 +27,7 @@ class LandingPage extends Component {
                 <p>
                   <span className="Landing-javascript">JavaScript</span> |{" "}
                   <span className="Landing-react">React</span> |{" "}
+                  <span className="Landing-firebase">Firebase</span> |{" "}
                   <span className="Landing-python">Python</span> |{" "}
                   <span className="Landing-golang">Golang</span> |{" "}
                   <span className="Landing-solidity">Solidity</span>

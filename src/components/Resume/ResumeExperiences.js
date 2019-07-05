@@ -7,7 +7,7 @@ const ResumeExperiences = () => (
     <ResumeExperience
       startYear="2014"
       endYear="Present"
-      jobName="SIIX Singapore"
+      jobName="SIIX Singapore Pte. Ltd."
       jobDescription="Sales executive / Project management"
     />
   </Fragment>

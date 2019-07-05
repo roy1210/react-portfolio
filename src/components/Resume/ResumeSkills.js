@@ -8,18 +8,18 @@ const ResumeSkills = () => (
     <h4>Coding</h4>
     <h5 className="Resume-frontend">Front-end</h5>
     <SkillsProgressBuffer skill="JavaScript" blank={6} progress={45} />
-    <p>Basic syntax for ES6, React.js and Vue.js</p>
+    <p>Basic syntax for ES6, React.js, and Vue.js</p>
     <SkillsProgressBuffer skill="React.js" blank={10} progress={50} />
     <p>
-      Develop Web Apps with Redux, Redux-thunk, React Router, Semantic-UI-React,
-      and Firebase
+      Develop Web Apps with Redux-thunk, React Router, Semantic-UI-React, and
+      Firebase
     </p>
     <SkillsProgressBuffer skill="Firebase" blank={9} progress={35} />
     <p>
-      Cloud Firestore(NoSQL), authentication, and hosting for a serverless app
+      Cloud Firestore (NoSQL), authentication, and hosting for a serverless app
     </p>
     <SkillsProgress skill="HTML&CSS" blank={3} progress={50} />
-    <p>Basic syntax for CSS, animations, and Bootstrap</p>
+    <p>Basic Knowledge of HTML5, CSS3, Materialize, and Bootstrap</p>
     <h5 className="Resume-backend">Back-end</h5>
     <SkillsProgress skill="Python" blank={11} progress={55} />
     <p>
@@ -37,13 +37,13 @@ const ResumeSkills = () => (
     <p>Drone: Tello edu by Golang </p>
     <SkillsProgress skill="Network" blank={9} progress={15} />
     <p>Hosting website with Freenom and Netlify to set own custom domain</p>
-    <SkillsProgress skill="SQL" blank={15} progress={35} />
+    <SkillsProgress skill="SQL" blank={15} progress={25} />
     <p>Basic syntax for SQLite3 and PostgreSQL</p>
     <SkillsProgress skill="Algorism" blank={8} progress={40} />
     <p>Paiza skill check rank: C (S~E) </p>
     <hr style={{ borderTop: "3px dashed #e22947" }} />
     <h4>Knowledge / Languages</h4>
-    <SkillsProgressBuffer skill="Blockchain" blank={5} progress={75} />
+    <SkillsProgressBuffer skill="Blockchain" blank={5} progress={60} />
     <SkillsProgress skill="Japanese" blank={7} progress={100} />
     <SkillsProgress skill="Chinese" blank={9} progress={80} />
     <SkillsProgress skill="Cantonese" blank={5} progress={75} />

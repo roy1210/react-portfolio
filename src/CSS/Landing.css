@@ -89,6 +89,9 @@
 .Landing-javascript:hover {
   color: #f0db4f;
 }
+.Landing-firebase:hover {
+  color: #f6820d;
+}
 .Landing-golang:hover {
   color: #375eab;
 }
@@ -304,7 +307,7 @@
   }
   .Landing-banner-text span {
     color: white;
-    font-size: 13.8px;
+    font-size: 16px;
     padding-top: 10px;
     padding-bottom: 0px;
     padding-left: 0px;
