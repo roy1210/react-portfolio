@@ -21,12 +21,12 @@ const ResumeSkills = () => (
     <SkillsProgress skill="HTML&CSS" blank={3} progress={50} />
     <p>Basic Knowledge of HTML5, CSS3, Materialize, and Bootstrap</p>
     <h5 className="Resume-backend">Back-end</h5>
-    <SkillsProgress skill="Python" blank={11} progress={55} />
+    <SkillsProgress skill="Python" blank={11} progress={50} />
     <p>
       Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, CSV, Logging,
       and Django
     </p>
-    <SkillsProgress skill="Golang" blank={11} progress={50} />
+    <SkillsProgress skill="Golang" blank={11} progress={45} />
     <p>Basic syntax for Gobot and GoCV</p>
     <SkillsProgress skill="Solidity" blank={11} progress={40} />
     <p>
@@ -43,10 +43,10 @@ const ResumeSkills = () => (
     <p>Paiza skill check rank: C (S~E) </p>
     <hr style={{ borderTop: "3px dashed #e22947" }} />
     <h4>Knowledge / Languages</h4>
-    <SkillsProgressBuffer skill="Blockchain" blank={5} progress={60} />
+    <SkillsProgressBuffer skill="Blockchain" blank={5} progress={55} />
     <SkillsProgress skill="Japanese" blank={7} progress={100} />
     <SkillsProgress skill="Chinese" blank={9} progress={80} />
-    <SkillsProgress skill="Cantonese" blank={5} progress={75} />
+    <SkillsProgress skill="Cantonese" blank={4} progress={75} />
     <SkillsProgress skill="English" blank={10} progress={70} />
     <p>TOEIC score: 875</p>
     <a

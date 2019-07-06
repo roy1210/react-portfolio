@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import RoutePage from "./RoutePage";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Layout, Header, Navigation, Drawer, Content, Button } from "react-mdl";
 import { Popup, Icon } from "semantic-ui-react";
 import "../CSS/App.css";
 
@@ -28,8 +28,22 @@ const NavigationLayout = () => (
         scroll
       >
         <Navigation>
-          <Link to="/resume">Resume / Contact</Link>
-          <Link to="/projects">Projects</Link>
+          <Link to="/resume">
+            <Button
+              style={{ color: "white" }}
+              className="mdl-button mdl-js-button mdl-js-ripple-effect"
+            >
+              RESUME / CONTACT
+            </Button>
+          </Link>
+          <Link to="/projects">
+            <Button
+              style={{ color: "white" }}
+              className="mdl-button mdl-js-button mdl-js-ripple-effect"
+            >
+              PROJECTS
+            </Button>
+          </Link>
           <Link to="/">{miniPlayground()}</Link>
         </Navigation>
       </Header>
@@ -41,8 +55,8 @@ const NavigationLayout = () => (
         }
       >
         <Navigation>
-          <Link to="/resume">Resume / Contact</Link>
-          <Link to="/projects">Projects</Link>
+          <Link to="/resume">RESUME / CONTACT</Link>
+          <Link to="/projects">PROJECTS</Link>
         </Navigation>
       </Drawer>
       <Content>

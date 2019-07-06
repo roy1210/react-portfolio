@@ -22,16 +22,13 @@ class Project extends Component {
     let codesandbox;
     if (this.props.codesandbox) {
       codesandbox = (
-        <Button colored>
-          {" "}
-          <a
-            href={this.props.codesandbox}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CodeSandBox
-          </a>
-        </Button>
+        <a
+          href={this.props.codesandbox}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button style={{ color: "#ff4081" }}>CodeSandBox</Button>
+        </a>
       );
     } else {
       codesandbox = "";
@@ -40,16 +37,9 @@ class Project extends Component {
     let siteUrl;
     if (this.props.siteUrl) {
       siteUrl = (
-        <Button colored>
-          {" "}
-          <a
-            href={this.props.siteUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Go
-          </a>
-        </Button>
+        <a href={this.props.siteUrl} target="_blank" rel="noopener noreferrer">
+          <Button style={{ color: "#ff4081" }}>Go</Button>
+        </a>
       );
     } else {
       siteUrl = "";
@@ -75,16 +65,13 @@ class Project extends Component {
             {detail2}
           </CardText>
           <CardActions border>
-            <Button colored>
-              {" "}
-              <a
-                href={this.props.github}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>{" "}
-            </Button>
+            <a
+              href={this.props.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button style={{ color: "#ff4081" }}>Github</Button>
+            </a>
             {codesandbox}
             {siteUrl}
           </CardActions>
