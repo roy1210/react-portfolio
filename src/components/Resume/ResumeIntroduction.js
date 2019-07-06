@@ -264,6 +264,16 @@ const ResumePlans = (
             </List.Item>
             {/* L2 */}
             <List.Item>
+              <List.Icon
+                name="mobile alternate"
+                style={{ paddingBottom: "0.55em", paddingRight: "0.7em" }}
+              />
+              <List.Content>
+                <List.Header>Progressive Web Apps</List.Header>
+              </List.Content>
+            </List.Item>
+            {/* L2 */}
+            <List.Item>
               <List.Icon name="sun" style={{ paddingBottom: "0.55em" }} />
               <List.Content>
                 <List.Header>GraphQL</List.Header>
