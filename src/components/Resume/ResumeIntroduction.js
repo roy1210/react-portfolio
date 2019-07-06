@@ -220,7 +220,7 @@ const ResumePlans = (
                       <List.Header>
                         Trading
                         <span className="Resume-plans-description">
-                          : Analyzed with numpy, pandas, and matplotlib
+                          : Analyzed with numpy, pandas, & matplotlib
                         </span>
                       </List.Header>
                     </List.Content>
