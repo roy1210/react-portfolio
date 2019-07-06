@@ -188,31 +188,6 @@ const ResumePlans = (
             <List.Item>
               <List.Icon name="folder open" />
               <List.Content>
-                <List.Header>Golang</List.Header>
-                <List.List>
-                  <List.Item>
-                    <List.Icon
-                      name="plane"
-                      style={{ paddingBottom: "0.7em" }}
-                    />
-                    <List.Content>
-                      <List.Header>
-                        Drone
-                        <span className="Resume-plans-description">
-                          : Gobot & GoCV
-                        </span>
-                      </List.Header>
-                    </List.Content>
-                  </List.Item>
-                </List.List>
-                {/* L2 close */}
-              </List.Content>
-            </List.Item>
-
-            {/* L2 */}
-            <List.Item>
-              <List.Icon name="folder open" />
-              <List.Content>
                 <List.Header>Python</List.Header>
                 {/* L3 */}
                 <List.List>
@@ -235,6 +210,23 @@ const ResumePlans = (
                   </List.Item>
                   <List.Item>
                     <List.Icon
+                      name="chart line"
+                      style={{
+                        paddingRight: "0.42em",
+                        paddingBottom: "0.55em"
+                      }}
+                    />
+                    <List.Content>
+                      <List.Header>
+                        Trading
+                        <span className="Resume-plans-description">
+                          : Analyzed with numpy, pandas, and matplotlib
+                        </span>
+                      </List.Header>
+                    </List.Content>
+                  </List.Item>
+                  <List.Item>
+                    <List.Icon
                       name="plane"
                       style={{ paddingBottom: "0.7em" }}
                     />
@@ -248,9 +240,34 @@ const ResumePlans = (
                     </List.Content>
                   </List.Item>
                 </List.List>
-                {/* L2-close */}
               </List.Content>
             </List.Item>
+            {/* L2-close */}
+
+            {/* L2 */}
+            <List.Item>
+              <List.Icon name="folder open" />
+              <List.Content>
+                <List.Header>Golang</List.Header>
+                <List.List>
+                  <List.Item>
+                    <List.Icon
+                      name="plane"
+                      style={{ paddingBottom: "0.7em" }}
+                    />
+                    <List.Content>
+                      <List.Header>
+                        Drone
+                        <span className="Resume-plans-description">
+                          : Gobot & GoCV
+                        </span>
+                      </List.Header>
+                    </List.Content>
+                  </List.Item>
+                </List.List>
+              </List.Content>
+            </List.Item>
+            {/* L2 close */}
 
             {/* L2 */}
             <List.Item>
