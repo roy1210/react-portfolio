@@ -45,11 +45,30 @@ class Project extends Component {
       siteUrl = "";
     }
 
+    let cardColor;
+    if (this.props.cardColor) {
+      cardColor = this.props.cardColor;
+    } else {
+      cardColor = "white";
+    }
+
+    let textColor;
+    if (this.props.textColor) {
+      textColor = this.props.textColor;
+    } else {
+      textColor = "rgba(0,0,0,.54)";
+    }
+
     return (
       <div className="Project-SlideDown">
         <Card
           shadow={5}
-          style={{ width: "307px", display: "block", margin: "auto" }}
+          style={{
+            width: "307px",
+            display: "block",
+            margin: "auto",
+            background: `${cardColor}`
+          }}
         >
           <CardTitle
             style={{
@@ -60,7 +79,7 @@ class Project extends Component {
           >
             {this.props.name}
           </CardTitle>
-          <CardText>
+          <CardText style={{ color: `${textColor}` }}>
             {this.props.detail1}
             {detail2}
           </CardText>

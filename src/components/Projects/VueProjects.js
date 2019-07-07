@@ -24,6 +24,8 @@ const VueProjects = () => (
         codesandbox="https://codesandbox.io/s/mymarkdown-s0etj"
         siteUrl="https://my-markdown-memo.firebaseapp.com"
         titleColor="black"
+        cardColor="#FFE9D1"
+        textColor="black"
       />
     </Cell>
   </Grid>

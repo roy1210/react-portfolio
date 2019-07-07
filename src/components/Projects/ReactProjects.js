@@ -9,7 +9,7 @@ const ReactProjects = () => (
         photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/190616-Portfolio.jpg?raw=true"
         name="Portfolio"
         detail1="This portfolio website. Registered custom domain on Freenom and hosted on Netlify."
-        detail2="Created with React Router, React Helmet, Semantic-ui-react, and React-MDL."
+        detail2="Made with React Router, React Helmet, Semantic-ui-react, and React-MDL."
         github="https://github.com/roy1210/react-portfolio"
         codesandbox="https://codesandbox.io/s/my-portfolio-l5tuh"
         siteUrl="https://roy-k.tk/"
@@ -24,6 +24,19 @@ const ReactProjects = () => (
         github="https://github.com/roy1210/react-flip-coin"
         codesandbox="https://codesandbox.io/s/flip-coin-6mu0b"
         siteUrl="https://coin-game-k.netlify.com"
+      />
+    </Cell>
+
+    <Cell col={4} phone={12}>
+      <Project
+        photoUrl="https://github.com/roy1210/react-dash-awesome/blob/master/public/img/ScreenShot.jpg?raw=true"
+        name="DashAwesome"
+        detail1="Simple project dashboard tool with authentication and cloud functions."
+        detail2="Made with Redux-thunk, Firebase, and Cloud Firestore."
+        github="https://github.com/roy1210/react-dash-awesome"
+        siteUrl="https://dashawesome-1210.firebaseapp.com/"
+        cardColor="#FFE9D1"
+        textColor="black"
       />
     </Cell>
 
