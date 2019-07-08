@@ -16,24 +16,33 @@ class ProjectsPage extends Component {
   render() {
     return (
       <div className="Projects">
-        <div className="Projects-category-tabs">
-          <Tabs
-            activeTab={this.state.activeTab}
-            onChange={tabId => this.setState({ activeTab: tabId })}
-            ripple
-          >
-            <Tab className="Projects-fade-in one">React</Tab>
-            <Tab className="Projects-fade-in two">Vue</Tab>
-            <Tab className="Projects-fade-in three">Golang</Tab>
-            <Tab className="Projects-fade-in four">Django</Tab>
-            {/* <Tab>Solidity</Tab> */}
-          </Tabs>
+        <div className="content">
+          <div className="Projects-category-tabs">
+            <Tabs
+              activeTab={this.state.activeTab}
+              onChange={tabId => this.setState({ activeTab: tabId })}
+              ripple
+            >
+              <Tab className="Projects-fade-in one">React</Tab>
+              <Tab className="Projects-fade-in two">Vue</Tab>
+              <Tab className="Projects-fade-in three">Golang</Tab>
+              <Tab className="Projects-fade-in four">Django</Tab>
+              {/* <Tab>Solidity</Tab> */}
+            </Tabs>
 
-          <Grid>
-            <Cell col={12} phone={12} tablet={12} className="Projects-Project">
-              <div className="content">{this.toggleCategories()}</div>
-            </Cell>
-          </Grid>
+            <Grid>
+              <Cell
+                col={12}
+                phone={12}
+                tablet={12}
+                className="Projects-Project"
+              >
+                <div className="Projects-content">
+                  {this.toggleCategories()}
+                </div>
+              </Cell>
+            </Grid>
+          </div>
         </div>
         <div className="Projects-footer">
           <AppFooter />

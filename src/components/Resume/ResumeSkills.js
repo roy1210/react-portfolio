@@ -7,19 +7,24 @@ const ResumeSkills = () => (
     <h3>Skills</h3>
     <h4>Coding</h4>
     <h5 className="Resume-frontend">Front-end</h5>
-    <SkillsProgressBuffer skill="JavaScript" blank={6} progress={45} />
-    <p>Basic syntax for ES6, React.js, and Vue.js</p>
+    <SkillsProgressBuffer skill="JavaScript" blank={6} progress={35} />
+    <p>Basic syntax for ES6</p>
     <SkillsProgressBuffer skill="React.js" blank={10} progress={50} />
     <p>
-      Develop Web Apps with Redux-thunk, React Router, Semantic-UI-React, and
+      Develop Web apps with Redux-thunk, React Router, Semantic-UI-React, and
       Firebase
     </p>
+    {/* <SkillsProgressBuffer skill="GatsbyJS" blank={7} progress={30} />
+    <p>
+      Develop with using plugins and GraphQL to build fast modern Web apps and
+      PWA
+    </p> */}
     <SkillsProgressBuffer skill="Firebase" blank={9} progress={35} />
     <p>
       Cloud Firestore (NoSQL), authentication, and hosting for a serverless app
     </p>
     <SkillsProgress skill="HTML&CSS" blank={3} progress={50} />
-    <p>Basic Knowledge of HTML5, CSS3, Materialize, and Bootstrap</p>
+    <p>Basic Knowledge of HTML5, CSS3, SCSS, and Bootstrap</p>
     <h5 className="Resume-backend">Back-end</h5>
     <SkillsProgress skill="Python" blank={11} progress={50} />
     <p>

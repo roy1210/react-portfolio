@@ -6,13 +6,28 @@
   height: 100%;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+  /* for footer */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .Projects-grid {
   display: flex;
-  /* width: 100%; */
 }
 
+.Projects-content {
+  flex-grow: 1;
+}
+
+.Projects-footer {
+  padding-bottom: 0.05em;
+  left: 44.8%;
+  margin: auto;
+  bottom: 0;
+}
+
+/* 
 .Projects-footer {
   display: block;
   position: fixed;
@@ -20,7 +35,7 @@
   left: 44.8%;
   margin: auto;
   bottom: 0;
-}
+} */
 
 /* face in  */
 @-webkit-keyframes fadeIn {
