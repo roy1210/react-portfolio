@@ -19,21 +19,21 @@ const ResumeSkills = () => (
       Develop with using plugins and GraphQL to build fast modern Web apps and
       PWA
     </p> */}
-    <SkillsProgressBuffer skill="Firebase" blank={9} progress={35} />
+    <SkillsProgressBuffer skill="Firebase" blank={9} progress={20} />
     <p>
       Cloud Firestore (NoSQL), authentication, and hosting for a serverless app
     </p>
     <SkillsProgress skill="HTML&CSS" blank={3} progress={50} />
     <p>Basic Knowledge of HTML5, CSS3, SCSS, and Bootstrap</p>
     <h5 className="Resume-backend">Back-end</h5>
-    <SkillsProgress skill="Python" blank={11} progress={50} />
+    <SkillsProgress skill="Python" blank={11} progress={40} />
     <p>
       Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, CSV, Logging,
       and Django
     </p>
-    <SkillsProgress skill="Golang" blank={11} progress={45} />
+    <SkillsProgress skill="Golang" blank={11} progress={35} />
     <p>Basic syntax for Gobot and GoCV</p>
-    <SkillsProgress skill="Solidity" blank={11} progress={40} />
+    <SkillsProgress skill="Solidity" blank={11} progress={35} />
     <p>
       Basic syntax for web3, making Dapps by Truffle, Metamask, Ganache and
       serving with React.js

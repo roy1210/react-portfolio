@@ -43,7 +43,7 @@ const ResumeContact = (
         rel="noopener noreferrer"
         target="_blank"
       >
-        https://linkedin.com/in/roy1210
+        LinkedIn
       </a>
     </div>
     <i className="fab fa-github" aria-hidden="true" />
@@ -52,7 +52,7 @@ const ResumeContact = (
       rel="noopener noreferrer"
       target="_blank"
     >
-      https://github.com/roy1210
+      Github
     </a>
     <br />
     <div className="Resume-codeSandBox">
@@ -63,17 +63,13 @@ const ResumeContact = (
         rel="noopener noreferrer"
         target="_blank"
       >
-        http://bit.do/codesandbox-roy
+        CodeSandBox
       </a>
     </div>
     <div className="Resume-home">
       <i className="fas fa-home" aria-hidden="true" />
-      <a
-        href="https://github.com/roy1210"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        https://roy-k.tk
+      <a href="https://roy-k.tk" rel="noopener noreferrer" target="_blank">
+        Portfolio
       </a>
     </div>
     <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
