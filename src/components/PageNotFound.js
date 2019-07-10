@@ -1,6 +1,7 @@
 import React from "react";
 import "../CSS/PageNotFound.css";
 import { Link } from "react-router-dom";
+import AppFooter from "./AppFooter";
 // Ref: https://codepen.io/salehriaz/pen/erJrZM
 
 const PageNotFound = () => (
@@ -56,6 +57,9 @@ const PageNotFound = () => (
           <div className="PageNotFound-star" />
           <div className="PageNotFound-star" />
         </div>
+      </div>
+      <div className="Projects-footer">
+        <AppFooter />
       </div>
     </div>
   </div>
