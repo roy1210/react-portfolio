@@ -1,4 +1,6 @@
-/* @import url("https://fonts.googleapis.com/css?family=Dosis:300,400,500"); */
+/* Copyright (c) 2019  Saleh Riaz Qureshi
+Released under the MIT license
+https://codepen.io/salehriaz/pen/erJrZM */
 
 @-moz-keyframes rocket-movement {
   100% {
@@ -128,10 +130,26 @@ body {
   height: 100%;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+  /* for footer */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.PageNotFound-content {
+  flex-grow: 1;
+}
+
+.PageNotFound-footer {
+  padding-bottom: 0.05em;
+  left: 44.8%;
+  margin: auto;
+  bottom: 0;
 }
 
 .PageNotFound-bg-purple {
-  background: url(https://github.com/roy1210/react-portfolio/blob/master/src/img/PageNotFound-404/bg_purple.png?raw=true);
+  /* background: url("../img/PageNotFound-404/bg_purple.png"); */
+  background: url("https://github.com/roy1210/react-portfolio/blob/master/src/img/PageNotFound-404/bg_purple.png?raw=true");
   background-repeat: repeat-x;
   background-size: cover;
   background-position: left top;

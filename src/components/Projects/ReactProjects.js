@@ -6,7 +6,7 @@ const ReactProjects = () => (
   <Grid className="projects-grid">
     <Cell col={4} phone={12}>
       <Project
-        photoUrl="https://github.com/roy1210/JS_React_Portfolio/blob/master/src/img/190616-Portfolio.jpg?raw=true"
+        photoUrl="https://github.com/roy1210/react-portfolio/blob/master/src/img/190710ReactPortfolio.jpg"
         name="Portfolio"
         detail1="Personal portfolio built with React. Registered custom domain on Freenom and hosted on Netlify."
         detail2="Tools: CRA, React Router v5, React helmet, Semantic-UI, Material Lite UI"

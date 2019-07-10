@@ -6,7 +6,7 @@ Portfolio website built with React.js
 
 **_DEMO:_**
 
-<img src="./src/img/190710ReactPortfolio.jpg" width="50%">
+<img src="./src/img/190710ReactPortfolio.jpg" width="80%">
 
 ## Usage / Install
 
