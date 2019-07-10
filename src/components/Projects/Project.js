@@ -38,7 +38,7 @@ class Project extends Component {
     if (this.props.siteUrl) {
       siteUrl = (
         <a href={this.props.siteUrl} target="_blank" rel="noopener noreferrer">
-          <Button style={{ color: "#ff4081" }}>Go</Button>
+          <Button style={{ color: "#ff4081" }}>LIVE</Button>
         </a>
       );
     } else {

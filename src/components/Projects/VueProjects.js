@@ -18,10 +18,9 @@ const VueProjects = () => (
       <Project
         photoUrl="https://github.com/roy1210/JS_Vue_My_Markdown_Memo/raw/master/mymarkdown.jpg"
         name="Markdown Memo"
-        detail1="Markdown memo which can preview and edit on the same time. (Like Evernote)"
-        detail2="Developed with Firebase authentication and Firebase realtime DB."
+        detail1="Markdown memo which can preview and edit on the same time."
+        detail2="Tools: Firebase authentication, Firebase realtime DB, marked"
         github="https://github.com/roy1210/JS_Vue_My_Markdown_Memo"
-        codesandbox="https://codesandbox.io/s/mymarkdown-s0etj"
         siteUrl="https://my-markdown-memo.firebaseapp.com"
         titleColor="black"
         cardColor="#FFE9D1"
