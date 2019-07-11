@@ -12,6 +12,13 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.mdl-layout__header-row .mdl-navigation__link {
+  padding: 0 10px !important;
+}
+
+.mdl-layout__header-row {
+  padding-right: 20px !important;
+}
 .ui.segment {
   background-color: #aaa;
   padding: 0px;

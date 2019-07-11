@@ -12,6 +12,14 @@ const miniPlayground = () => (
     position="bottom right"
   />
 );
+const resume = () => (
+  <Popup
+    trigger={<Icon name="file pdf" color="red" size="large" circular />}
+    content="It's my resume(pdf)"
+    position="bottom right"
+    style={{ padding: "0px" }}
+  />
+);
 
 const NavigationLayout = () => (
   <div className="demo-big-content">
@@ -44,6 +52,14 @@ const NavigationLayout = () => (
               PROJECTS
             </Button>
           </Link>
+          <a
+            href="https://drive.google.com/file/d/1nXgDroS8Q5iXP7B6xGf9zKVvG28kcZXR/view?usp=sharing"
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-hidden="true"
+          >
+            {resume()}
+          </a>
           <Link to="/">{miniPlayground()}</Link>
         </Navigation>
       </Header>
@@ -56,6 +72,14 @@ const NavigationLayout = () => (
       >
         <Navigation>
           <Link to="/resume">RESUME / CONTACT</Link>
+          <a
+            href="https://drive.google.com/file/d/1nXgDroS8Q5iXP7B6xGf9zKVvG28kcZXR/view?usp=sharing"
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-hidden="true"
+          >
+            RESUME(PDF)
+          </a>
           <Link to="/projects">PROJECTS</Link>
         </Navigation>
       </Drawer>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Spinner, Grid, Cell } from "react-mdl";
 
-const DjangoProjects = () => (
+const DaapsProjects = () => (
   <Grid className="projects-grid">
     <Cell col={4} phone={12}>
       <Spinner />
@@ -10,4 +10,4 @@ const DjangoProjects = () => (
   </Grid>
 );
 
-export default DjangoProjects;
+export default DaapsProjects;

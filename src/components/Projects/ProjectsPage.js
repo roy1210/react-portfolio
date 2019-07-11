@@ -3,7 +3,7 @@ import { Tabs, Tab, Grid, Cell } from "react-mdl";
 import ReactProjects from "./ReactProjects.js";
 import VueProjects from "./VueProjects.js";
 import GolangProjects from "./GolangProjects.js";
-import DjangoProjects from "./DjangoProjects.js";
+import DappsProjects from "./DappsProjects.js";
 import AppFooter from "../AppFooter";
 import "../../CSS/Projects.css";
 
@@ -26,7 +26,7 @@ class ProjectsPage extends Component {
               <Tab className="Projects-fade-in one">React</Tab>
               <Tab className="Projects-fade-in two">Vue</Tab>
               <Tab className="Projects-fade-in three">Golang</Tab>
-              <Tab className="Projects-fade-in four">Django</Tab>
+              <Tab className="Projects-fade-in four">DApps</Tab>
               {/* <Tab>Solidity</Tab> */}
             </Tabs>
 
@@ -59,7 +59,7 @@ class ProjectsPage extends Component {
     } else if (this.state.activeTab === 2) {
       return <GolangProjects />;
     } else if (this.state.activeTab === 3) {
-      return <DjangoProjects />;
+      return <DappsProjects />;
     }
   }
 }
