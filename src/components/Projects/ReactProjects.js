@@ -56,7 +56,7 @@ const ReactProjects = () => (
     <Cell col={4} phone={12}>
       <Project
         photoUrl="https://github.com/roy1210/react-roll-dice/blob/master/screenShot.jpg?raw=true"
-        name="Roll dice"
+        name="Roll dices"
         detail1="Material component for rolling dice."
         detail2="Tools: CRA"
         github="https://github.com/roy1210/react-roll-dice"

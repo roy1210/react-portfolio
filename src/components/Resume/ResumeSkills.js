@@ -31,9 +31,9 @@ const ResumeSkills = () => (
       Basic syntax for Flake8, Unit testing, SQLAlcemy, Pandas, CSV, Logging,
       and Django
     </p>
-    <SkillsProgress skill="Golang" blank={11} progress={35} />
+    <SkillsProgress skill="Golang" blank={11} progress={30} />
     <p>Basic syntax for Gobot and GoCV</p>
-    <SkillsProgress skill="Solidity" blank={11} progress={35} />
+    <SkillsProgress skill="Solidity" blank={11} progress={25} />
     <p>
       Basic syntax for web3, making Dapps by Truffle, Metamask, Ganache and
       serving with React.js

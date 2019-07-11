@@ -22,7 +22,7 @@ class LandingPage extends Component {
               <LandingPlayground />
               <div className="Landing-banner-text">
                 <h3>Hi, this is Roy. Nice to meet you.</h3>
-                <h4>Web / Software Developer</h4>
+                <h4>Web / Blockchain Developer</h4>
                 <hr />
                 <p>
                   <span className="Landing-javascript">JavaScript</span> |{" "}
