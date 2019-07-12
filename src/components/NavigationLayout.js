@@ -73,32 +73,14 @@ const NavigationLayout = () => (
         <Navigation>
           <Link to="/resume">RESUME / CONTACT</Link>
           <Link to="/projects">PROJECTS</Link>
-          <p style={{ textDecoration: "none", color: "black" }}>
-            External links:
-          </p>
-          <a
-            href="https://github.com/roy1210"
-            rel="noopener noreferrer"
-            target="_blank"
-            aria-hidden="true"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/roy1210/"
-            rel="noopener noreferrer"
-            target="_blank"
-            aria-hidden="true"
-          >
-            LinkedIn
-          </a>
+          <p className="DrawerTitle">External links:</p>
           <a
             href="https://drive.google.com/file/d/1nXgDroS8Q5iXP7B6xGf9zKVvG28kcZXR/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
             aria-hidden="true"
           >
-            Resume(pdf)
+            RESUME(PDF)
           </a>
         </Navigation>
       </Drawer>
