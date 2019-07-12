@@ -98,7 +98,7 @@ const NavigationLayout = () => (
             target="_blank"
             aria-hidden="true"
           >
-            RESUME(PDF)
+            Resume(pdf)
           </a>
         </Navigation>
       </Drawer>
