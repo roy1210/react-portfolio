@@ -23,7 +23,7 @@ const ResumeIntro = (
 
 const ResumeContact = (
   <Fragment>
-    <h5 className="Resume-txt-center">About / Contact</h5>
+    <h5 className="Resume-txt-center">Contact / Links</h5>
     <i className="fas fa-map-marked-alt" aria-hidden="true" />
     <span>Singapore</span>
     <br />
@@ -52,7 +52,7 @@ const ResumeContact = (
       rel="noopener noreferrer"
       target="_blank"
     >
-      Github
+      GitHub
     </a>
     <br />
     <div className="Resume-codeSandBox">

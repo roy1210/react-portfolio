@@ -72,6 +72,26 @@ const NavigationLayout = () => (
       >
         <Navigation>
           <Link to="/resume">RESUME / CONTACT</Link>
+          <Link to="/projects">PROJECTS</Link>
+          <p style={{ textDecoration: "none", color: "black" }}>
+            External links:
+          </p>
+          <a
+            href="https://github.com/roy1210"
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-hidden="true"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/roy1210/"
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-hidden="true"
+          >
+            LinkedIn
+          </a>
           <a
             href="https://drive.google.com/file/d/1nXgDroS8Q5iXP7B6xGf9zKVvG28kcZXR/view?usp=sharing"
             rel="noopener noreferrer"
@@ -80,7 +100,6 @@ const NavigationLayout = () => (
           >
             RESUME(PDF)
           </a>
-          <Link to="/projects">PROJECTS</Link>
         </Navigation>
       </Drawer>
       <Content>
