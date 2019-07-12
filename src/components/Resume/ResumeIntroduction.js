@@ -36,6 +36,11 @@ const ResumeContact = (
     <i className="fa fa-envelope" aria-hidden="true" />
     <a href="mailto:rswkure@gmail.com">rswkure@gmail.com</a>
     <br />
+    <i className="fas fa-file-pdf" aria-hidden="true" />
+    <a href="https://drive.google.com/file/d/172zkyRbEWU4lFN1kvYhXMjzQFoRN6hL_/view?usp=sharing">
+      Resume
+    </a>
+    <br />
     <div className="Resume-linkedin">
       <i className="fab fa-linkedin" aria-hidden="true" />
       <a
@@ -63,7 +68,7 @@ const ResumeContact = (
         rel="noopener noreferrer"
         target="_blank"
       >
-        CodeSandBox
+        CodeSandbox
       </a>
     </div>
     <div className="Resume-home">
