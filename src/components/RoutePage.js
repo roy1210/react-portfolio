@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import LandingPage from "./LandingPage/LandingPage";
 import ProjectsPage from "./Projects/ProjectsPage";
 import ResumePage from "./Resume/ResumePage";
-import PageNotFound from "./PageNotFound";
+import PageNotFound from "./PageNotFound/PageNotFound";
 
 const RouteWithTitle = ({ title, ...props }) => (
   <>

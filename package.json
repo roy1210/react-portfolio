@@ -10,6 +10,8 @@
     "react-preload-image": "1.0.4",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
+    "react-svg": "10.0.11",
+    "react-svg-loader": "3.0.3",
     "semantic-ui-react": "0.87.2"
   },
   "scripts": {

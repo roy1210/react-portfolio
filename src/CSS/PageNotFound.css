@@ -123,7 +123,7 @@ body {
   user-select: none; 
 } */
 .PageNotFound {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -134,6 +134,14 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  /* background */
+  /* background: url("https://github.com/roy1210/react-portfolio/blob/master/src/img/PageNotFound-404/bg_purple.png?raw=true"); */
+  background: url(/img/bg_purple.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: left top;
+  height: 100%;
+  overflow: hidden;
 }
 
 .PageNotFound-content {
@@ -145,16 +153,6 @@ body {
   left: 44.8%;
   margin: auto;
   bottom: 0;
-}
-
-.PageNotFound-bg-purple {
-  /* background: url("../img/PageNotFound-404/bg_purple.png"); */
-  background: url("https://github.com/roy1210/react-portfolio/blob/master/src/img/PageNotFound-404/bg_purple.png?raw=true");
-  background-repeat: repeat-x;
-  background-size: cover;
-  background-position: left top;
-  height: 100%;
-  overflow: hidden;
 }
 
 .PageNotFound-btn-request {
@@ -218,6 +216,7 @@ body {
   top: 75%;
   pointer-events: none;
   animation: rocket-movement 200s linear infinite both running;
+  width: 40px;
 }
 
 .PageNotFound-object_earth {
@@ -225,6 +224,7 @@ body {
   top: 20%;
   left: 15%;
   z-index: 90;
+  width: 100px;
   /*    animation: spin-earth 100s infinite linear both;*/
 }
 
@@ -232,6 +232,7 @@ body {
   position: absolute;
   top: 12%;
   left: 25%;
+  width: 80px;
   /*
     transform: rotate(0deg);
     transition: transform ease-in 99999999999s;
@@ -240,6 +241,7 @@ body {
 
 .PageNotFound-object_astronaut {
   animation: rotate-astronaut 200s infinite linear both alternate;
+  width: 140px;
 }
 
 .PageNotFound-box_astronaut {
@@ -255,10 +257,13 @@ body {
   position: relative;
   z-index: 100;
   pointer-events: none;
+  width: 300px;
+  margin: auto;
+  color: white;
 }
 
 .PageNotFound-stars {
-  background: url(http://salehriaz.com/404Page/img/overlay_stars.svg);
+  background: url(data:image/svg+xml;base64,PCEtLUhhbmRjcmFmdGVkIGJ5IFNhbGVoIFJpYXogUXVyZXNoaSAtIHd3dy5zYWxlaHJpYXouY29t%0D%0AIC0gc2FsZWhyaWF6cUBnbWFpbC5jb20gLSBkcmliYmJsZS5jb20vc2FsZWhyaWF6IC0gYmVoYW5j%0D%0AZS5uZXQvc2FsZWhyaWF6IC0gdHdpdHRlci5jb20vc2FsZWhyaWF6cSAtIGZhY2Vib29rLmNvbS9z%0D%0AYWxlaHJpYXpxdXJlc2hpIC0gaW5zdGFncmFtLmNvbS9zYWxlaHJpYXoKClBsZWFzZSB1c2UgdGhp%0D%0AcyBTVkcgd2l0aCBhdHRyaWJ1dGlvbiB0byB0aGUgYXV0aG9yIGkuZSBTYWxlaCBSaWF6Ci0tPgoK%0D%0APHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjgw%0D%0AIDEyMDAuNzkiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZmO30uY2xzLTEsLmNscy0ye29w%0D%0AYWNpdHk6MC4zO30uY2xzLTIsLmNscy0ze2ZpbGw6IzY2YmFmMjt9LmNscy0ze29wYWNpdHk6MC42%0D%0AMjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPm92ZXJsYXlfc3RhcnNfMTwvdGl0bGU+PGcgaWQ9Ikxh%0D%0AeWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJM%0D%0AYXllciAxIj48ZyBpZD0ic3RhcnMiPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iNjgzLjgyIiBj%0D%0AeT0iOTYzLjI2IiByPSI0LjA2Ii8+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSIxMDY5LjMxIiBj%0D%0AeT0iOTEyLjEyIiByPSI0LjA2Ii8+PGNpcmNsZSBjbGFzcz0iY2xzLTIiIGN4PSIyOTQuMjciIGN5%0D%0APSI0NTMuMzQiIHI9IjQuMDYiLz48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjEyNzUuOTQiIGN5%0D%0APSI0MC42NiIgcj0iNC4wNiIvPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iMTIxNS4wNiIgY3k9%0D%0AIjIxOC41NyIgcj0iNC4wNiIvPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iNjUyLjIyIiBjeT0i%0D%0AMjguNDkiIHI9IjQuMDYiLz48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9Ijc3Ny41NyIgY3k9IjI0%0D%0AMS4xMyIgcj0iNC4wNiIvPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iMzMyLjgzIiBjeT0iNC4w%0D%0ANiIgcj0iNC4wNiIvPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iNC4wNiIgY3k9IjI2MC43OCIg%0D%0Acj0iNC4wNiIvPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iMTY2LjQxIiBjeT0iMTA3LjI1IiBy%0D%0APSI0LjA2Ii8+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSIxMjc1Ljk0IiBjeT0iOTU0Ljk2IiBy%0D%0APSI0LjA2Ii8+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSIxMDE4LjkzIiBjeT0iNzcuMiIgcj0i%0D%0ANC4wNiIvPjxjaXJjbGUgY2xhc3M9ImNscy0zIiBjeD0iNDg0LjYyIiBjeT0iMTU3LjQ5IiByPSI0%0D%0ALjA2Ii8+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSIxMjU5LjcxIiBjeT0iMTE5Ni43MyIgcj0i%0D%0ANC4wNiIvPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iODAuNTkiIGN5PSI0MzQuODIiIHI9IjQu%0D%0AMDYiLz48Y2lyY2xlIGNsYXNzPSJjbHMtMiIgY3g9IjEyNDEuNDQiIGN5PSI0MTQuNjMiIHI9IjQu%0D%0AMDYiLz48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9Ijg1NS40MSIgY3k9IjExMS4zMSIgcj0iNC4w%0D%0ANiIvPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iNjQuMzYiIGN5PSI4NDYuMDkiIHI9IjQuMDYi%0D%0ALz48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjEzMS4wNCIgY3k9IjExODYuMTEiIHI9IjQuMDYi%0D%0ALz48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjMzMS42NyIgY3k9IjEwMjMuNzciIHI9IjQuMDYi%0D%0ALz48Y2lyY2xlIGNsYXNzPSJjbHMtMiIgY3g9IjExNzkuNzciIGN5PSI2MjUuODQiIHI9IjMuNTYi%0D%0ALz48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjI1MC4zMyIgY3k9IjcwMS44NiIgcj0iMy41NiIv%0D%0APjxjaXJjbGUgY2xhc3M9ImNscy0zIiBjeD0iMzQ5LjU5IiBjeT0iOTA4LjU2IiByPSIzLjU2Ii8+%0D%0APGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSI2MzkuMzMiIGN5PSI2NDcuODYiIHI9IjMuNTYiLz48%0D%0AY2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjgyNC4zMyIgY3k9Ijc1Mi44NiIgcj0iMy41NiIvPjwv%0D%0AZz48L2c+PC9nPjwvc3ZnPg==);
   background-repeat: repeat;
   background-size: contain;
   background-position: left top;
