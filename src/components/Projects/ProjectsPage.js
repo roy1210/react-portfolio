@@ -16,7 +16,7 @@ class ProjectsPage extends Component {
   render() {
     return (
       <div className="Projects">
-        <div className="content">
+        <div className="Projects-content">
           <div className="Projects-category-tabs">
             <Tabs
               activeTab={this.state.activeTab}
