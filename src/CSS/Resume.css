@@ -202,6 +202,20 @@ span {
   font-weight: 400;
   font-family: Helvetica, Arial, sans-serif;
   color: lightgray;
+  margin-bottom: 8px;
+}
+
+.Resume-job-descriptions {
+  padding-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.Resume-job-descriptions li {
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  color: lightgray;
 }
 
 .Resume-education-job a {
