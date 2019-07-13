@@ -72,6 +72,7 @@ const NavigationLayout = () => (
         <Navigation>
           <Link to="/resume">RESUME / CONTACT</Link>
           <Link to="/projects">PROJECTS</Link>
+          <hr style={{ padding: "0px", marginTop: "2em" }} />
           <p className="DrawerTitle">External links</p>
           <a
             href="https://drive.google.com/file/d/1nXgDroS8Q5iXP7B6xGf9zKVvG28kcZXR/view?usp=sharing"

@@ -15,7 +15,6 @@
 .DrawerTitle {
   text-decoration: none !important;
   color: black !important;
-  margin-top: 1.2em !important;
   font-size: 1.5em !important;
 }
 .DrawerTitle:hover {
