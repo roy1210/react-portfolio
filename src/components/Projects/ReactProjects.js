@@ -3,6 +3,9 @@ import { Grid, Cell } from "react-mdl";
 import Project from "./Project";
 import PortfolioScreenshot from "../../img/ReactProjects/190713ScreenShot.jpg";
 import FlipCoinScreenshot from "../../img/ReactProjects/190713FlipCoin.gif";
+import FindGIFScreenshot from "../../img/ReactProjects/190713FindGIF.gif";
+import DashAwesomeScreenshot from "../../img/ReactProjects/190713DashAwesome.jpg";
+import DicesScreenshot from "../../img/ReactProjects/190713Dices.jpg";
 
 const ReactProjects = () => (
   <Grid className="projects-grid">
@@ -32,7 +35,7 @@ const ReactProjects = () => (
 
     <Cell col={4} phone={12}>
       <Project
-        photoUrl="https://github.com/roy1210/react-dash-awesome/blob/master/public/img/ScreenShot.jpg?raw=true"
+        photoUrl={DashAwesomeScreenshot}
         name="DashAwesome"
         detail1="Simple project dashboard tool with authentication and cloud functions."
         detail2="Tools: CRA, React Router v5, Redux-thunk, Firebase, Cloud Firestore"
@@ -45,7 +48,7 @@ const ReactProjects = () => (
 
     <Cell col={4} phone={12}>
       <Project
-        photoUrl="https://github.com/roy1210/React_Find_Gif/blob/master/src/screen-shot.gif?raw=true"
+        photoUrl={FindGIFScreenshot}
         name="Find GIF"
         detail1="Search GIF app."
         detail2="Tools: Giphy API, Axios"
@@ -57,7 +60,7 @@ const ReactProjects = () => (
 
     <Cell col={4} phone={12}>
       <Project
-        photoUrl="https://github.com/roy1210/react-roll-dice/blob/master/screenShot.jpg?raw=true"
+        photoUrl={DicesScreenshot}
         name="Roll dices"
         detail1="Material component for rolling dice."
         detail2="Tools: CRA"

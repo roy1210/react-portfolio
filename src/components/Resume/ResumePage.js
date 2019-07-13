@@ -5,7 +5,7 @@ import ResumeExperiences from "./ResumeExperiences";
 import ResumeSkills from "./ResumeSkills";
 import ResumeIntroduction from "./ResumeIntroduction";
 import AppFooter from "../AppFooter";
-import Barcerona from "../../img/Barcerona.jpg";
+import InBarcerona from "../../img/BarceronaProfile.jpg";
 import "../../CSS/Resume.css";
 
 class ResumePage extends Component {
@@ -15,7 +15,7 @@ class ResumePage extends Component {
         <Grid>
           <Cell col={4} phone={12} tablet={12}>
             <div className="Resume-fade-in one Resume-avatar">
-              <img src={Barcerona} alt="avatar" />
+              <img src={InBarcerona} alt="avatar" />
             </div>
             <div className="Resume-fade-in two">
               <ResumeIntroduction />

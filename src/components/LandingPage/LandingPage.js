@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import LandingPlayground from "./LandingPlayground";
 import AppFooter from "../AppFooter";
 import LandingIcon from "./LandingIcon";
-import profile from "../../img/profile.jpg";
+import Profile from "../../img/Profile.jpg";
 import "../../CSS/Landing.css";
 
 class LandingPage extends Component {
@@ -17,7 +17,7 @@ class LandingPage extends Component {
           <Cell col={12} phone={12} tablet={12}>
             <div className="Landing-SlideDown">
               <div className="Landing-phone-profile">
-                <img src={profile} alt="profile" />
+                <img src={Profile} alt="profile" />
               </div>
               <LandingPlayground />
               <div className="Landing-banner-text">

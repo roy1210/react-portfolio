@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { choice } from "./LandingHelpers";
 import LandingCoin from "./LandingCoin";
-import Bitcoin from "../../img/Bitcoin.png";
-import DogCoin from "../../img/DogCoin.png";
+import Bitcoin from "../../img/LandingPage/Bitcoin.png";
+import DogCoin from "../../img/LandingPage/DogCoin.png";
 import "../../CSS/CoinContainer.css";
 
 class LandingCoinContainer extends Component {

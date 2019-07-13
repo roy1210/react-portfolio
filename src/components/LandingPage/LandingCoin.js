@@ -1,6 +1,6 @@
 import React from "react";
-import Bitcoin from "../../img/Bitcoin.png";
-import DogCoin from "../../img/DogCoin.png";
+import Bitcoin from "../../img/LandingPage/Bitcoin.png";
+import DogCoin from "../../img/LandingPage/DogCoin.png";
 
 const LandingCoin = ({ info, spinning }) => {
   let pic;

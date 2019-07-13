@@ -1,12 +1,15 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
 import Project from "./Project";
+import BlockchainScreenshot from "../../img/GolangProjects/190713Blockchain.jpg";
+import HttpStatusChecerScreenshot from "../../img/GolangProjects/190713HttpStatusChecer.jpg";
+import DigitalClockScreenshot from "../../img/GolangProjects/190713DigitalClock.gif";
 
 const GolangProjects = () => (
   <Grid className="projects-grid">
     <Cell col={4} phone={12}>
       <Project
-        photoUrl="https://github.com/roy1210/Golang_Blockchain/raw/master/GoBlockchain.jpg"
+        photoUrl={BlockchainScreenshot}
         name="Blockchain"
         detail1="Making Blockchain with POW system."
         github="https://github.com/roy1210/Golang_Blockchain"
@@ -14,7 +17,7 @@ const GolangProjects = () => (
     </Cell>
     <Cell col={4} phone={12}>
       <Project
-        photoUrl="https://github.com/roy1210/Golang_Digital_Clock/raw/master/clock.gif"
+        photoUrl={DigitalClockScreenshot}
         name="Digital clock"
         detail1="A digital clock which runs in the terminal."
         github="https://github.com/roy1210/Golang_Digital_Clock"
@@ -22,7 +25,7 @@ const GolangProjects = () => (
     </Cell>
     <Cell col={4} phone={12}>
       <Project
-        photoUrl="https://github.com/roy1210/Golang_Http_Status_checker/raw/master/checker.jpg"
+        photoUrl={HttpStatusChecerScreenshot}
         name="HTTP status checker"
         detail1="Check the current status of the website. Able to detect if the website
                 is downed due to HTTP request returns 404."
