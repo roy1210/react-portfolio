@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Project from "./Project";
 import BlockchainScreenshot from "../../img/GolangProjects/190713Blockchain.jpg";
 import HttpStatusChecerScreenshot from "../../img/GolangProjects/190713HttpStatusChecer.jpg";
-import DigitalClockScreenshot from "../../img/GolangProjects/190713DigitalClock.gif";
+import DigitalClockScreenshot from "../../img/GolangProjects/190714DigitalClock.gif";
 
 const GolangProjects = () => (
   <Grid className="projects-grid">

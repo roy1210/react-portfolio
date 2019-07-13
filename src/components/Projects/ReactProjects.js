@@ -2,10 +2,11 @@ import React from "react";
 import { Grid, Cell } from "react-mdl";
 import Project from "./Project";
 import PortfolioScreenshot from "../../img/ReactProjects/190713ScreenShot.jpg";
-import FlipCoinScreenshot from "../../img/ReactProjects/190713FlipCoin.gif";
-import FindGIFScreenshot from "../../img/ReactProjects/190713FindGIF.gif";
+import FlipCoinScreenshot from "../../img/ReactProjects/190714FlipCoin.gif";
+import FindGIFScreenshot from "../../img/ReactProjects/190714FindGif.jpg";
 import DashAwesomeScreenshot from "../../img/ReactProjects/190713DashAwesome.jpg";
 import DicesScreenshot from "../../img/ReactProjects/190713Dices.jpg";
+import CounterScreenshot from "../../img/ReactProjects/190713Counter.jpg";
 
 const ReactProjects = () => (
   <Grid className="projects-grid">
@@ -67,7 +68,21 @@ const ReactProjects = () => (
         github="https://github.com/roy1210/react-roll-dice"
         codesandbox="https://codesandbox.io/s/dice-xjrei"
         siteUrl="https://rolling-dice-k.netlify.com"
-        titleColor="black"
+        titleColor="SteelBlue"
+        cardColor="whitesmoke"
+      />
+    </Cell>
+    <Cell col={4} phone={12}>
+      <Project
+        photoUrl={CounterScreenshot}
+        name="Counter"
+        detail1="Material component for counting QTY."
+        detail2="Tools: CRA"
+        github="https://github.com/roy1210/react-counter"
+        codesandbox="https://codesandbox.io/s/counter-app-7b018"
+        siteUrl="https://csb-7b018.netlify.com/"
+        titleColor="SteelBlue"
+        cardColor="whitesmoke"
       />
     </Cell>
 
