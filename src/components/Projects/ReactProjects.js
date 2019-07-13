@@ -1,7 +1,8 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
 import Project from "./Project";
-import PortfolioScreenshot from "../../img/190713ScreenShot.jpg";
+import PortfolioScreenshot from "../../img/ReactProjects/190713ScreenShot.jpg";
+import FlipCoinScreenshot from "../../img/ReactProjects/190713FlipCoin.gif";
 
 const ReactProjects = () => (
   <Grid className="projects-grid">
@@ -19,7 +20,7 @@ const ReactProjects = () => (
 
     <Cell col={4} phone={12}>
       <Project
-        photoUrl="https://github.com/roy1210/react-flip-coin/blob/master/src/img/Screenshot.gif?raw=true"
+        photoUrl={FlipCoinScreenshot}
         name="Flip coin"
         detail1="A mini-game guessing which coin shows up."
         detail2="Tools: CRA"
