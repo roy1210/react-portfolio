@@ -84,3 +84,8 @@
   margin: 0px;
   border: none !important;
 }
+
+/* delete outline of hamberger menu */
+.mdl-layout__drawer-button {
+  outline: 0 !important;
+}
