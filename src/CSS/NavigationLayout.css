@@ -29,20 +29,16 @@
   transition-property: opacity, visibility, left !important;
 }
 
-.DrawerTitle {
-  text-decoration: none !important;
-  color: whitesmoke !important;
-  font-size: 20px !important;
-  font-weight: 700 !important;
-  font-family: Roboto, Helvetica, Arial, sans-serif !important;
-  margin-bottom: 16px !important;
-}
+.DrawerTitle,
 .DrawerTitle p {
   text-decoration: none !important;
   color: whitesmoke !important;
   font-size: 20px !important;
   font-weight: 700 !important;
   font-family: Roboto, Helvetica, Arial, sans-serif !important;
+}
+.DrawerTitle {
+  margin-bottom: 13.4px !important;
 }
 
 .mdl-navigation__link {
@@ -51,7 +47,8 @@
   font-size: 13px !important;
   font-family: Rubik, sans-serif !important;
 }
-.mdl-navigation__link:hover {
+.mdl-layout__drawer a:hover,
+.HamburgerMenu .mdl-layout-title:hover {
   background-color: dimgray !important;
 }
 
@@ -83,9 +80,4 @@
   padding: 0px;
   margin: 0px;
   border: none !important;
-}
-
-/* delete outline of hamberger menu */
-.mdl-layout__drawer-button {
-  outline: 0 !important;
 }

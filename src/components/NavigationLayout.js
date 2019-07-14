@@ -64,6 +64,7 @@ const NavigationLayout = () => (
         </Navigation>
       </Header>
       <Drawer
+        className="HamburgerMenu"
         title={
           <Link to="/" className="DrawerTitle">
             Roy
