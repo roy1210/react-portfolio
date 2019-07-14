@@ -1,0 +1,86 @@
+.header-color {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mdl-layout__drawer {
+  /* background-color: rgba(48, 48, 48, 0.97) !important; */
+  background-color: #232526 !important; /* fallback for old browsers */
+  background-color: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background-color: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-right: none !important;
+  transition-property: opacity, visibility, left !important;
+}
+
+.DrawerTitle {
+  text-decoration: none !important;
+  color: whitesmoke !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  font-family: Roboto, Helvetica, Arial, sans-serif !important;
+  margin-bottom: 16px !important;
+}
+.DrawerTitle p {
+  text-decoration: none !important;
+  color: whitesmoke !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  font-family: Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+.mdl-navigation__link {
+  font-weight: 600 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 13px !important;
+  font-family: Rubik, sans-serif !important;
+}
+.mdl-navigation__link:hover {
+  background-color: dimgray !important;
+}
+
+.DrawerTitle:hover {
+  background-color: #232526 !important; /* fallback for old browsers */
+  background-color: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background-color: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-right: none !important;
+  transition-property: opacity, visibility, left !important;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+  padding: 0 10px !important;
+}
+
+.mdl-layout__header-row {
+  padding-right: 20px !important;
+}
+.ui.segment {
+  background-color: #aaa;
+  padding: 0px;
+  margin: 0px;
+  border: none !important;
+}

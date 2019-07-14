@@ -4,6 +4,7 @@ import RoutePage from "./RoutePage";
 import { Layout, Header, Navigation, Drawer, Content, Button } from "react-mdl";
 import { Popup, Icon } from "semantic-ui-react";
 import "../CSS/App.css";
+import "../CSS/NavigationLayout.css";
 
 const miniPlayground = () => (
   <Popup
@@ -64,7 +65,7 @@ const NavigationLayout = () => (
       </Header>
       <Drawer
         title={
-          <Link style={{ textDecoration: "none", color: "black" }} to="/">
+          <Link to="/" className="DrawerTitle">
             Roy
           </Link>
         }
@@ -72,8 +73,12 @@ const NavigationLayout = () => (
         <Navigation>
           <Link to="/resume">RESUME / CONTACT</Link>
           <Link to="/projects">PROJECTS</Link>
-          <hr style={{ padding: "0px", marginTop: "2em" }} />
-          <p className="DrawerTitle">External links</p>
+          <hr
+            style={{ padding: "0px", marginTop: "2em", color: "GhostWhite" }}
+          />
+          <div className="DrawerTitle">
+            <p>External links</p>
+          </div>
           <a
             href="https://drive.google.com/file/d/1nXgDroS8Q5iXP7B6xGf9zKVvG28kcZXR/view?usp=sharing"
             rel="noopener noreferrer"

@@ -85,18 +85,6 @@ const ReactProjects = () => (
         cardColor="whitesmoke"
       />
     </Cell>
-
-    {/* <Cell col={4} phone={12}>
-            <Project
-              photoUrl="https://github.com/roy1210/JS_React_Pokemon-Cards/blob/master/src/Poke-cards.jpg?raw=true"
-              name="Pokemon cards"
-              detail1='Showing "Winning hand" or "Losing hand" for each side of deck.'
-              github="https://github.com/roy1210/JS_React_Pokemon-Cards"
-              codesandbox="https://codesandbox.io/s/pokemons-cfei1"
-              siteUrl="https://poke-cards-roy1210.netlify.com/"
-              titleColor="black"
-            />
-          </Cell> */}
   </Grid>
 );
 
