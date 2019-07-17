@@ -19,8 +19,3 @@ code {
 *:focus {
   outline: none;
 }
-
-/* Bootstrap Reboot CSS rebot */
-html {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}

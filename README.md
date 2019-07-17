@@ -28,6 +28,7 @@ $ npm start
 - Semantic UI React
 - React Router v5
 - React-Helmet
+- Ress.css (Customized in html tag)
 
 ## Licence
 
