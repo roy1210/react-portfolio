@@ -216,7 +216,7 @@ const ResumePlans = (
                       <List.Header>
                         Create a blockchain
                         <span className="Resume-plans-description">
-                          : Code by JavaScript from scratch
+                          : Code from scratch using with JavaScript
                         </span>
                       </List.Header>
                     </List.Content>
