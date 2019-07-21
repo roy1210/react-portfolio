@@ -39,7 +39,7 @@ const ReactProjects = () => (
       <Project
         photoUrl={BlockchainScreenshot}
         name="Blockchain"
-        detail1="A blockchain working with wallet and transaction function (WIP)"
+        detail1="A blockchain working with wallet and transaction functions (WIP)"
         detail2="Tools: JavaScript, Jest, Express, PubNup"
         github="https://github.com/roy1210/react-blockchain"
       />
