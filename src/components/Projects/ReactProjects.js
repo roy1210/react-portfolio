@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Project from "./Project";
 import PortfolioScreenshot from "../../img/ReactProjects/190713ScreenShot.jpg";
 import FlipCoinScreenshot from "../../img/ReactProjects/190714FlipCoin.gif";
+import BlockchainScreenshot from "../../img/ReactProjects/190721Blockchain-JS.jpg";
 import FindGIFScreenshot from "../../img/ReactProjects/190714FindGif.jpg";
 import DashAwesomeScreenshot from "../../img/ReactProjects/190713DashAwesome.jpg";
 import DicesScreenshot from "../../img/ReactProjects/190713Dices.jpg";
@@ -31,6 +32,16 @@ const ReactProjects = () => (
         github="https://github.com/roy1210/react-flip-coin"
         codesandbox="https://codesandbox.io/s/flip-coin-6mu0b"
         siteUrl="https://coin-game-k.netlify.com"
+      />
+    </Cell>
+
+    <Cell col={4} phone={12}>
+      <Project
+        photoUrl={BlockchainScreenshot}
+        name="Blockchain"
+        detail1="A blockchain working with wallet and transaction function (WIP)"
+        detail2="Tools: JavaScript, Jest, Express, PubNup"
+        github="https://github.com/roy1210/react-blockchain"
       />
     </Cell>
 

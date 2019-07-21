@@ -189,6 +189,55 @@ const ResumePlans = (
             <List.Item>
               <List.Icon name="folder open" />
               <List.Content>
+                <List.Header>Blockchain</List.Header>
+                {/* L3 */}
+                <List.List>
+                  <List.Item>
+                    <List.Icon
+                      name="strikethrough"
+                      style={{
+                        paddingRight: "0.5em",
+                        paddingBottom: "0.55em"
+                      }}
+                    />
+                    <List.Content>
+                      <List.Header>Solidity</List.Header>
+                    </List.Content>
+                  </List.Item>
+                  <List.Item>
+                    <List.Icon
+                      name="chain"
+                      style={{
+                        paddingRight: "0.5em",
+                        paddingBottom: "0.55em"
+                      }}
+                    />
+                    <List.Content>
+                      <List.Header>
+                        Create a blockchain
+                        <span className="Resume-plans-description">
+                          : Code by JavaScript from scratch
+                        </span>
+                      </List.Header>
+                    </List.Content>
+                  </List.Item>
+                  <List.Item>
+                    <List.Icon
+                      name="bitcoin"
+                      style={{ paddingRight: "0.5em", paddingBottom: "0.7em" }}
+                    />
+                    <List.Content>
+                      <List.Header>Create an ERC-20 token</List.Header>
+                    </List.Content>
+                  </List.Item>
+                </List.List>
+              </List.Content>
+            </List.Item>
+            {/* L2-close */}
+            {/* L2 */}
+            <List.Item>
+              <List.Icon name="folder open" />
+              <List.Content>
                 <List.Header>Python</List.Header>
                 {/* L3 */}
                 <List.List>
@@ -244,7 +293,6 @@ const ResumePlans = (
               </List.Content>
             </List.Item>
             {/* L2-close */}
-
             {/* L2 */}
             <List.Item>
               <List.Icon name="folder open" />
@@ -295,13 +343,6 @@ const ResumePlans = (
               <List.Icon name="sun" style={{ paddingBottom: "0.55em" }} />
               <List.Content>
                 <List.Header>GraphQL</List.Header>
-              </List.Content>
-            </List.Item>
-            {/* L2 */}
-            <List.Item>
-              <List.Icon name="chain" />
-              <List.Content>
-                <List.Header>Blockchain</List.Header>
               </List.Content>
             </List.Item>
           </List.List>
