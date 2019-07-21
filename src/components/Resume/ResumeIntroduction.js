@@ -325,10 +325,27 @@ const ResumePlans = (
                 style={{ paddingBottom: "0.55em", paddingRight: "0.5em" }}
               />
               <List.Content>
-                <List.Header>Firebase</List.Header>
+                <List.Header>Firebase, Cloud Firestore</List.Header>
               </List.Content>
             </List.Item>
             {/* L2 */}
+            <List.Item>
+              <List.Icon
+                name="leaf"
+                style={{ paddingBottom: "0.55em", paddingRight: "0.1em" }}
+              />
+              <List.Content>
+                <List.Header>MongoDB</List.Header>
+              </List.Content>
+            </List.Item>
+            {/* L2 */}
+            {/* L2 */}
+            <List.Item>
+              <List.Icon name="sun" style={{ paddingBottom: "0.55em" }} />
+              <List.Content>
+                <List.Header>GraphQL</List.Header>
+              </List.Content>
+            </List.Item>
             <List.Item>
               <List.Icon
                 name="mobile alternate"
@@ -336,13 +353,6 @@ const ResumePlans = (
               />
               <List.Content>
                 <List.Header>Progressive Web Apps</List.Header>
-              </List.Content>
-            </List.Item>
-            {/* L2 */}
-            <List.Item>
-              <List.Icon name="sun" style={{ paddingBottom: "0.55em" }} />
-              <List.Content>
-                <List.Header>GraphQL</List.Header>
               </List.Content>
             </List.Item>
           </List.List>
