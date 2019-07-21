@@ -21,6 +21,9 @@ const resume = () => (
   />
 );
 
+const resumeURL =
+  "https://drive.google.com/file/d/1xmCSpfKhxnR2MtAhG4bH3i9Z9zemqGXs/view?usp=sharing";
+
 const NavigationLayout = () => (
   <div className="demo-big-content">
     <Layout>
@@ -53,7 +56,7 @@ const NavigationLayout = () => (
             </Button>
           </Link>
           <a
-            href="https://drive.google.com/file/d/172zkyRbEWU4lFN1kvYhXMjzQFoRN6hL_/view?usp=sharing"
+            href={resumeURL}
             rel="noopener noreferrer"
             target="_blank"
             aria-hidden="true"
@@ -81,7 +84,7 @@ const NavigationLayout = () => (
             <p>External links</p>
           </div>
           <a
-            href="https://drive.google.com/file/d/1nXgDroS8Q5iXP7B6xGf9zKVvG28kcZXR/view?usp=sharing"
+            href={resumeURL}
             rel="noopener noreferrer"
             target="_blank"
             aria-hidden="true"

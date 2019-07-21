@@ -40,7 +40,7 @@ const ReactProjects = () => (
         photoUrl={BlockchainScreenshot}
         name="Blockchain"
         detail1="A blockchain working with wallet and transaction functions (WIP)"
-        detail2="Tools: JavaScript, Jest, Express, PubNup"
+        detail2="Tools: JavaScript, Jest, Express, PubNup, Postman"
         github="https://github.com/roy1210/react-blockchain"
       />
     </Cell>
