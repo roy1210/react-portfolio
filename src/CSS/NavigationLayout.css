@@ -29,6 +29,15 @@
   transition-property: opacity, visibility, left !important;
 }
 
+.mdl-layout__drawer-button {
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+  border-radius: 50% !important;
+}
+.mdl-layout__drawer-button:hover {
+  border-radius: 50% !important;
+  background-color: #01438c !important;
+}
+
 .DrawerTitle,
 .DrawerTitle p {
   text-decoration: none !important;

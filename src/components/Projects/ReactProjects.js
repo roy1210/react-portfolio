@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Project from "./Project";
 import PortfolioScreenshot from "../../img/ReactProjects/190713ScreenShot.jpg";
 import FlipCoinScreenshot from "../../img/ReactProjects/190714FlipCoin.gif";
-import BlockchainScreenshot from "../../img/ReactProjects/190721Blockchain-JS.jpg";
+import BlockchainScreenshot from "../../img/ReactProjects/190723Blockchain-JS.jpg";
 import FindGIFScreenshot from "../../img/ReactProjects/190714FindGif.jpg";
 import DashAwesomeScreenshot from "../../img/ReactProjects/190713DashAwesome.jpg";
 import DicesScreenshot from "../../img/ReactProjects/190713Dices.jpg";
