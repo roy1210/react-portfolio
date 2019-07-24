@@ -33,6 +33,20 @@ class Project extends Component {
     } else {
       codesandbox = "";
     }
+    let peeredUrl;
+    if (this.props.peeredUrl) {
+      peeredUrl = (
+        <a
+          href={this.props.peeredUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button style={{ color: "#ff4081" }}>Live (P2P)</Button>
+        </a>
+      );
+    } else {
+      peeredUrl = "";
+    }
 
     let siteUrl;
     if (this.props.siteUrl) {
@@ -93,6 +107,7 @@ class Project extends Component {
             </a>
             {codesandbox}
             {siteUrl}
+            {peeredUrl}
           </CardActions>
         </Card>
       </div>
