@@ -33,10 +33,10 @@ const ResumeSkills = () => (
     </p>
     <SkillsProgress skill="Golang" blank={11} progress={30} />
     <p>Basic syntax for Gobot and GoCV</p>
-    <SkillsProgress skill="Solidity" blank={11} progress={25} />
+    <SkillsProgressBuffer skill="Solidity" blank={11} progress={25} />
     <p>
-      Basic syntax for web3, making Dapps by Truffle, Metamask, Ganache and
-      serving with React.js
+      Creating a original cryptocurrency with ERC-20, Making Dapps by Truffle
+      and serving with React.js
     </p>
     <SkillsProgress skill="Robot" blank={13} progress={40} />
     <p>Drone: Tello edu by Golang </p>
