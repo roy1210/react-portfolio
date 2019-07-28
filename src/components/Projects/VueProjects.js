@@ -12,7 +12,7 @@ const VueProjects = () => (
         name="VS Monster"
         detail1="Game for beat the monster."
         github="https://github.com/roy1210/JS_Vue_VS_Monster"
-        siteUrl="https://roy1210.github.io/JS_Vue_VS_Monster/"
+        siteUrl="https://roy1210.github.io/vue-vs-monster/"
         titleColor="black"
       />
     </Cell>
