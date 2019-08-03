@@ -7,9 +7,26 @@ class Project extends Component {
   render() {
     let detail2;
     if (this.props.detail2) {
-      detail2 = <div>{this.props.detail2}</div>;
+      detail2 = (
+        <div>
+          <br />
+          {this.props.detail2}
+        </div>
+      );
     } else {
       detail2 = "";
+    }
+
+    let detail3;
+    if (this.props.detail3) {
+      detail3 = (
+        <div>
+          <br />
+          {this.props.detail3}
+        </div>
+      );
+    } else {
+      detail3 = "";
     }
 
     let titleColor;
@@ -96,6 +113,7 @@ class Project extends Component {
           <CardText style={{ color: `${textColor}` }}>
             {this.props.detail1}
             {detail2}
+            {detail3}
           </CardText>
           <CardActions border>
             <a

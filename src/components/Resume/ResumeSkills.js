@@ -8,7 +8,7 @@ const ResumeSkills = () => (
     <h4>Coding</h4>
     <h5 className="Resume-frontend">Front-end</h5>
     <SkillsProgressBuffer skill="JavaScript" blank={6} progress={35} />
-    <p>Basic syntax for ES6 and Jest</p>
+    <p>Basic syntax for ES6, Jest and Chai</p>
     <SkillsProgressBuffer skill="React.js" blank={10} progress={50} />
     <p>
       Develop Web apps with Redux-thunk, React Router, Semantic-UI-React, and
