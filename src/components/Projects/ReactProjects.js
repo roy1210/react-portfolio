@@ -8,6 +8,7 @@ import FindGIFScreenshot from "../../img/ReactProjects/190714FindGif.jpg";
 import DashAwesomeScreenshot from "../../img/ReactProjects/190713DashAwesome.jpg";
 import DicesScreenshot from "../../img/ReactProjects/190713Dices.jpg";
 import CounterScreenshot from "../../img/ReactProjects/190713Counter.jpg";
+import EcommerceScreenshot from "../../img/ReactProjects/190804HomePage1.jpg";
 
 const ReactProjects = () => (
   <Grid className="projects-grid">
@@ -20,6 +21,16 @@ const ReactProjects = () => (
         github="https://github.com/roy1210/react-portfolio"
         codesandbox="https://codesandbox.io/s/my-portfolio-l5tuh"
         siteUrl="https://roy-k.tk/"
+      />
+    </Cell>
+
+    <Cell col={4} phone={12}>
+      <Project
+        photoUrl={EcommerceScreenshot}
+        name="eCommerce Shop"
+        detail1="(WIP) eCommerce clothing shop"
+        detail2="Tools: CRA, SCSS"
+        github="https://github.com/roy1210/react-ecommerce-clothing"
       />
     </Cell>
 
