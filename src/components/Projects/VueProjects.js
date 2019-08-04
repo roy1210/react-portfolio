@@ -31,23 +31,9 @@ class VueProjects extends Component {
   render() {
     return (
       <Grid className="projects-grid">
-        {this.props.projects.map((props, index) => (
+        {this.props.projects.map(({ ...otherSectionProps }, index) => (
           <Cell col={4} phone={12}>
-            <Project
-              key={index}
-              photoUrl={props.photoUrl}
-              name={props.name}
-              detail1={props.detail1}
-              detail2={props.detail2}
-              detail3={props.detail3}
-              github={props.github}
-              siteUrl={props.siteUrl}
-              codesandbox={props.codesandbox}
-              titleColor={props.titleColor}
-              cardColor={props.cardColor}
-              textcolor={props.textColor}
-              peeredUrl={props.peeredUrl}
-            />
+            <Project key={index} {...otherSectionProps} />
           </Cell>
         ))}
       </Grid>
