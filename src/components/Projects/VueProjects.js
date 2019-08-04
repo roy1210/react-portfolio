@@ -8,7 +8,6 @@ class VueProjects extends Component {
   static defaultProps = {
     projects: [
       {
-        id: 1,
         photoUrl: VsMonsterScreenshot,
         name: "VS Monster",
         detail1: "Game for beat the monster.",
@@ -17,7 +16,6 @@ class VueProjects extends Component {
         titleColor: "black"
       },
       {
-        id: 2,
         photoUrl: MyMarkdownMemoScreenshot,
         name: "Markdown Memo",
         detail1: "Markdown memo which can preview and edit on the same time.",
@@ -36,7 +34,6 @@ class VueProjects extends Component {
         {this.props.projects.map(props => (
           <Cell col={4} phone={12}>
             <Project
-              key={props.id}
               photoUrl={props.photoUrl}
               name={props.name}
               detail1={props.detail1}

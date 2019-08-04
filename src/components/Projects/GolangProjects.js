@@ -10,21 +10,21 @@ class GolangProjects extends Component {
   static defaultProps = {
     projects: [
       {
-        id: 1,
+        id: uuid(),
         photoUrl: BlockchainScreenshot,
         name: "Blockchain",
         detail1: "Making Blockchain with POW system.",
         github: "https://github.com/roy1210/Golang_Blockchain"
       },
       {
-        id: 2,
+        id: uuid(),
         photoUrl: DigitalClockScreenshot,
         name: "Digital clock",
         detail1: "A digital clock which runs in the terminal.",
         github: "https://github.com/roy1210/Golang_Digital_Clock"
       },
       {
-        id: 3,
+        id: uuid(),
         photoUrl: HttpStatusChecerScreenshot,
         name: "HTTP status checker",
         detail1:
