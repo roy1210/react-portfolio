@@ -14,7 +14,6 @@ class ReactProjects extends Component {
   static defaultProps = {
     projects: [
       {
-        id: 1,
         photoUrl: PortfolioScreenshot,
         name: "Portfolio",
         detail1:
@@ -26,7 +25,6 @@ class ReactProjects extends Component {
         siteUrl: "https://roy-k.tk/"
       },
       {
-        id: 2,
         photoUrl: EcommerceScreenshot,
         name: "eCommerce Shop",
         detail1: "(WIP) eCommerce clothing shop",
@@ -34,7 +32,6 @@ class ReactProjects extends Component {
         github: "https://github.com/roy1210/react-ecommerce-clothing"
       },
       {
-        id: 3,
         photoUrl: FlipCoinScreenshot,
         name: "Flip coin",
         detail1: "A mini-game guessing which coin shows up.",
@@ -44,7 +41,6 @@ class ReactProjects extends Component {
         siteUrl: "https://coin-game-k.netlify.com"
       },
       {
-        id: 4,
         photoUrl: BlockchainScreenshot,
         name: "Blockchain",
         detail1:
@@ -57,7 +53,6 @@ class ReactProjects extends Component {
         peeredUrl: "https://my-crypto-blockchain-peer.herokuapp.com/"
       },
       {
-        id: 5,
         photoUrl: DashAwesomeScreenshot,
         name: "DashAwesome",
         detail1:
@@ -70,7 +65,6 @@ class ReactProjects extends Component {
         textColor: "black"
       },
       {
-        id: 6,
         photoUrl: FindGIFScreenshot,
         name: "Find GIF",
         detail1: "Search GIF app.",
@@ -80,7 +74,6 @@ class ReactProjects extends Component {
         siteUrl: "https://csb-gp67w.netlify.com/"
       },
       {
-        id: 7,
         photoUrl: DicesScreenshot,
         name: "Roll dices",
         detail1: "Material component for rolling dice.",
@@ -92,7 +85,6 @@ class ReactProjects extends Component {
         cardColor: "whitesmoke"
       },
       {
-        id: 8,
         photoUrl: CounterScreenshot,
         name: "Counter",
         detail1: "Material component for counting QTY.",

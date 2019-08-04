@@ -31,9 +31,10 @@ class VueProjects extends Component {
   render() {
     return (
       <Grid className="projects-grid">
-        {this.props.projects.map(props => (
+        {this.props.projects.map((props, index) => (
           <Cell col={4} phone={12}>
             <Project
+              key={index}
               photoUrl={props.photoUrl}
               name={props.name}
               detail1={props.detail1}

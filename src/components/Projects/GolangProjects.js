@@ -4,27 +4,23 @@ import Project from "./Project";
 import BlockchainScreenshot from "../../img/GolangProjects/190713Blockchain.jpg";
 import HttpStatusChecerScreenshot from "../../img/GolangProjects/190713HttpStatusChecer.jpg";
 import DigitalClockScreenshot from "../../img/GolangProjects/190717DigitalClock.gif";
-import uuid from "uuid/v1";
 
 class GolangProjects extends Component {
   static defaultProps = {
     projects: [
       {
-        id: uuid(),
         photoUrl: BlockchainScreenshot,
         name: "Blockchain",
         detail1: "Making Blockchain with POW system.",
         github: "https://github.com/roy1210/Golang_Blockchain"
       },
       {
-        id: uuid(),
         photoUrl: DigitalClockScreenshot,
         name: "Digital clock",
         detail1: "A digital clock which runs in the terminal.",
         github: "https://github.com/roy1210/Golang_Digital_Clock"
       },
       {
-        id: uuid(),
         photoUrl: HttpStatusChecerScreenshot,
         name: "HTTP status checker",
         detail1:
@@ -36,10 +32,10 @@ class GolangProjects extends Component {
   render() {
     return (
       <Grid className="projects-grid">
-        {this.props.projects.map(props => (
+        {this.props.projects.map((props, index) => (
           <Cell col={4} phone={12}>
             <Project
-              key={props.id}
+              key={index}
               photoUrl={props.photoUrl}
               name={props.name}
               detail1={props.detail1}
