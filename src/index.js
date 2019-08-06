@@ -9,7 +9,7 @@ import "./CSS/index.css";
 import "./CSS/Ress.css";
 
 console.log("👋 Hi frined. Thanks for visiting my web page 😁");
-console.log("📨 Please feel free to contact me if you feel something 🤝");
+console.log("📨 Please feel free to contact me 🤝");
 
 ReactDOM.render(
   <BrowserRouter>

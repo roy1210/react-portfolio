@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { choice } from "./LandingHelpers";
+import { choice } from "../LandingHelpers";
 import LandingCoin from "./LandingCoin";
-import Bitcoin from "../../img/LandingPage/Bitcoin.png";
-import DogCoin from "../../img/LandingPage/DogCoin.png";
-import "../../CSS/CoinContainer.css";
+import Bitcoin from "../../../img/LandingPage/Bitcoin.png";
+import DogCoin from "../../../img/LandingPage/DogCoin.png";
+import "../../../CSS/CoinContainer.css";
 
 class LandingCoinContainer extends Component {
   static defaultProps = {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import LandingDie from "./LandingDie";
-import "../../CSS/RollDice.css";
+import "../../../CSS/RollDice.css";
 
 class LandingRollDice extends Component {
   static defaultProps = {

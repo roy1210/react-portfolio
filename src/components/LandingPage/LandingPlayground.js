@@ -1,8 +1,8 @@
 import React from "react";
 import { Tab } from "semantic-ui-react";
 import Profile from "../../img/Profile.jpg";
-import LandingRollDice from "./LandingRollDice";
-import LandingCoinContainer from "./LandingCoinContainer";
+import LandingRollDice from "./LandingRollDice/LandingRollDice";
+import LandingCoinContainer from "./LandingCoinContainer/LandingCoinContainer";
 
 const panes = [
   {
