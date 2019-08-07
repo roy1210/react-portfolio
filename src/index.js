@@ -8,7 +8,7 @@ import "react-mdl/extra/material.js";
 import "./CSS/index.css";
 import "./CSS/Ress.css";
 
-console.log("👋 Hi frined. Thanks for visiting my web page 😁");
+console.log("👋 Hi frined. Thanks for visiting my webpage 😁");
 console.log("📨 Please feel free to contact me 🤝");
 
 ReactDOM.render(

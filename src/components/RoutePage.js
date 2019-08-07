@@ -15,9 +15,6 @@ const RouteWithTitle = ({ title, ...props }) => (
   </>
 );
 
-// no need class for `stateless`
-// const Main =() => ( <Switch></Switch> ); same as () => { return ()}
-// アロー関数の { return( ) };を省略している書き方。
 const RoutePage = () => (
   <Switch>
     <RouteWithTitle title="Roy" exact path="/" component={LandingPage} />

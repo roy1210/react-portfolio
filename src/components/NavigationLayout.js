@@ -77,9 +77,7 @@ const NavigationLayout = () => (
         <Navigation>
           <Link to="/resume">RESUME / CONTACT</Link>
           <Link to="/projects">PROJECTS</Link>
-          <hr
-            style={{ padding: "0px", marginTop: "2em", color: "GhostWhite" }}
-          />
+          <hr className="HamburgerLine" />
           <div className="DrawerTitle">
             <p>External links</p>
           </div>
