@@ -24,9 +24,9 @@ class ProjectsPage extends Component {
               ripple
             >
               <Tab className="Projects-fade-in one">React</Tab>
-              <Tab className="Projects-fade-in four">DApps</Tab>
-              <Tab className="Projects-fade-in two">Vue</Tab>
-              <Tab className="Projects-fade-in three">Golang</Tab>
+              <Tab className="Projects-fade-in two">DApps</Tab>
+              <Tab className="Projects-fade-in three">Vue</Tab>
+              <Tab className="Projects-fade-in four">Golang</Tab>
               {/* <Tab>Solidity</Tab> */}
             </Tabs>
 
