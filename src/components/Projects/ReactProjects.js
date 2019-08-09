@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Project from "./Project";
-import REACT_PROJECTS_DATA from "./ReactProjects.data.js"
+import { REACT_PROJECTS_DATA } from "./Projects.data.js";
 
 class ReactProjects extends Component {
   static defaultProps = {
     projects: REACT_PROJECTS_DATA
   };
+
   render() {
     return (
       <Grid className="projects-grid">
