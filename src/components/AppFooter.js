@@ -1,6 +1,9 @@
 import React from "react";
+import { REACT_PROJECTS_DATA } from "./Projects/Projects.data";
 
 const thisYear = new Date().getFullYear();
+const myPortfolioCodesandbox = REACT_PROJECTS_DATA[0].codesandbox;
+
 const AppFooter = () => (
   <div className="AppFooter">
     <small>© {thisYear} Shoe Kure</small>
@@ -9,7 +12,7 @@ const AppFooter = () => (
       <span className="AppFooter-made-with">Made with</span>
       <span className="AppFooter-react">
         <a
-          href="https://codesandbox.io/s/my-portfolio-l5tuh"
+          href={myPortfolioCodesandbox}
           rel="noopener noreferrer"
           target="_blank"
         >

@@ -26,7 +26,7 @@ export const REACT_PROJECTS_DATA = [
     detail2:
       "Tools: CRA, React Router v5, React helmet, Semantic-UI, Material Lite UI",
     github: "https://github.com/roy1210/react-portfolio",
-    codesandbox: "https://codesandbox.io/s/my-portfolio-l5tuh",
+    codesandbox: "https://codesandbox.io/s/my-portfolio-5322o",
     siteUrl: "https://roy-k.tk/"
   },
   {
@@ -35,7 +35,7 @@ export const REACT_PROJECTS_DATA = [
     detail1: "(WIP) eCommerce clothing shop",
     detail2: "Tools: CRA, SCSS, React Router v5, Firebase, Firestore, Redux",
     github: "https://github.com/roy1210/react-ecommerce-clothing",
-    cardColor: "#FFE9D1",
+    cardColor: "#FFE9D1"
   },
   {
     photoUrl: FlipCoinScreenshot,
