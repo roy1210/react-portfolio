@@ -33,8 +33,9 @@ export const REACT_PROJECTS_DATA = [
     photoUrl: EcommerceScreenshot,
     name: "eCommerce Shop",
     detail1: "(WIP) eCommerce clothing shop",
-    detail2: "Tools: CRA, SCSS, React Router v5",
-    github: "https://github.com/roy1210/react-ecommerce-clothing"
+    detail2: "Tools: CRA, SCSS, React Router v5, Firebase, Firestore, Redux",
+    github: "https://github.com/roy1210/react-ecommerce-clothing",
+    cardColor: "#FFE9D1",
   },
   {
     photoUrl: FlipCoinScreenshot,
