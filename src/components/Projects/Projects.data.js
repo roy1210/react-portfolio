@@ -6,7 +6,7 @@ import FindGIFScreenshot from "../../img/ReactProjects/190714FindGif.jpg";
 import DashAwesomeScreenshot from "../../img/ReactProjects/190713DashAwesome.jpg";
 import DicesScreenshot from "../../img/ReactProjects/190713Dices.jpg";
 import CounterScreenshot from "../../img/ReactProjects/190713Counter.jpg";
-import EcommerceScreenshot from "../../img/ReactProjects/190804HomePage1.jpg";
+import EcommerceScreenshot from "../../img/ReactProjects/190811EcommerceShop.jpg";
 // dApps
 import MarketplaceScreenshot from "../../img/DappsProjects/190808Marketplace.jpg";
 // Vue
@@ -33,7 +33,8 @@ export const REACT_PROJECTS_DATA = [
     photoUrl: EcommerceScreenshot,
     name: "eCommerce Shop",
     detail1: "(WIP) eCommerce clothing shop",
-    detail2: "Tools: CRA, SCSS, React Router v5, Firebase, Firestore, Redux",
+    detail2:
+      "Tools: CRA, SCSS, React Router v5, Firebase, Firestore, Reselect, Redux(logger, persist)",
     github: "https://github.com/roy1210/react-ecommerce-clothing",
     cardColor: "#FFE9D1"
   },
