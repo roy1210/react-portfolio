@@ -55,7 +55,8 @@ const PROJECTS_DATA = {
         "A blockchain working with wallet, transaction and P2P functions.",
       detail2:
         "Tools: Jest, Express, Redis, Postman, Hex-to-binary, Secp256k1 elliptic",
-      detail3: "Live: Reflesh a page 1min later again.",
+      detail3:
+        "Live: if( showing`Not Found`) => Reflesh the page 1min later again.",
       github: "https://github.com/roy1210/react-blockchain",
       siteUrl: "https://my-crypto-blockchain.herokuapp.com/",
       peeredUrl: "https://my-crypto-blockchain-peer.herokuapp.com/"
