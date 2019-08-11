@@ -2,7 +2,7 @@
 
 ## Description
 
-Portfolio website built with React.js
+Portfolio website built with React and Redux
 
 **_DEMO:_**
 
@@ -24,6 +24,8 @@ $ npm start
 ## Tools
 
 - Create-react-app cli
+- Redux
+- Reselect
 - React MDL material design
 - Semantic UI React
 - React Router v5

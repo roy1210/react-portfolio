@@ -1,23 +1,24 @@
-import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
-import Project from "./Project";
-import { VUE_PROJECTS_DATA } from "./Projects.data";
+import React from 'react';
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
+import { selectVueProjects } from '../../redux/Projects/projects.selector';
+import { Grid, Cell } from 'react-mdl';
+import Project from './Project';
 
-class VueProjects extends Component {
-  static defaultProps = {
-    projects: VUE_PROJECTS_DATA
-  };
-  render() {
-    return (
-      <Grid className="projects-grid">
-        {this.props.projects.map(({ ...otherSectionProps }, index) => (
-          <Cell col={4} phone={12}>
-            <Project key={index} {...otherSectionProps} />
-          </Cell>
-        ))}
-      </Grid>
-    );
-  }
-}
+const VueProjects = ({ projects }) => {
+  return (
+    <Grid className='projects-grid'>
+      {projects.map(({ ...otherSectionProps }, index) => (
+        <Cell col={4} phone={12}>
+          <Project key={index} {...otherSectionProps} />
+        </Cell>
+      ))}
+    </Grid>
+  );
+};
 
-export default VueProjects;
+const mapStateToProps = createStructuredSelector({
+  projects: selectVueProjects
+});
+
+export default connect(mapStateToProps)(VueProjects);
