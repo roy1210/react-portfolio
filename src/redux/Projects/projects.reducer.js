@@ -35,9 +35,10 @@ const PROJECTS_DATA = {
       name: "eCommerce Shop",
       detail1: "(WIP) eCommerce clothing shop",
       detail2:
-        "Tools: CRA, SCSS, React Router v5, Firebase, Firestore, Reselect, Redux(logger, persist)",
+        "Tools: CRA, SCSS, React Router v5, Firebase, Firestore, Reselect, Redux(logger, persist), React-stripe-checkout",
       github: "https://github.com/roy1210/react-ecommerce-clothing",
-      cardColor: "#FFE9D1"
+      cardColor: "#FFE9D1",
+      siteUrl: "https://crwn-live-k.herokuapp.com/"
     },
     {
       photoUrl: FlipCoinScreenshot,
