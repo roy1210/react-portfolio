@@ -11,7 +11,8 @@ const ResumeSkills = () => (
     <p>Basic syntax for ES6, Jest Chai, and Styled-components</p>
     <SkillsProgressBuffer skill="React.js" blank={10} progress={60} />
     <p>
-      Develop Web apps with Redux, React Router, Semantic-UI-React, and Firebase
+      Develop Web apps with Redux, React Router, Semantic-UI-React, Axios,
+      Firebase, Firestore and MongoDB
     </p>
     {/* <SkillsProgressBuffer skill="GatsbyJS" blank={7} progress={30} />
     <p>
@@ -32,7 +33,9 @@ const ResumeSkills = () => (
     </p>
     <SkillsProgress skill="Golang" blank={11} progress={30} />
     <p>Basic syntax for Gobot and GoCV</p>
-    <SkillsProgressBuffer skill="Solidity" blank={11} progress={25} />
+    <SkillsProgressBuffer skill="PHP" blank={16} progress={15} />
+    <p>Basic syntax for PHP 7.2</p>
+    <SkillsProgress skill="Solidity" blank={11} progress={25} />
     <p>
       Creating a original cryptocurrency with ERC-20, Making Dapps by Truffle
       and serving with React.js

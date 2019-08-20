@@ -37,6 +37,7 @@ const PROJECTS_DATA = {
       detail2:
         "Tools: CRA, SCSS, React Router v5, Firebase, Firestore, Reselect, Redux(logger, persist), React-stripe-checkout",
       github: "https://github.com/roy1210/react-ecommerce-clothing",
+      codesandbox: "https://codesandbox.io/s/react-ecommerce-clothing-lkvr8",
       cardColor: "#FFE9D1",
       siteUrl: "https://crwn-live-k.herokuapp.com/"
     },
