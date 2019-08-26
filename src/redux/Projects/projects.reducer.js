@@ -7,6 +7,8 @@ import DashAwesomeScreenshot from "../../img/ReactProjects/190713DashAwesome.jpg
 import DicesScreenshot from "../../img/ReactProjects/190713Dices.jpg";
 import CounterScreenshot from "../../img/ReactProjects/190713Counter.jpg";
 import EcommerceScreenshot from "../../img/ReactProjects/190811EcommerceShop.jpg";
+// TS
+import TsMapsScreenshot from "../../img/TypeScriptProjects/190826ts-map.jpg";
 // dApps
 import MarketplaceScreenshot from "../../img/DappsProjects/190808Marketplace.jpg";
 // Vue
@@ -105,6 +107,18 @@ const PROJECTS_DATA = {
       siteUrl: "https://csb-7b018.netlify.com/",
       titleColor: "SteelBlue",
       cardColor: "whitesmoke"
+    }
+  ],
+  typescriptProjects: [
+    {
+      photoUrl: TsMapsScreenshot,
+      name: "RandomMap",
+      detail1:
+        "Randomly generate User and Company, and then show both locations on google map.",
+      detail2:
+        "Tools: TypeScript, Faker, Maps JavaScript API(Google API Console )",
+      github: "https://github.com/roy1210/random-map",
+      titleColor: "black"
     }
   ],
   dappsProjects: [

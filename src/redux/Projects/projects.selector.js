@@ -1,10 +1,14 @@
-import { createSelector } from 'reselect';
+import { createSelector } from "reselect";
 
 const selectProjects = state => state.projects;
 
 export const selectReactProjects = createSelector(
   [selectProjects],
   projects => projects.reactProjects
+);
+export const selectTypeScriptProjects = createSelector(
+  [selectProjects],
+  projects => projects.typescriptProjects
 );
 
 export const selectDappsProjects = createSelector(

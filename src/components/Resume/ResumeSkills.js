@@ -8,17 +8,17 @@ const ResumeSkills = () => (
     <h4>Coding</h4>
     <h5 className="Resume-frontend">Front-end</h5>
     <SkillsProgressBuffer skill="JavaScript" blank={6} progress={40} />
-    <p>Basic syntax for ES6, Jest Chai, and Styled-components</p>
+    <p>
+      Basic syntax for ES6, Jest, Chai, Parcel bundler, Faker and
+      Styled-components
+    </p>
+    <SkillsProgressBuffer skill="TypeScript" blank={6} progress={20} />
+    <p>Use type system to catch error, design reuseable code with interfaces</p>
     <SkillsProgressBuffer skill="React.js" blank={10} progress={60} />
     <p>
       Develop Web apps with Redux, React Router, Semantic-UI-React, Axios,
       Firebase, Firestore and MongoDB
     </p>
-    {/* <SkillsProgressBuffer skill="GatsbyJS" blank={7} progress={30} />
-    <p>
-      Develop with using plugins and GraphQL to build fast modern Web apps and
-      PWA
-    </p> */}
     <SkillsProgressBuffer skill="Firebase" blank={9} progress={20} />
     <p>
       Cloud Firestore (NoSQL), authentication, and hosting for a serverless app

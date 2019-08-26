@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { Tabs, Tab, Grid, Cell } from "react-mdl";
 import ReactProjects from "./ReactProjects.js";
+import TypeScriptProjects from "./TypeScriptProjects";
+import DappsProjects from "./DappsProjects.js";
 import VueProjects from "./VueProjects.js";
 import GolangProjects from "./GolangProjects.js";
-import DappsProjects from "./DappsProjects.js";
 import AppFooter from "../AppFooter";
 import "../../CSS/Projects.css";
 
@@ -24,10 +25,10 @@ class ProjectsPage extends Component {
               ripple
             >
               <Tab className="Projects-fade-in one">React</Tab>
-              <Tab className="Projects-fade-in two">DApps</Tab>
-              <Tab className="Projects-fade-in three">Vue</Tab>
-              <Tab className="Projects-fade-in four">Golang</Tab>
-              {/* <Tab>Solidity</Tab> */}
+              <Tab className="Projects-fade-in two">TS</Tab>
+              <Tab className="Projects-fade-in three">DApps</Tab>
+              <Tab className="Projects-fade-in four">Vue</Tab>
+              <Tab className="Projects-fade-in five">Golang</Tab>
             </Tabs>
 
             <Grid>
@@ -55,10 +56,12 @@ class ProjectsPage extends Component {
     if (this.state.activeTab === 0) {
       return <ReactProjects />;
     } else if (this.state.activeTab === 1) {
-      return <DappsProjects />;
+      return <TypeScriptProjects />;
     } else if (this.state.activeTab === 2) {
-      return <VueProjects />;
+      return <DappsProjects />;
     } else if (this.state.activeTab === 3) {
+      return <VueProjects />;
+    } else if (this.state.activeTab === 4) {
       return <GolangProjects />;
     }
   }
