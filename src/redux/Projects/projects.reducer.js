@@ -34,7 +34,7 @@ const PROJECTS_DATA = {
     },
     {
       photoUrl: EcommerceScreenshot,
-      name: "eCommerce Shop",
+      name: "eCommerce shop",
       detail1: "(WIP) eCommerce clothing shop",
       detail2:
         "Tools: CRA, SCSS, React Router v5, Firebase, Firestore, Reselect, Redux(logger, persist), React-stripe-checkout",
@@ -112,11 +112,10 @@ const PROJECTS_DATA = {
   typescriptProjects: [
     {
       photoUrl: TsMapsScreenshot,
-      name: "RandomMap",
+      name: "Random map",
       detail1:
         "Randomly generate User and Company, and then show both locations on google map.",
-      detail2:
-        "Tools: TypeScript,Ts-node, Parcel, Faker, Maps JavaScript API",
+      detail2: "Tools: TypeScript,Ts-node, Parcel, Faker, Maps JavaScript API",
       github: "https://github.com/roy1210/random-map",
       titleColor: "black"
     }
@@ -144,7 +143,7 @@ const PROJECTS_DATA = {
     },
     {
       photoUrl: MyMarkdownMemoScreenshot,
-      name: "Markdown Memo",
+      name: "Markdown memo",
       detail1: "Markdown memo which can preview and edit on the same time.",
       detail2: "Tools: Firebase authentication, Firebase realtime DB, marked",
       github: "https://github.com/roy1210/JS_Vue_My_Markdown_Memo",
