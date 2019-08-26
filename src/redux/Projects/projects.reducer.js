@@ -116,7 +116,7 @@ const PROJECTS_DATA = {
       detail1:
         "Randomly generate User and Company, and then show both locations on google map.",
       detail2:
-        "Tools: TypeScript, Faker, Maps JavaScript API(Google API Console )",
+        "Tools: TypeScript,Ts-node, Parcel, Faker, Maps JavaScript API",
       github: "https://github.com/roy1210/random-map",
       titleColor: "black"
     }
