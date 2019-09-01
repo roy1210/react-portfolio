@@ -65,7 +65,7 @@
 
 .Landing-banner-text hr {
   border-top: 3.8px dotted white;
-  width: 48%;
+  width: 51%;
   margin: auto;
 }
 
@@ -88,6 +88,9 @@
 }
 .Landing-javascript:hover {
   color: #f0db4f;
+}
+.Landing-typescript:hover {
+  color: royalblue;
 }
 .Landing-firebase:hover {
   color: #f6820d;

@@ -26,6 +26,7 @@ class LandingPage extends Component {
                 <hr />
                 <p>
                   <span className="Landing-javascript">JavaScript</span> |{" "}
+                  <span className="Landing-typescript">TypeScript</span> |{" "}
                   <span className="Landing-react">React</span> |{" "}
                   <span className="Landing-firebase">Firebase</span> |{" "}
                   <span className="Landing-python">Python</span> |{" "}
