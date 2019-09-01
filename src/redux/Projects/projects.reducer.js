@@ -9,6 +9,7 @@ import CounterScreenshot from "../../img/ReactProjects/190713Counter.jpg";
 import EcommerceScreenshot from "../../img/ReactProjects/190811EcommerceShop.jpg";
 // TS
 import TsMapsScreenshot from "../../img/TypeScriptProjects/190826ts-map.jpg";
+import TodoScreenshot from "../../img/TypeScriptProjects/190901Todo.jpg";
 // dApps
 import MarketplaceScreenshot from "../../img/DappsProjects/190808Marketplace.jpg";
 // Vue
@@ -29,7 +30,7 @@ const PROJECTS_DATA = {
       detail2:
         "Tools: CRA, Redux, Reselect, React Router v5, React helmet, Semantic-UI, Material Lite UI",
       github: "https://github.com/roy1210/react-portfolio",
-      codesandbox: "https://codesandbox.io/s/my-portfolio-zuryp",
+      codesandbox: "https://codesandbox.io/s/my-portfolio-r3zev",
       siteUrl: "https://roy-k.tk/"
     },
     {
@@ -114,10 +115,20 @@ const PROJECTS_DATA = {
       photoUrl: TsMapsScreenshot,
       name: "Random map",
       detail1:
-        "Randomly generate User and Company, and then show both locations on google map.",
+        "Randomly generate user and company, and then show both locations on google map.",
       detail2: "Tools: TypeScript,Ts-node, Parcel, Faker, Maps JavaScript API",
       github: "https://github.com/roy1210/random-map",
       titleColor: "black"
+    },
+    {
+      photoUrl: TodoScreenshot,
+      // name: "Todo list",
+      detail1: "Simple todo list build with React, React hocks and TypeScript.",
+      detail2: "Tools: CRA, TypeScript,React hocks, Parcel",
+      github: "https://github.com/roy1210/react-ts-todo-list",
+      codesandbox: "https://codesandbox.io/s/react-ts-todo-list-84xj8",
+      siteUrl: "https://todo-react-typescript-k.netlify.com/",
+      titleColor: "Red"
     }
   ],
   dappsProjects: [
