@@ -5,6 +5,7 @@ import BlockchainScreenshot from "../../img/ReactProjects/190723Blockchain-JS.jp
 import FindGIFScreenshot from "../../img/ReactProjects/190714FindGif.jpg";
 import DashAwesomeScreenshot from "../../img/ReactProjects/190713DashAwesome.jpg";
 import DicesScreenshot from "../../img/ReactProjects/190713Dices.jpg";
+import reactHocksCounterScreenshot from "../../img/ReactProjects/190902hockReducer.jpg";
 import CounterScreenshot from "../../img/ReactProjects/190713Counter.jpg";
 import EcommerceScreenshot from "../../img/ReactProjects/190811EcommerceShop.jpg";
 // TS
@@ -86,6 +87,18 @@ const PROJECTS_DATA = {
       github: "https://github.com/roy1210/React_Find_Gif",
       codesandbox: "https://codesandbox.io/s/github/roy1210/React_Find_Gif",
       siteUrl: "https://csb-gp67w.netlify.com/"
+    },
+    {
+      photoUrl: reactHocksCounterScreenshot,
+      name: "Hocks counter",
+      detail1:
+        "Try the taste of react hocks and reducer with simple counter app.",
+      detail2: "Tools: CRA, React hocks",
+      github: "https://github.com/roy1210/react-hocks-reducer-counter",
+      codesandbox: "https://codesandbox.io/s/reacthocks-reducer-counter-ohixg",
+      siteUrl: "https://csb-ohixg.netlify.com/",
+      titleColor: "SteelBlue",
+      cardColor: "whitesmoke"
     },
     {
       photoUrl: DicesScreenshot,
