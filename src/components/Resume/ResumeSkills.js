@@ -33,8 +33,8 @@ const ResumeSkills = () => (
     </p>
     <SkillsProgress skill="Golang" blank={11} progress={30} />
     <p>Basic syntax for Gobot and GoCV</p>
-    <SkillsProgressBuffer skill="PHP" blank={16} progress={15} />
-    <p>Basic syntax for PHP 7.2</p>
+    {/* <SkillsProgressBuffer skill="PHP" blank={16} progress={15} />
+    <p>Basic syntax for PHP 7.2</p> */}
     <SkillsProgress skill="Solidity" blank={11} progress={25} />
     <p>
       Creating a original cryptocurrency with ERC-20, Making Dapps by Truffle
