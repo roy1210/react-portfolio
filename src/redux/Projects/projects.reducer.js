@@ -135,13 +135,11 @@ const PROJECTS_DATA = {
     },
     {
       photoUrl: TodoScreenshot,
-      // name: "Todo list",
       detail1: "Simple todo list build with React, React hocks and TypeScript.",
-      detail2: "Tools: CRA, TypeScript,React hocks, Parcel",
+      detail2: "Tools: CRA, TypeScript,React hocks",
       github: "https://github.com/roy1210/react-ts-todo-list",
       codesandbox: "https://codesandbox.io/s/react-ts-todo-list-84xj8",
-      siteUrl: "https://todo-react-typescript-k.netlify.com/",
-      titleColor: "Red"
+      siteUrl: "https://todo-react-typescript-k.netlify.com/"
     }
   ],
   dappsProjects: [
