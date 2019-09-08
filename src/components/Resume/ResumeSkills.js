@@ -48,7 +48,6 @@ const ResumeSkills = () => (
     <p>Basic syntax for SQLite3 and PostgreSQL</p>
     <SkillsProgress skill="Algorism" blank={8} progress={40} />
     <p>Paiza skill check rank: C (S~E) </p>
-    <h5 className="Resume-backend">Other than that</h5>
     <ResumeOtherBackendSkills />
     <hr style={{ borderTop: "3px dashed #e22947" }} />
     <h4>Knowledge / Languages</h4>
