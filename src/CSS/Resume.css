@@ -162,6 +162,13 @@
   /* text-shadow: 0px 0px 20px silver; */
 }
 
+.Resume-backend-other {
+  font-size: 1.8em;
+  padding-left: 0.5em;
+  color: rgba(0, 0, 0, 0.5); /*透過必須*/
+  text-shadow: 2px 2px 2px #9d9da4 /*背景色に合わせる*/, 0 0 #000;
+}
+
 .Resume-skill-title {
   display: flex;
   font-size: 1.4em;

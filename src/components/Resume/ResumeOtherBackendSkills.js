@@ -3,7 +3,7 @@ import { Table } from "semantic-ui-react";
 
 const ResumeOtherBackendSkills = () => (
   <div className="Resume-other-than-that">
-    <h5 className="Resume-backend">Other than that</h5>
+    <h5 className="Resume-backend-other">Other than above</h5>
     <div style={{ fontSize: "1.1rem", margin: "0.3rem" }}>
       <Table celled inverted>
         <Table.Header>
