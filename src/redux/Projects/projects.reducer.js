@@ -8,6 +8,7 @@ import DicesScreenshot from "../../img/ReactProjects/190713Dices.jpg";
 import reactHocksCounterScreenshot from "../../img/ReactProjects/190902hockReducer.jpg";
 import CounterScreenshot from "../../img/ReactProjects/190713Counter.jpg";
 import EcommerceScreenshot from "../../img/ReactProjects/190811EcommerceShop.jpg";
+import RobofriendsScreenshot from "../../img/ReactProjects/190912Robofriends.jpg";
 // TS
 import TsMapsScreenshot from "../../img/TypeScriptProjects/190826ts-map.jpg";
 import TodoScreenshot from "../../img/TypeScriptProjects/190901Todo.jpg";
@@ -87,6 +88,18 @@ const PROJECTS_DATA = {
       github: "https://github.com/roy1210/React_Find_Gif",
       codesandbox: "https://codesandbox.io/s/github/roy1210/React_Find_Gif",
       siteUrl: "https://csb-gp67w.netlify.com/"
+    },
+    {
+      photoUrl: RobofriendsScreenshot,
+      name: "Robofriends",
+      detail1:
+        "Generate unique image of robot/alien/monster according registered name and fetch with redux action.",
+      detail2:
+        "Tools: Robohash API, JSONPlaceholder, Redux-thunk, Redux-logger, Tachyons",
+      github: "https://github.com/roy1210/react-robofriends",
+      codesandbox: "https://codesandbox.io/s/robofriends-zvq0d",
+      siteUrl: "https://robofrineds-k.netlify.com/",
+      titleColor: "red"
     },
     {
       photoUrl: reactHocksCounterScreenshot,
