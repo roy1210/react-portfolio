@@ -71,6 +71,16 @@ export const RESUME_CONTACT = (
         CodeSandbox
       </a>
     </div>
+    <div className="Resume-forkwell">
+      <i className="fab fa-forumbee" aria-hidden="true" />
+      <a
+        href="https://portfolio.forkwell.com/en/@roy1210"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Forkwell Portfolio
+      </a>
+    </div>
     <div className="Resume-home">
       <i className="fas fa-home" aria-hidden="true" />
       <a href="https://roy-k.tk" rel="noopener noreferrer" target="_blank">

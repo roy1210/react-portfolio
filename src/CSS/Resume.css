@@ -59,6 +59,10 @@
   font-size: 22px;
   padding-bottom: 0.5rem;
 }
+.Resume-forkwell i {
+  font-size: 22px;
+  padding-bottom: 0.5rem;
+}
 .Resume-linkedin i：hover {
   color: white;
 }
@@ -165,8 +169,8 @@
 .Resume-backend-other {
   font-size: 1.8em;
   padding-left: 0.5em;
-  color: rgba(0, 0, 0, 0.5); /*透過必須*/
-  text-shadow: 2px 2px 2px #9d9da4 /*背景色に合わせる*/, 0 0 #000;
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 2px #9d9da4, 0 0 #000;
 }
 
 .Resume-skill-title {
