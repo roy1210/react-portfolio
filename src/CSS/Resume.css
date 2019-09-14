@@ -146,7 +146,7 @@
 }
 
 .Resume-right-col h3 {
-  color: sienna;
+  color: #e07f00;
   font-family: monospace;
 }
 
@@ -324,7 +324,7 @@ span {
 
   .Resume-right-col h3 {
     font-size: 2.2em;
-    color: sienna;
+    color: #e07f00;
     font-family: monospace;
     margin-bottom: 0em;
   }
