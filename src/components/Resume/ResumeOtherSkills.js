@@ -21,10 +21,16 @@ const ResumeOtherBackendSkills = () => (
             </Table.Cell>
           </Table.Row>
           <Table.Row>
-            <Table.Cell>Website Optimization </Table.Cell>
+            <Table.Cell>Website Optimization</Table.Cell>
             <Table.Cell>
               Picture resize, Code splitting, Load balancing, Caching and Code
               optimizations
+            </Table.Cell>
+          </Table.Row>
+          <Table.Row>
+            <Table.Cell>Progressive Web App</Table.Cell>
+            <Table.Cell>
+              Create PWA that works offline like a native mobile app
             </Table.Cell>
           </Table.Row>
         </Table.Body>

@@ -1,7 +1,7 @@
 import React from "react";
 import SkillsProgressBuffer from "./SkillsProgressBuffer.js";
 import SkillsProgress from "./SkillsProgress.js";
-import ResumeOtherBackendSkills from "./ResumeOtherBackendSkills.js";
+import ResumeOtherSkills from "./ResumeOtherSkills.js";
 
 const ResumeSkills = () => (
   <div className="Resume-skills">
@@ -15,9 +15,9 @@ const ResumeSkills = () => (
     <SkillsProgressBuffer skill="React.js" blank={10} progress={60} />
     <p>
       Develop Web apps with Redux, React Hocks, React Router, Semantic-UI-React,
-      Axios, Firebase, Firestore and MongoDB
+      Progressive Web App, Axios, Firebase, Firestore and MongoDB
     </p>
-    <SkillsProgressBuffer skill="Firebase" blank={9} progress={20} />
+    <SkillsProgress skill="Firebase" blank={9} progress={20} />
     <p>
       Cloud Firestore (NoSQL), authentication, and hosting for a serverless app
     </p>
@@ -48,7 +48,7 @@ const ResumeSkills = () => (
     <p>Basic syntax for SQLite3 and PostgreSQL</p>
     <SkillsProgress skill="Algorism" blank={8} progress={40} />
     <p>Paiza skill check rank: C (S~E) </p>
-    <ResumeOtherBackendSkills />
+    <ResumeOtherSkills />
     <hr style={{ borderTop: "3px dashed #e22947" }} />
     <h4>Knowledge / Languages</h4>
     <SkillsProgressBuffer skill="Blockchain" blank={5} progress={55} />

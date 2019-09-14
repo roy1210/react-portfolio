@@ -28,7 +28,7 @@ const PROJECTS_DATA = {
       photoUrl: PortfolioScreenshot,
       name: "Portfolio",
       detail1:
-        "Personal portfolio built with React. Registered custom domain on Freenom and hosted on Netlify.",
+        "Personal portfolio built with React. Registered custom domain on Freenom and hosted on Netlify. App works as PWA.",
       detail2:
         "Tools: CRA, Redux, Reselect, React Router v5, React helmet, Semantic-UI, Material Lite UI",
       github: "https://github.com/roy1210/react-portfolio",
@@ -49,7 +49,7 @@ const PROJECTS_DATA = {
     {
       photoUrl: FlipCoinScreenshot,
       name: "Flip coin",
-      detail1: "A mini-game guessing which coin shows up.",
+      detail1: "A mini-game guessing which coin shows up. App works as PWA.",
       detail2: "Tools: CRA",
       github: "https://github.com/roy1210/react-flip-coin",
       codesandbox: "https://codesandbox.io/s/flip-coin-6mu0b",
@@ -67,6 +67,18 @@ const PROJECTS_DATA = {
       github: "https://github.com/roy1210/react-blockchain",
       siteUrl: "https://my-crypto-blockchain.herokuapp.com/",
       peeredUrl: "https://my-crypto-blockchain-peer.herokuapp.com/"
+    },
+    {
+      photoUrl: RobofriendsScreenshot,
+      name: "Robofriends",
+      detail1:
+        "Generate unique image of robot/alien/monster according registered name and fetch with redux action. App works as PWA.",
+      detail2:
+        "Tools: Robohash API, JSONPlaceholder, Redux-thunk, Redux-logger, Tachyons, Gh-pages",
+      github: "https://github.com/roy1210/react-robofriends",
+      codesandbox: "https://codesandbox.io/s/robofriends-gcv9f",
+      siteUrl: "https://roy1210.github.io/react-robofriends/",
+      titleColor: "red"
     },
     {
       photoUrl: DashAwesomeScreenshot,
@@ -88,18 +100,6 @@ const PROJECTS_DATA = {
       github: "https://github.com/roy1210/React_Find_Gif",
       codesandbox: "https://codesandbox.io/s/github/roy1210/React_Find_Gif",
       siteUrl: "https://csb-gp67w.netlify.com/"
-    },
-    {
-      photoUrl: RobofriendsScreenshot,
-      name: "Robofriends",
-      detail1:
-        "Generate unique image of robot/alien/monster according registered name and fetch with redux action.",
-      detail2:
-        "Tools: Robohash API, JSONPlaceholder, Redux-thunk, Redux-logger, Tachyons, Gh-pages",
-      github: "https://github.com/roy1210/react-robofriends",
-      codesandbox: "https://codesandbox.io/s/robofriends-zvq0d",
-      siteUrl: "https://roy1210.github.io/react-robofriends/",
-      titleColor: "red"
     },
     {
       photoUrl: reactHocksCounterScreenshot,
