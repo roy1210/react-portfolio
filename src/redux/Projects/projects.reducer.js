@@ -95,10 +95,10 @@ const PROJECTS_DATA = {
       detail1:
         "Generate unique image of robot/alien/monster according registered name and fetch with redux action.",
       detail2:
-        "Tools: Robohash API, JSONPlaceholder, Redux-thunk, Redux-logger, Tachyons",
+        "Tools: Robohash API, JSONPlaceholder, Redux-thunk, Redux-logger, Tachyons, Gh-pages",
       github: "https://github.com/roy1210/react-robofriends",
       codesandbox: "https://codesandbox.io/s/robofriends-zvq0d",
-      siteUrl: "https://robofrineds-k.netlify.com/",
+      siteUrl: "https://roy1210.github.io/react-robofriends/",
       titleColor: "red"
     },
     {
