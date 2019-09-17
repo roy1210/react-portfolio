@@ -33,6 +33,7 @@ Also, be able to install this app and run as Progressive Web App
 - React Router v5
 - React-Helmet
 - Ress.css (Customized in html tag)
+- Enzyme
 
 ## Licence
 

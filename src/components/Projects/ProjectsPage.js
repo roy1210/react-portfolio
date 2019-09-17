@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import { Tabs, Tab, Grid, Cell } from "react-mdl";
-import ReactProjects from "./ReactProjects.js";
-import TypeScriptProjects from "./TypeScriptProjects";
-import DappsProjects from "./DappsProjects.js";
-import VueProjects from "./VueProjects.js";
-import GolangProjects from "./GolangProjects.js";
-import AppFooter from "../AppFooter";
-import "../../CSS/Projects.css";
+import React, { Component } from 'react';
+import { Tabs, Tab, Grid, Cell } from 'react-mdl';
+import ReactProjects from './ReactProjects.js';
+import TypeScriptProjects from './TypeScriptProjects';
+import DappsProjects from './DappsProjects.js';
+import VueProjects from './VueProjects.js';
+import GolangProjects from './GolangProjects.js';
+import AppFooter from '../AppFooter';
+import '../../CSS/Projects.css';
 
 class ProjectsPage extends Component {
   constructor(props) {
@@ -16,19 +16,23 @@ class ProjectsPage extends Component {
   // Each Tab got unique tab key (index) by default by react-mdl
   render() {
     return (
-      <div className="Projects">
-        <div className="Projects-content">
-          <div className="Projects-category-tabs">
+      <div className='Projects'>
+        <div className='Projects-content'>
+          <div className='Projects-category-tabs'>
             <Tabs
               activeTab={this.state.activeTab}
               onChange={tabId => this.setState({ activeTab: tabId })}
               ripple
             >
-              <Tab className="Projects-fade-in one">React</Tab>
-              <Tab className="Projects-fade-in two">TS</Tab>
-              <Tab className="Projects-fade-in three">DApps</Tab>
-              <Tab className="Projects-fade-in four">Vue</Tab>
-              <Tab className="Projects-fade-in five">Golang</Tab>
+              <Tab id='reactTab' className='Projects-fade-in one'>
+                React
+              </Tab>
+              <Tab id='tsTab' className='Projects-fade-in two'>
+                TS
+              </Tab>
+              <Tab className='Projects-fade-in three'>DApps</Tab>
+              <Tab className='Projects-fade-in four'>Vue</Tab>
+              <Tab className='Projects-fade-in five'>Golang</Tab>
             </Tabs>
 
             <Grid>
@@ -36,16 +40,16 @@ class ProjectsPage extends Component {
                 col={12}
                 phone={12}
                 tablet={12}
-                className="Projects-Project"
+                className='Projects-Project'
               >
-                <div className="Projects-content">
+                <div className='Projects-content'>
                   {this.toggleCategories()}
                 </div>
               </Cell>
             </Grid>
           </div>
         </div>
-        <div className="Projects-footer">
+        <div className='Projects-footer'>
           <AppFooter />
         </div>
       </div>
