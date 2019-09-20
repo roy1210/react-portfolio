@@ -33,6 +33,12 @@ const ResumeOtherBackendSkills = () => (
               Create PWA that works offline like a native mobile app
             </Table.Cell>
           </Table.Row>
+          <Table.Row>
+            <Table.Cell>Secure</Table.Cell>
+            <Table.Cell>
+              HTTPS, Code secrets (.gitignore), Secure headers (Helmet), Encrypt
+            </Table.Cell>
+          </Table.Row>
         </Table.Body>
       </Table>
     </div>
