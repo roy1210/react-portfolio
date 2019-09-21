@@ -15,8 +15,8 @@ const ResumeSkills = () => (
     <SkillsProgressBuffer skill="React.js" blank={10} progress={65} />
     <p>
       Develop Web apps with Redux, React Hocks, React Router, Enzyme,
-      Semantic-UI-React, Progressive Web App, Axios, Firebase, Firestore and
-      MongoDB
+      Semantic-UI-React, Progressive Web App, Axios, Firebase, Firestore,
+      MongoDB and SSR with Next.js
     </p>
     <SkillsProgress skill="Firebase" blank={9} progress={20} />
     <p>
