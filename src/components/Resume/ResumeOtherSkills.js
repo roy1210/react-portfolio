@@ -39,6 +39,13 @@ const ResumeOtherBackendSkills = () => (
               HTTPS, Code secrets (.gitignore), Secure headers (Helmet), Encrypt
             </Table.Cell>
           </Table.Row>
+          <Table.Row>
+            <Table.Cell>Docker</Table.Cell>
+            <Table.Cell>
+              Use dockerfile and docker-compose to create containers for
+              services
+            </Table.Cell>
+          </Table.Row>
         </Table.Body>
       </Table>
     </div>
