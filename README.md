@@ -2,7 +2,8 @@
 
 ## Description
 
-Portfolio website built with React and Redux
+Portfolio website built with React and Redux. <br/>
+Be able to run from docker container without installing Node.js by local environment.
 
 **_DEMO:_**
 
@@ -19,9 +20,35 @@ $ npm start
 
 Also, be able to install this app and run as Progressive Web App
 
+## Usage / Install (Docker)
+
+Install docker [here](https://docs.docker.com/docker-for-mac/install/) <br/>
+Clone repo, cd into folder and run:
+
+### Run from Dockerfile:
+
+```console
+$ docker build -t [container-name] .
+$ docker run -it -p 3000:3000 [container-name]
+$ npm start
+```
+Then open [localhost:3000](http://localhost:3000)
+
+### Run from docker-compose:
+
+```console
+$ docker-compose build
+$ docker-compose up
+```
+Then open [localhost:3000](http://localhost:3000)
+
+※ Run `$ docker-compose build` only for the first time.
+
 ## Requirement
 
 - npm
+- Node (If not using docker)
+- Docker (Optionally)
 
 ## Tools
 
