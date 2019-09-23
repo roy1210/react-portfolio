@@ -3,7 +3,7 @@
 ## Description
 
 Portfolio website built with React and Redux. <br/>
-Be able to run from docker container without installing Node.js by local environment.
+Be able to run from docker container without installing Node.js in local environment.
 
 **_DEMO:_**
 
@@ -32,6 +32,7 @@ $ docker build -t [container-name] .
 $ docker run -it -p 3000:3000 [container-name]
 $ npm start
 ```
+
 Then open [localhost:3000](http://localhost:3000)
 
 ### Run from docker-compose:
@@ -40,6 +41,7 @@ Then open [localhost:3000](http://localhost:3000)
 $ docker-compose build
 $ docker-compose up
 ```
+
 Then open [localhost:3000](http://localhost:3000)
 
 ※ Run `$ docker-compose build` only for the first time.
