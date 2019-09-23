@@ -349,6 +349,15 @@ export const RESUME_PLANS = (
               </List.Content>
             </List.Item>
             {/* L2 */}
+            <List.Item>
+              <List.Icon
+                name="docker"
+                style={{ paddingBottom: "0.55em", paddingRight: "0em" }}
+              />
+              <List.Content>
+                <List.Header>Docker</List.Header>
+              </List.Content>
+            </List.Item>
             {/* L2 */}
             <List.Item>
               <List.Icon name="sun" style={{ paddingBottom: "0.55em" }} />
@@ -356,6 +365,7 @@ export const RESUME_PLANS = (
                 <List.Header>GraphQL</List.Header>
               </List.Content>
             </List.Item>
+            {/* L2 */}
             <List.Item>
               <List.Icon
                 name="mobile alternate"
