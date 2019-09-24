@@ -360,6 +360,16 @@ export const RESUME_PLANS = (
             </List.Item>
             {/* L2 */}
             <List.Item>
+              <List.Icon
+                name="aws"
+                style={{ paddingBottom: "0.55em", paddingRight: "0.32em" }}
+              />
+              <List.Content>
+                <List.Header>AWS</List.Header>
+              </List.Content>
+            </List.Item>
+            {/* L2 */}
+            <List.Item>
               <List.Icon name="sun" style={{ paddingBottom: "0.55em" }} />
               <List.Content>
                 <List.Header>GraphQL</List.Header>
