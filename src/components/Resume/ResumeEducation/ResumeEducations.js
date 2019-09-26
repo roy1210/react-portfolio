@@ -5,6 +5,14 @@ const ResumeEducations = () => (
   <Fragment>
     <h3>Education</h3>
     <ResumeEducation
+      startYear="2019"
+      endYear="2019"
+      schoolName="The Complete Junior to Senior Web Developer Roadmap (2019) – Udemy"
+      schoolDescription="Main topics: SSH, TypeScript, SSR (Next.js), Security, Test, Docker, CI/CD, "
+      certificationUrl="https://www.udemy.com/certificate/UC-YT9QZ9X2/"
+      schoolRef="Certification"
+    />
+    <ResumeEducation
       startYear="2018"
       endYear="2018"
       schoolName="The State University of New York – MOOC, Coursera"

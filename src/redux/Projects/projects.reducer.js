@@ -31,9 +31,9 @@ const PROJECTS_DATA = {
         "Personal portfolio built with React. Registered custom domain on Freenom and hosted on Netlify.",
       detail2: "App works as PWA and run with docker compose.",
       detail3:
-        "Tools: CRA, Docker, Redux, Reselect, React Router v5, React helmet, Enzyme, Semantic-UI, Material Lite UI",
+        "Tools: CRA, Docker, CircleCI, Redux, Reselect, React Router v5, React helmet, Enzyme, Semantic-UI, Material Lite UI",
       github: "https://github.com/roy1210/react-portfolio",
-      codesandbox: "https://codesandbox.io/s/my-portfolio-86zsz",
+      codesandbox: "https://codesandbox.io/s/my-portfolio-cdfq2",
       siteUrl: "https://roy-k.tk/"
     },
     {
@@ -75,7 +75,7 @@ const PROJECTS_DATA = {
       detail1:
         "Generate unique image of robot/alien/monster according registered name and fetch with redux action. App works as PWA.",
       detail2:
-        "Tools: Robohash API, JSONPlaceholder, Redux-thunk, Redux-logger, Enzyme, Tachyons, Gh-pages",
+        "Tools: Robohash API, JSONPlaceholder, Redux-thunk, Redux-logger, Enzyme, Tachyons, Gh-pages, CircleCI",
       github: "https://github.com/roy1210/react-robofriends",
       codesandbox: "https://codesandbox.io/s/robofriends-gcv9f",
       siteUrl: "https://roy1210.github.io/react-robofriends/",

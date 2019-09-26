@@ -2,6 +2,9 @@ import React, { Fragment } from "react";
 import codeSandBox from "../../img/ResumeCodeSandBox.png";
 import { List } from "semantic-ui-react";
 
+export const RESUME_GOOGLE_DRIVE =
+  "https://drive.google.com/file/d/1UlhOUn3gBZPLwPr6nfLWR61XT1_kUtgL/view?usp=sharing";
+
 export const RESUME_INTRO = (
   <Fragment>
     <h5 className="Resume-txt-center">Hello, world!</h5>

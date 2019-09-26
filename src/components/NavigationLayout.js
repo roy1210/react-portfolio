@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import RoutePage from "./RoutePage";
 import { Layout, Header, Navigation, Drawer, Content, Button } from "react-mdl";
 import { Popup, Icon } from "semantic-ui-react";
+import { RESUME_GOOGLE_DRIVE } from "./Resume/Resume.data";
 import "../CSS/App.css";
 import "../CSS/NavigationLayout.css";
 
@@ -21,8 +22,7 @@ const resume = () => (
   />
 );
 
-const resumeURL =
-  "https://drive.google.com/file/d/1xmCSpfKhxnR2MtAhG4bH3i9Z9zemqGXs/view?usp=sharing";
+const resumeURL = RESUME_GOOGLE_DRIVE;
 
 const NavigationLayout = () => (
   <div className="demo-big-content">
