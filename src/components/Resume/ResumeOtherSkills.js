@@ -9,8 +9,7 @@ class ResumeOtherBackendSkills extends Component {
     },
     {
       skill: "Website Optimization",
-      description:
-        "Picture resize, Code splitting, Load balancing, Caching and Code optimizations"
+      description: "Picture resize, Code splitting, Cashing, CDN"
     },
     {
       skill: "Progressive Web App",
