@@ -25,6 +25,11 @@ class ResumeOtherBackendSkills extends Component {
       skill: "Docker",
       description:
         "Use dockerfile and docker-compose to create containers for services"
+    },
+    {
+      skill: "Circle CI",
+      description:
+        "Implement CI/CD to keep code quality and avoid to deploy with any bug"
     }
   ];
   render() {
