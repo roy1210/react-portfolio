@@ -7,6 +7,8 @@ import { RESUME_GOOGLE_DRIVE } from "./Resume/Resume.data";
 import "../CSS/App.css";
 import "../CSS/NavigationLayout.css";
 
+const resumeURL = RESUME_GOOGLE_DRIVE;
+
 const miniPlayground = () => (
   <Popup
     trigger={<Icon name="js" color="yellow" size="large" circular />}
@@ -21,8 +23,6 @@ const resume = () => (
     position="bottom right"
   />
 );
-
-const resumeURL = RESUME_GOOGLE_DRIVE;
 
 const NavigationLayout = () => (
   <div className="demo-big-content">

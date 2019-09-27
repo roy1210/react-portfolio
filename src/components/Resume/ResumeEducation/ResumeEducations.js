@@ -7,7 +7,7 @@ const ResumeEducations = () => (
     <ResumeEducation
       startYear="2019"
       endYear="2019"
-      schoolName="The Complete Junior to Senior Web Developer Roadmap (2019) – Udemy"
+      schoolName="The Complete Junior to Senior Web Developer Roadmap – Udemy"
       schoolDescription="Main topics: SSH, TypeScript, SSR (Next.js), Security, Test, Docker, CI/CD, "
       certificationUrl="https://www.udemy.com/certificate/UC-YT9QZ9X2/"
       schoolRef="Certification"
