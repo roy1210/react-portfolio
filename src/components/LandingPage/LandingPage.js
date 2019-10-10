@@ -36,15 +36,18 @@ class LandingPage extends Component {
                 <div className='Landing-social-links'>
                   <LandingIcon
                     url='https://www.linkedin.com/in/shoe-kure-2271ab90/'
-                    icon='fab fa-linkedin'
+                    iconClass='fa-linkedin'
+                    iconName='faLinkedin'
                   />
                   <LandingIcon
                     url='https://github.com/roy1210'
-                    icon='fab fa-github'
+                    iconClass='fa-github'
+                    iconName='faGithub'
                   />
                   <LandingIcon
                     url='https://codesandbox.io/u/roy1210/sandboxes'
-                    icon='fab fas fa-cube'
+                    iconClass='fa-cube'
+                    iconName='faCube'
                   />
                 </div>
               </div>

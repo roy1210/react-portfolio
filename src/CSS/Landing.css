@@ -4,17 +4,16 @@
 }
 
 .Landing-grid {
-  background: #000428; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #004e92,
-    #000428
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #004e92,
-    #000428
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000428;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #004e92,
+      #000428);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #004e92,
+      #000428);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
   /* 全画面に固定、空白を覆いかぶさるイメージ */
@@ -56,6 +55,7 @@
   font-weight: 900;
   color: whitesmoke;
 }
+
 .Landing-banner-text h4 {
   margin: 0.5em;
   /* margin-top: 0.4em; */
@@ -75,6 +75,7 @@
   padding-top: 13px;
   margin-bottom: 10px;
 }
+
 .Landing-banner-text span {
   color: white;
   font-size: 20px;
@@ -86,18 +87,23 @@
 .Landing-react:hover {
   color: rgb(97, 218, 251);
 }
+
 .Landing-javascript:hover {
   color: #f0db4f;
 }
+
 .Landing-typescript:hover {
   color: royalblue;
 }
+
 .Landing-firebase:hover {
   color: #f6820d;
 }
+
 .Landing-golang:hover {
   color: #375eab;
 }
+
 .Landing-python:hover {
   /* background: linear-gradient(90deg, #306998 50%, #FFD43B 50%); */
   background: linear-gradient(90deg, #306998, #ffd43b);
@@ -105,6 +111,7 @@
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
 }
+
 .Landing-solidity:hover {
   background: linear-gradient(#6d7f86 65%, rgb(191, 192, 192) 45%);
   -webkit-background-clip: text;
@@ -124,17 +131,40 @@
 .Landing-social-links i {
   display: inline-flexbox;
   color: white;
-  font-size: 4.35em;
+  font-size: 4.5em;
   padding: 0.1em;
   margin-bottom: 0.17em;
+}
+
+.Landing-social-links .fa-linkedin {
+  color: #fff;
+  font-size: 5.5em;
+  padding: .1em;
+  margin-bottom: 0.1em;
+}
+
+.Landing-social-links .fa-github {
+  color: #fff;
+  font-size: 5.5em;
+  padding: .1em;
+  margin-bottom: 0.1em;
+}
+
+.fa-cube {
+  color: #fff;
+  font-size: 5.5em;
+  padding: .1em;
+  margin-bottom: 0.1em;
 }
 
 .Landing-social-links .fa-linkedin:hover {
   color: rgb(0, 115, 177);
 }
+
 .Landing-social-links .fa-github:hover {
   color: lightslategray;
 }
+
 .fa-cube:hover {
   color: salmon;
 }
@@ -146,9 +176,11 @@
   bottom: 0;
   text-align: center;
 }
+
 .Landing-marginBottom {
   margin-bottom: 0.5em;
 }
+
 /* Flipping a simple image to a div */
 #Landing-f1_container {
   position: relative;
@@ -158,18 +190,22 @@
   z-index: 1;
   padding-top: 2.6em;
 }
+
 #Landing-f1_container {
   perspective: 1000;
 }
+
 #Landing-f1_card {
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
   transition: all 1s linear;
 }
+
 #Landing-f1_container:hover #Landing-f1_card {
   transform: rotateY(180deg);
 }
+
 .Landing-face {
   padding-top: 5em;
   position: absolute;
@@ -177,16 +213,19 @@
   height: 100%;
   backface-visibility: hidden;
 }
+
 .Landing-face p {
   font-size: 1.3em;
   padding-top: 0.5em;
   margin-bottom: 0em;
 }
+
 .Landing-face h4 {
   margin: 0em;
   padding-top: 0.6em;
   padding-bottom: 0.6em;
 }
+
 .Landing-face.back {
   display: block;
   transform: rotateY(180deg);
@@ -195,28 +234,33 @@
   color: white;
   text-align: center;
   /* background-color: #aaa; */
-  background-color: #232526; /* fallback for old browsers */
-  background-color: -webkit-linear-gradient(
-    to right,
-    #414345,
-    #232526
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background-color: linear-gradient(
-    to right,
-    #414345,
-    #232526
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #232526;
+  /* fallback for old browsers */
+  background-color: -webkit-linear-gradient(to right,
+      #414345,
+      #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background-color: linear-gradient(to right,
+      #414345,
+      #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 /* end */
 
 @keyframes SlideDown {
   0% {
-    opacity: 0; /* 透明 */
-    transform: translateY(-50px); /* Y軸方向に-50px */
+    opacity: 0;
+    /* 透明 */
+    transform: translateY(-50px);
+    /* Y軸方向に-50px */
   }
+
   100% {
-    opacity: 1; /* 不透明 */
-    transform: translateY(0); /* Y軸方向に0px */
+    opacity: 1;
+    /* 不透明 */
+    transform: translateY(0);
+    /* Y軸方向に0px */
   }
 }
 
@@ -274,6 +318,7 @@
   -moz-animation-duration: 3.8s;
   animation-duration: 3.8s;
 }
+
 /* 
 .Landing-footer.one {
   -webkit-animation-delay: 3s;
@@ -295,11 +340,13 @@
     border-radius: 10px;
     text-align: center;
   }
+
   .Landing-banner-text hr {
     border-top: 3px dotted white;
     width: 72%;
     margin: auto;
   }
+
   .Landing-banner-text h3 {
     font-size: 1.35em;
     color: white;
@@ -307,18 +354,21 @@
     padding-top: auto;
     margin-top: auto;
   }
+
   .Landing-banner-text h4 {
     font-size: 1.3em;
     color: white;
     margin-top: 0em;
     margin-bottom: 0.5em;
   }
+
   .Landing-banner-text p {
     color: white;
     font-size: 16px;
     padding-top: 10px;
     margin-bottom: 5px;
   }
+
   .Landing-banner-text span {
     color: white;
     font-size: 16px;
@@ -326,6 +376,7 @@
     padding-bottom: 0px;
     padding-left: 0px;
   }
+
   .Landing-social-links {
     display: flex;
     align-items: flex-start;
@@ -334,6 +385,7 @@
     margin: auto;
     padding-left: 0.6em;
   }
+
   .Landing-social-links i {
     color: white;
     margin: auto;
@@ -342,6 +394,7 @@
     padding-top: 7px;
     margin-bottom: 12px;
   }
+
   .Landing-solidity:hover {
     background: linear-gradient(#6d7f86 75%, rgb(191, 192, 192) 35%);
     -webkit-background-clip: text;
@@ -356,10 +409,12 @@
     padding-top: 0px;
     border-radius: 15px;
   }
+
   /* Flipping a simple image to a div */
   #Landing-f1_container {
     display: none;
   }
+
   .Landing-footer {
     display: block;
     position: fixed;
@@ -367,10 +422,12 @@
     margin: auto;
     left: 35% !important;
   }
+
   /* .mdl-cell--12-col-phone {
     margin-left: 16px !important;
   } */
 }
+
 .Landing-container .mdl-cell--12-col-phone {
   margin-left: 16px !important;
 }
@@ -399,11 +456,13 @@
     margin-bottom: 10px;
     border-radius: 10px;
   }
+
   .Landing-banner-text hr {
     border-top: 4px dotted white;
     width: 55%;
     margin: auto;
   }
+
   .Landing-social-links i {
     display: inline-flexbox;
     color: white;
