@@ -25,3 +25,8 @@ export const selectGolangProjects = createSelector(
   [selectProjects],
   projects => projects.golangProjects
 );
+
+export const selectOthersProjects = createSelector(
+  [selectProjects],
+  projects => projects.othersProjects
+);

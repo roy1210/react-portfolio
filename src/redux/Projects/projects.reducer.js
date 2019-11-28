@@ -21,6 +21,8 @@ import VsMonsterScreenshot from "../../img/VueProjects/190713VsMonster.jpg";
 import GolangBlockchainScreenshot from "../../img/GolangProjects/190713Blockchain.jpg";
 import HttpStatusChecerScreenshot from "../../img/GolangProjects/190713HttpStatusChecer.jpg";
 import DigitalClockScreenshot from "../../img/GolangProjects/190717DigitalClock.gif";
+// Others
+import MovieHomesScreenshot from "../../img/OtherProjects/191128MovieHomes.jpg";
 
 const PROJECTS_DATA = {
   reactProjects: [
@@ -208,6 +210,18 @@ const PROJECTS_DATA = {
       detail1:
         "Check the current status of the website. Able to detect if the website is downed due to HTTP request returns 404.",
       github: "https://github.com/roy1210/Golang_Http_Status_checker"
+    }
+  ],
+  othersProjects: [
+    {
+      photoUrl: MovieHomesScreenshot,
+      name: "Flexbox: Movies home",
+      detail1: "Practice for flexbox",
+      detail2: "Tools: HTML, Flexbox, Lightbox",
+      github: "https://github.com/roy1210/flexbox-movies-home",
+      siteUrl: "https://roy1210.github.io/flexbox-movies-home/",
+      titleColor: "black",
+      textColor: "black"
     }
   ]
 };

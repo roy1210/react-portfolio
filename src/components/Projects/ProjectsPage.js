@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell } from 'react-mdl';
-import ReactProjects from './ReactProjects.js';
-import TypeScriptProjects from './TypeScriptProjects';
-import DappsProjects from './DappsProjects.js';
-import VueProjects from './VueProjects.js';
-import GolangProjects from './GolangProjects.js';
-import AppFooter from '../AppFooter';
-import '../../CSS/Projects.css';
+import React, { Component } from "react";
+import { Tabs, Tab, Grid, Cell } from "react-mdl";
+import ReactProjects from "./ReactProjects.js";
+import TypeScriptProjects from "./TypeScriptProjects";
+import DappsProjects from "./DappsProjects.js";
+import VueProjects from "./VueProjects.js";
+import GolangProjects from "./GolangProjects.js";
+import OthersProjects from "./OthersProjects.js";
+import AppFooter from "../AppFooter";
+import "../../CSS/Projects.css";
 
 class ProjectsPage extends Component {
   constructor(props) {
@@ -16,23 +17,52 @@ class ProjectsPage extends Component {
   // Each Tab got unique tab key (index) by default by react-mdl
   render() {
     return (
-      <div className='Projects'>
-        <div className='Projects-content'>
-          <div className='Projects-category-tabs'>
+      <div className="Projects">
+        <div className="Projects-content">
+          <div className="Projects-category-tabs">
             <Tabs
               activeTab={this.state.activeTab}
               onChange={tabId => this.setState({ activeTab: tabId })}
               ripple
             >
-              <Tab id='reactTab' className='Projects-fade-in one'>
+              <Tab
+                id="reactTab"
+                className="Projects-fade-in one"
+                style={{ margin: "auto -10px" }}
+              >
                 React
               </Tab>
-              <Tab id='tsTab' className='Projects-fade-in two'>
+              <Tab
+                id="tsTab"
+                className="Projects-fade-in two"
+                style={{ margin: "auto -10px" }}
+              >
                 TS
               </Tab>
-              <Tab className='Projects-fade-in three'>DApps</Tab>
-              <Tab className='Projects-fade-in four'>Vue</Tab>
-              <Tab className='Projects-fade-in five'>Golang</Tab>
+              <Tab
+                className="Projects-fade-in three"
+                style={{ margin: "auto -10px" }}
+              >
+                DApps
+              </Tab>
+              <Tab
+                className="Projects-fade-in four"
+                style={{ margin: "auto -10px" }}
+              >
+                Vue
+              </Tab>
+              <Tab
+                className="Projects-fade-in five"
+                style={{ margin: "auto -10px" }}
+              >
+                Go
+              </Tab>
+              <Tab
+                className="Projects-fade-in six"
+                style={{ margin: "auto -10px" }}
+              >
+                Others
+              </Tab>
             </Tabs>
 
             <Grid>
@@ -40,16 +70,16 @@ class ProjectsPage extends Component {
                 col={12}
                 phone={12}
                 tablet={12}
-                className='Projects-Project'
+                className="Projects-Project"
               >
-                <div className='Projects-content'>
+                <div className="Projects-content">
                   {this.toggleCategories()}
                 </div>
               </Cell>
             </Grid>
           </div>
         </div>
-        <div className='Projects-footer'>
+        <div className="Projects-footer">
           <AppFooter />
         </div>
       </div>
@@ -67,6 +97,8 @@ class ProjectsPage extends Component {
       return <VueProjects />;
     } else if (this.state.activeTab === 4) {
       return <GolangProjects />;
+    } else if (this.state.activeTab === 5) {
+      return <OthersProjects />;
     }
   }
 }

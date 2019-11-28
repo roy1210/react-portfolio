@@ -108,6 +108,11 @@
   -moz-animation-delay: 2s;
   animation-delay: 2s;
 }
+.Projects-fade-in.six {
+  -webkit-animation-delay: 2.4s;
+  -moz-animation-delay: 2.4s;
+  animation-delay: 2.4s;
+}
 /* End fade in */
 
 /* phone */
