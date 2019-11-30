@@ -9,6 +9,7 @@ import reactHocksCounterScreenshot from "../../img/ReactProjects/190902hockReduc
 import CounterScreenshot from "../../img/ReactProjects/190713Counter.jpg";
 import EcommerceScreenshot from "../../img/ReactProjects/190811EcommerceShop.jpg";
 import RobofriendsScreenshot from "../../img/ReactProjects/190912Robofriends.jpg";
+import NetflixScreenshot from "../../img/ReactProjects/191130Netflix.jpg";
 // TS
 import TsMapsScreenshot from "../../img/TypeScriptProjects/190826ts-map.jpg";
 import TodoScreenshot from "../../img/TypeScriptProjects/190901Todo.jpg";
@@ -48,6 +49,17 @@ const PROJECTS_DATA = {
       codesandbox: "https://codesandbox.io/s/react-ecommerce-clothing-lkvr8",
       cardColor: "#FFE9D1",
       siteUrl: "https://crwn-live-k.herokuapp.com/"
+    },
+    {
+      photoUrl: NetflixScreenshot,
+      name: "Netflix",
+      detail1: "Clone the landing page of Netflix",
+      detail2:
+        "Tools: CRA, React-icons-kit, React Router v5, Styled-components",
+      github: "https://github.com/roy1210/react-netflix",
+      // codesandbox: "https://codesandbox.io/s/flip-coin-6mu0b",
+      siteUrl: "https://netflix-k.netlify.com/",
+      titleColor: "whitesmoke"
     },
     {
       photoUrl: FlipCoinScreenshot,
