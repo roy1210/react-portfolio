@@ -63,6 +63,7 @@ Then open [localhost:3000](http://localhost:3000)
 - React-Helmet
 - Ress.css (Customized in html tag)
 - Enzyme
+- Redux DevTools
 
 ## Licence
 

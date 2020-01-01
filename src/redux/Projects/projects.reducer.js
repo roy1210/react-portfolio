@@ -10,6 +10,7 @@ import CounterScreenshot from "../../img/ReactProjects/190713Counter.jpg";
 import EcommerceScreenshot from "../../img/ReactProjects/190811EcommerceShop.jpg";
 import RobofriendsScreenshot from "../../img/ReactProjects/190912Robofriends.jpg";
 import NetflixScreenshot from "../../img/ReactProjects/191130Netflix.jpg";
+import searchGifSagaScreenshot from "../../img/ReactProjects/200101searchGifSaga.gif";
 // TS
 import TsMapsScreenshot from "../../img/TypeScriptProjects/190826ts-map.jpg";
 import TodoScreenshot from "../../img/TypeScriptProjects/190901Todo.jpg";
@@ -34,7 +35,7 @@ const PROJECTS_DATA = {
         "Personal portfolio built with React. Registered custom domain on Freenom and hosted on Netlify.",
       detail2: "App works as PWA and run with docker compose.",
       detail3:
-        "Tools: CRA, Docker, CircleCI, Redux, Reselect, React Router v5, React helmet, Enzyme, Semantic-UI, Material Lite UI",
+        "Tools: CRA, Docker, CircleCI, Redux, Reselect, React Router v5, React helmet, Enzyme, Redux DevTools, Semantic-UI, Material Lite UI",
       github: "https://github.com/roy1210/react-portfolio",
       codesandbox: "https://codesandbox.io/s/my-portfolio-f8t6o",
       siteUrl: "https://roy-k.tk/"
@@ -60,6 +61,17 @@ const PROJECTS_DATA = {
       // codesandbox: "https://codesandbox.io/s/flip-coin-6mu0b",
       siteUrl: "https://netflix-k.netlify.com/",
       titleColor: "whitesmoke"
+    },
+    {
+      photoUrl: searchGifSagaScreenshot,
+      name: "Search GIF with Saga",
+      detail1: "look a GIF with Giphy search engine.",
+      detail2:
+        "Tools: CRA, Redux-saga, Immutable, Axios, Styled-components, React-spring",
+      github: "https://github.com/roy1210/react-saga-search-giphy",
+      codesandbox: "https://codesandbox.io/s/kind-bohr-dqhsz",
+      siteUrl: "https://look-gif-with-reduxsaga-k.netlify.com",
+      titleColor: "blue"
     },
     {
       photoUrl: FlipCoinScreenshot,
